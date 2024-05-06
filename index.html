@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rémi Vezy | Researcher In Plant Modelling</title>
-
+    <title class="js-title"></title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -25,22 +24,20 @@
 
             <div class="flex items-center justify-between">
                 <div class="flex-1 space-y-1.5">
-                    <h1 class="text-2xl font-bold">Rémi Vezy</h1>
+                    <h1 class="js-person text-2xl font-bold"></h1>
 
-                    <p class="max-w-md text-pretty font-mono text-sm text-muted-foreground">
-                        Researcher in plant modelling, with a special interest in complex
-                        systems.
-                    </p>
+                    <p class="js-about max-w-md text-pretty font-mono text-sm text-muted-foreground"></p>
                     <p class="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
-                        <a class="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                            href="https://www.google.com/maps/place/Montpellier" target="_blank"><svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        <a class="js-location inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                            href="https://www.google.com/maps/place/Montpellier" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-globe size-3">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                                 <path d="M2 12h20"></path>
-                            </svg>Montpellier, France, CET</a>
+                            </svg>
+                        </a>
                     </p>
                     <div class="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden js-contacts"
                         id="contacts">
@@ -53,7 +50,7 @@
 
             <section id="about">
                 <h2 class="text-xl font-bold">About</h2>
-                <p class="text-pretty font-mono text-sm text-muted-foreground">
+                <p class="js-summary text-pretty font-mono text-sm text-muted-foreground">
                     I am a researcher at the AMAP lab in CIRAD specializing in plant modeling.
                     My work involves creating functional-structural plant models that can predict plant growth and yield
                     based on environmental conditions and management practices.
@@ -190,6 +187,7 @@
 
     PROJECTS_DATA
     <script src="./resume.js"></script>
+    <script src="./scripts/about.js"></script>
     <script src="./scripts/contacts.js"></script>
     <script src="./scripts/projects.js"></script>
 </body>

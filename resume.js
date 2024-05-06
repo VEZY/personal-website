@@ -3,6 +3,7 @@ const RESUME_DATA = {
     initials: "RV",
     location: "Montpellier, France, UTC+2",
     locationLink: "https://www.google.com/maps/place/Montpellier",
+    title: "Researcher in plant modelling",
     about:
       "Researcher in plant modelling, with a special interest in real-world applications.",
     summary:
