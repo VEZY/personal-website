@@ -91,6 +91,23 @@ const RESUME_DATA = {
       "Arduino",
     ],
     projects: [
+        {
+            title: "IntercropValuES",
+            techStack: [
+              "EU Horizon",
+              "8M€",
+              "STICS",
+              "FSPM",
+            ],
+            description: "Leverage intercropping to create productive, diverse, resilient, profitable, and eco-friendly cropping systems accepted by farmers and agri-food actors. 🌱🌾",
+            link: {
+              label: "intercropvalues.eu",
+              href: "https://intercropvalues.eu/",
+            },
+            logo: "./media/projects/intercropvalues.png",
+            start: "2022",
+            end: "2026",
+          },
       {
         title: "Cocoa4Future",
         techStack: [
@@ -109,6 +126,19 @@ const RESUME_DATA = {
         end: "2025",
       },
       {
+        title: "PalmStudio",
+        techStack: ["Private sector", "0.4M€", "FSPM"],
+        description:
+          "Developing a functional-structural plant model for oil palm (Elaeis guineensis).",
+        logo: "./media/projects/palmstudio.png",
+        link: {
+          label: "github.com",
+          href: "https://github.com/PalmStudio",
+        },
+        start: "2018",
+        end: "2025",
+      },
+      {
         title: "CaSSECS",
         techStack: ["EU DESIRA", "5.6M€", "lidar"],
         description:
@@ -122,17 +152,17 @@ const RESUME_DATA = {
         end: "2024",
       },
       {
-        title: "PalmStudio",
-        techStack: ["Private sector", "0.4M€", "FSPM"],
+        title: "ReMIX",
+        techStack: ["EU Horizon", "5M€", "STICS"],
         description:
-          "Developing a functional-structural plant model for oil palm (Elaeis guineensis).",
-        logo: "./media/projects/palmstudio.png",
+          "Creating more diverse and resilient arable cropping systems by leveraging species mixtures and agro-ecology principles.",
+        logo: "./media/projects/remix.png",
         link: {
-          label: "github.com",
-          href: "https://github.com/PalmStudio",
+          label: "remix-intercrops.eu",
+          href: "https://www.remix-intercrops.eu/",
         },
-        start: "2018",
-        end: "2025",
+        start: "2014",
+        end: "2021",
       },
       {
         title: "Arbratatouille",
@@ -149,7 +179,7 @@ const RESUME_DATA = {
       },
       {
         title: "CoffeeFlux",
-        techStack: ["Collaborative project", "MAESPA", "FSPM"],
+        techStack: ["Private sector", "eddy-covariance"],
         description:
           "Coffee-flux aimed at making a comprehensive monitoring database of an agroforestry system with coffee in Costa Rica.",
         logo: "./media/projects/coffeeflux.jpg",
@@ -160,5 +190,31 @@ const RESUME_DATA = {
         start: "2009",
         end: "2018",
       },
+      {
+        title: "EucFlux",
+        techStack: ["Private sector", "MAESPA", "eddy-covariance"],
+        description:
+          "Quantifying water, carbon, and mineral element fluxes in eucalyptus plantations.",
+        logo: "./media/projects/eucflux.jpg",
+        link: {
+          label: "agritrop.fr",
+          href: "https://agritrop.cirad.fr/589554/",
+        },
+        start: "2008",
+        end: "2017",
+      },
+      {
+        title: "MACACC",
+        techStack: ["ANR", "MAESPA", "DynACof"],
+        description:
+          "Adapting perennial plantations to global changes by studying agroforestry systems, economic willingness for adoption, and ecological resilience to climate changes.",
+        logo: "./media/projects/macacc.jpg",
+        link: {
+          label: "umr-ecosols.fr",
+          href: "https://www.umr-ecosols.fr/recherche/projets/projets-clos-avant-2020?view=article&id=46:maccac&catid=17:projets",
+        },
+        start: "2014",
+        end: "2017",
+    }
     ],
   };
