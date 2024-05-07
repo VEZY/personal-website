@@ -93,7 +93,7 @@ const RESUME_DATA = {
     projects: [
         {
             title: "IntercropValuES",
-            techStack: [
+            tags: [
               "EU Horizon",
               "8M€",
               "STICS",
@@ -110,7 +110,7 @@ const RESUME_DATA = {
           },
       {
         title: "Cocoa4Future",
-        techStack: [
+        tags: [
           "EU DESIRA",
           "7M€",
           "FSPM",
@@ -127,7 +127,7 @@ const RESUME_DATA = {
       },
       {
         title: "PalmStudio",
-        techStack: ["Private sector", "0.4M€", "FSPM"],
+        tags: ["Private sector", "0.4M€", "FSPM"],
         description:
           "Developing a functional-structural plant model for oil palm (Elaeis guineensis).",
         logo: "./media/projects/palmstudio.png",
@@ -140,7 +140,7 @@ const RESUME_DATA = {
       },
       {
         title: "CaSSECS",
-        techStack: ["EU DESIRA", "5.6M€", "lidar"],
+        tags: ["EU DESIRA", "5.6M€", "lidar"],
         description:
           "Carbon Sequestration and greenhouse gas emissions in agro-sylvopastoral ecosystems in the Sahelian CILSS States",
         logo: "./media/projects/cassecs.jpg",
@@ -153,7 +153,7 @@ const RESUME_DATA = {
       },
       {
         title: "ReMIX",
-        techStack: ["EU Horizon", "5M€", "STICS"],
+        tags: ["EU Horizon", "5M€", "STICS"],
         description:
           "Creating more diverse and resilient arable cropping systems by leveraging species mixtures and agro-ecology principles.",
         logo: "./media/projects/remix.png",
@@ -166,7 +166,7 @@ const RESUME_DATA = {
       },
       {
         title: "Arbratatouille",
-        techStack: ["Fondation de France", "lidar"],
+        tags: ["Fondation de France", "lidar"],
         description:
           "Improving knowledge on interactions between trees and vegetable production, and propose new perspectives for agroforestry system conception and management.",
         logo: "./media/projects/arbratatouille.png",
@@ -179,7 +179,7 @@ const RESUME_DATA = {
       },
       {
         title: "CoffeeFlux",
-        techStack: ["Private sector", "eddy-covariance"],
+        tags: ["Private sector", "eddy-covariance"],
         description:
           "Coffee-flux aimed at making a comprehensive monitoring database of an agroforestry system with coffee in Costa Rica.",
         logo: "./media/projects/coffeeflux.jpg",
@@ -192,7 +192,7 @@ const RESUME_DATA = {
       },
       {
         title: "EucFlux",
-        techStack: ["Private sector", "MAESPA", "eddy-covariance"],
+        tags: ["Private sector", "MAESPA", "eddy-covariance"],
         description:
           "Quantifying water, carbon, and mineral element fluxes in eucalyptus plantations.",
         logo: "./media/projects/eucflux.jpg",
@@ -205,7 +205,7 @@ const RESUME_DATA = {
       },
       {
         title: "MACACC",
-        techStack: ["ANR", "MAESPA", "DynACof"],
+        tags: ["ANR", "MAESPA", "DynACof"],
         description:
           "Adapting perennial plantations to global changes by studying agroforestry systems, economic willingness for adoption, and ecological resilience to climate changes.",
         logo: "./media/projects/macacc.jpg",

@@ -46,7 +46,6 @@ let socialMediaLinks = document.querySelectorAll(".js-contact");
 socialMediaLinks.forEach((socialMediaLink) => {
     socialMediaLink.addEventListener("load", function() {
         let svgDocument = socialMediaLink.getSVGDocument();
-        console.log(svgDocument);
         let svgElement = svgDocument.querySelector("path");
         svgElement.style.fill = window.getComputedStyle(socialMediaLink).color;
     });
