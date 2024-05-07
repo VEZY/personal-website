@@ -852,6 +852,9 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.justify-end {
+  justify-content: flex-end;
+}
 .gap-1 {
   gap: 0.25rem;
 }
