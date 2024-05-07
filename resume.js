@@ -34,6 +34,11 @@ const RESUME_DATA = {
           url: "https://x.com/VezyRemi",
           icon: "./media/icons/x.svg",
         },
+        {
+          name: "ORDiD",
+          url: "https://orcid.org/0000-0002-0808-1461",
+          icon: "./media/icons/orcid.svg",
+      },
       ],
     },
     education: [
