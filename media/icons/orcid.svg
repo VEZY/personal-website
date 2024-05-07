@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
-    <title>Orcid logo</title>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<svg viewBox="0 0 72 72" version="1.1" class="size-4" xmlns="http://www.w3.org/2000/svg">
+    <title>Orcid</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill-rule="evenodd" fill="currentColor">
         <g id="hero" transform="translate(-924.000000, -72.000000)" fill-rule="nonzero">
             <g id="Group-4">
                 <g id="vector_iD_icon" transform="translate(924.000000, 72.000000)">
                     <path
                         d="M72,36 C72,55.884375 55.884375,72 36,72 C16.115625,72 0,55.884375 0,36 C0,16.115625 16.115625,0 36,0 C55.884375,0 72,16.115625 72,36 Z"
-                        id="Path" fill="#A6CE39"></path>
+                        id="Path"></path>
                     <g id="Group" transform="translate(18.868966, 12.910345)" fill="#FFFFFF">
                         <polygon id="Path"
                             points="5.03734929 39.1250878 0.695429861 39.1250878 0.695429861 9.14431787 5.03734929 9.14431787 5.03734929 22.6930505 5.03734929 39.1250878"></polygon>
