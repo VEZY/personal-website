@@ -36,7 +36,7 @@ function formatProject(project) {
                                                     class="inline-flex items-center gap-1 hover:underline">${project.title}
     `;
 
-    if (project.end > currentYear) {
+    if (project.end >= currentYear) {
         projectHTML += `<span class="size-1 rounded-full bg-green-500"></span>`
     }
 
