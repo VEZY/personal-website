@@ -44,6 +44,11 @@ const RESUME_DATA = {
           url: "https://scholar.google.fr/citations?user=09R4xY0AAAAJ&hl",
           icon: "./media/icons/google-scholar.svg",
         },
+        {
+          name: "ResearchGate",
+          url: "https://www.researchgate.net/profile/Remi-Vezy",
+          icon: "./media/icons/researchgate.svg",
+          },        
       ],
     },
     education: [
