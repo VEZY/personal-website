@@ -35,10 +35,15 @@ const RESUME_DATA = {
           icon: "./media/icons/x.svg",
         },
         {
-          name: "ORDiD",
+          name: "ORCiD",
           url: "https://orcid.org/0000-0002-0808-1461",
           icon: "./media/icons/orcid.svg",
-      },
+        },
+        {
+          name: "Scholar",
+          url: "https://scholar.google.fr/citations?user=09R4xY0AAAAJ&hl",
+          icon: "./media/icons/google-scholar.svg",
+        },
       ],
     },
     education: [
