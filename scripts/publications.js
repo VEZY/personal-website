@@ -16,7 +16,11 @@ let softwareListHTML = "";
 
 // Parse the JSON file and create the HTML elements of each publication:
 fetchPublications().then((publications) => {
-    publications.forEach((publication) => {
+    publications.sort((a, b) => {
+        const yearA = a.issued["date-parts"][0][0];
+        const yearB = b.issued["date-parts"][0][0];
+        return yearB - yearA;
+    }).forEach((publication) => {
         let authors = publication.author.map((author) => `${author.given} ${author.family}`);
         // console.log(authors.join(', '));
         let journal = publication['container-title'];
