@@ -72,12 +72,19 @@ fetchPublications().then((publications) => {
     }
 });
 
-function createPublicationHTML(publication) {
-    let authors = publication.author.map((author) => `${author.given} ${author.family}`);
+function getAuthors(authors) {
+    return authors.map((author) => `${author.given} ${author.family}`).join(', ');
+}
+
+function getJournal(publication) {
     let journal = publication['container-title'];
     if (journal === undefined) {
         journal = publication['publisher'];
     }
+    return journal;
+}
+
+function getDOI(publication) {
     let doi = publication.DOI;
     if (doi === undefined) {
         doi = publication.URL;
@@ -85,14 +92,25 @@ function createPublicationHTML(publication) {
             doi = publication.ISSN;
         }
     }
-    let year = publication.issued["date-parts"][0][0];
+    return doi;
+}
+
+function getYear(publication) {
+    return publication.issued["date-parts"][0][0];
+}
+
+function createPublicationHTML(publication) {
+    let authors = getAuthors(publication.author);
+    let journal = getJournal(publication);
+    let doi = getDOI(publication);
+    let year = getYear(publication);
 
     let publicationHTML = `
     <div class="flex flex-col gap-y-3">
         <div class="rounded-lg bg-card text-card-foreground p-3">
             <div class="font-mono text-sm leading-none">
                 ${publication.title}
-                <p class="text-pretty font-medium font-mono text-muted-foreground mt-2 text-xs">${authors.join(', ')}</p>
+                <p class="text-pretty font-medium font-mono text-muted-foreground mt-2 text-xs">${authors}</p>
             </div>
             <div class="flex flex-col space-y-1.5">
                 <div class="flex items-center justify-between gap-x-2 text-base">
