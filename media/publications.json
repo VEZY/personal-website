@@ -1,0 +1,1733 @@
+[
+	{
+		"id": "http://zotero.org/users/6082108/items/63IXMQZW",
+		"type": "article-journal",
+		"abstract": "Although large amounts of potassium (K) are applied in tropical crops and planted forests, little is known about the interaction between K nutrition and water supply regimes on water resources in tropical regions. This interaction is a major issue because climate change is expected to increase the length of drought periods in many tropical regions and soil water availability in deep soil layers is likely to have a major influence on tree growth during dry periods in tropical planted forests. A process-based model (MAESPA) was parameterized in a throughfall exclusion experiment in Brazil to gain insight into the combined effects of K deficiency and rainfall reduction (37% throughfall exclusion) on the water used by the trees, soil water storage and water table fluctuations over the first 4.5 years after planting Eucalyptus grandis trees. A comparison of canopy transpiration in each plot with the values predicted for the same soil with the water content maintained at field capacity, made it possible to calculate a soil-driven tree water stress index for each treatment. Compared to K-fertilized trees with undisturbed rainfall (+K+W), canopy transpiration was 40% lower for K deficiency (−K+W), 20% lower for W deficit (+K−W) and 36% lower for combined K deficiency and W deficit (−K−W) on average. Water was withdrawn in deeper soil layers for −W than for +W, particularly over dry seasons. Under contrasted K availability, water withdrawal was more superficial for −K than for +K. Mean soil water content down to 18 m below surface (mbs) was 24% higher for −K+W than for +K+W from 2 years after planting (after canopy closure), while it was 24% lower for +K−W and 12% lower for −K−W than for +K+W. The soil-driven tree water stress index was 166% higher over the first 4.5 years after planting for −W than for +W, 76% lower for −K than for +K, and 14% lower for −K−W than for +K+W. Over the study period, deep seepage was higher by 371 mm yr−1 (+122%) for −K than for +K and lower by 200 mm yr−1 (−66%) for −W than for +W. Deep seepage was lower by 44% for −K−W than for +K+W. At the end of the study period, the model predicted a higher water table for −K (10 mbs for −K+W and 16 mbs for −K−W) than for +K (16 mbs for +K+W and 18 mbs for +K−W). Our study suggests that flexible fertilization regimes could contribute to adjusting the local trade-off between wood production and demand for soil water resources in planted forests.",
+		"container-title": "Forest Ecology and Management",
+		"DOI": "https://doi.org/10.1016/j.foreco.2017.12.048",
+		"ISSN": "0378-1127",
+		"license": "All rights reserved",
+		"page": "4-14",
+		"title": "Simulating the effects of different potassium and water supply regimes on soil water content and water table depth over a rotation of a tropical Eucalyptus grandis plantation",
+		"volume": "418",
+		"author": [
+			{
+				"family": "Christina",
+				"given": "M."
+			},
+			{
+				"family": "Maire",
+				"given": "G.",
+				"non-dropping-particle": "le"
+			},
+			{
+				"family": "Nouvellon",
+				"given": "Y."
+			},
+			{
+				"family": "Vezy",
+				"given": "R."
+			},
+			{
+				"family": "Bordon",
+				"given": "B."
+			},
+			{
+				"family": "Battie-Laclau",
+				"given": "P."
+			},
+			{
+				"family": "Gonçalves",
+				"given": "J. L. M."
+			},
+			{
+				"family": "Delgado-Rojas",
+				"given": "J. S."
+			},
+			{
+				"family": "Bouillet",
+				"given": "J. P."
+			},
+			{
+				"family": "Laclau",
+				"given": "J. P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/PH4XMFHV",
+		"type": "article-journal",
+		"container-title": "Journal for Nature Conservation",
+		"DOI": "https://doi.org/10.1016/j.jnc.2016.09.002",
+		"ISSN": "16171381",
+		"license": "All rights reserved",
+		"page": "33-41",
+		"title": "Spatial analysis of endemism to redefine conservation areas in Western Ghats (India)",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Gaucherel",
+				"given": "C."
+			},
+			{
+				"family": "Vezy",
+				"given": "R."
+			},
+			{
+				"family": "Gontrand",
+				"given": "F."
+			},
+			{
+				"family": "Bouchet",
+				"given": "D."
+			},
+			{
+				"family": "Ramesh",
+				"given": "B. R."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/MG97A7GY",
+		"type": "article-journal",
+		"abstract": "Evapotranspiration and energy partitioning are complex to estimate because they result from the interaction of many different processes, especially in multi-species and multi-strata ecosystems. We used MAESPA model, a mechanistic, 3D model of coupled radiative transfer, photosynthesis, and balances of energy and water, to simulate the partitioning of energy and evapotranspiration in homogeneous tree plantations, as well as in heterogeneous multi-species, multi-strata agroforests with diverse spatial scales and management schemes. The MAESPA model was modified to add (1) calculation of foliage surface water evaporation at the voxel scale; (2) computation of an average within-canopy air temperature and vapour pressure; and (3) use of (1) and (2) in iterative calculations of soil and leaf temperatures to close ecosystem-level energy balances. We tested MAESPA model simulations on a simple monospecific Eucalyptus stand in Brazil, and also in two complex, heterogeneous Coffea agroforests in Costa Rica. MAESPA satisfactorily simulated the daily and seasonal dynamics of net radiation (RMSE = 29.6 and 28.4 W m−2; R2 = 0.99 and 0.99 for Eucalyptus and Coffea sites respectively) and its partitioning between latent-(RMSE = 68.1 and 37.2 W m−2; R2 = 0.87 and 0.85) and sensible-energy (RMSE = 54.6 and 45.8 W m−2; R2 = 0.57 and 0.88) over a one-year simulation at half-hourly time-step. After validation, we use the modified MAESPA to calculate partitioning of evapotranspiration and energy between plants and soil in the above-mentioned agro-ecosystems. In the Eucalyptus plantation, 95% of the outgoing energy was emitted as latent-heat, while the Coffea agroforestry system’s partitioning between sensible and latent-heat fluxes was roughly equal. We conclude that MAESPA process-based model has an appropriate balance of detail, accuracy, and computational speed to be applicable to simple or complex forest ecosystems and at different scales for energy and evapotranspiration partitioning.",
+		"container-title": "Agricultural and Forest Meteorology",
+		"DOI": "https://doi.org/10.1016/j.agrformet.2018.02.005",
+		"ISSN": "0168-1923",
+		"license": "All rights reserved",
+		"page": "203-217",
+		"title": "Measuring and modelling energy partitioning in canopies of varying complexity using MAESPA model",
+		"volume": "253–254",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Christina",
+				"given": "Mathias"
+			},
+			{
+				"family": "Roupsard",
+				"given": "Olivier"
+			},
+			{
+				"family": "Nouvellon",
+				"given": "Yann"
+			},
+			{
+				"family": "Duursma",
+				"given": "Remko"
+			},
+			{
+				"family": "Medlyn",
+				"given": "Belinda"
+			},
+			{
+				"family": "Soma",
+				"given": "Maxime"
+			},
+			{
+				"family": "Charbonnier",
+				"given": "Fabien"
+			},
+			{
+				"family": "Blitz-Frayret",
+				"given": "Céline"
+			},
+			{
+				"family": "Stape",
+				"given": "José-Luiz"
+			},
+			{
+				"family": "Laclau",
+				"given": "Jean-Paul"
+			},
+			{
+				"family": "Melo Virginio Filho",
+				"given": "Elias",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Bonnefond",
+				"given": "Jean-Marc"
+			},
+			{
+				"family": "Rapidel",
+				"given": "Bruno"
+			},
+			{
+				"family": "Do",
+				"given": "Frédéric C."
+			},
+			{
+				"family": "Rocheteau",
+				"given": "Alain"
+			},
+			{
+				"family": "Picart",
+				"given": "Delphine"
+			},
+			{
+				"family": "Borgonovo",
+				"given": "Carlos"
+			},
+			{
+				"family": "Loustau",
+				"given": "Denis"
+			},
+			{
+				"family": "Maire",
+				"given": "Guerric",
+				"non-dropping-particle": "le"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			],
+			"season": "1"
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/9LUT7DLT",
+		"type": "article-journal",
+		"abstract": "The DynACof model was designed to model coffee agroforestry systems and study the trade-offs to e.g. optimize the system facing climate changes. The model simulates net primary productivity (NPP), growth, yield, mortality, energy and water balance of coffee agroforestry systems according to shade tree species and management. Several plot-scale ecosystem services are simulated by the model, such as production, canopy cooling effect, or potential C sequestration. DynACof uses metamodels derived from a detailed 3D process-based model (MAESPA) to account for complex spatial effects, while running fast. It also includes a coffee flower bud and fruit cohort module to better distribute fruit carbon demand over the year, a key feature to obtain a realistic competition between sinks. The model was parameterized and evaluated using a highly comprehensive database on a coffee agroforestry experimental site in Costa Rica. The fluxes simulated by the model were close to the measurements over a 5-year period (nRMSE = 26.27 for gross primary productivity; 28.22 for actual evapo-transpiration, 53.91 for sensible heat flux and 15.26 for net radiation), and DynACof satisfactorily simulated the yield, NPP, mortality and carbon stock for each coffee organ type over a 35-year rotation.",
+		"container-title": "Environmental Modelling & Software",
+		"DOI": "https://doi.org/10.1016/j.envsoft.2019.104609",
+		"ISSN": "1364-8152",
+		"journalAbbreviation": "Environmental Modelling & Software",
+		"language": "en",
+		"license": "All rights reserved",
+		"page": "104609",
+		"source": "ScienceDirect",
+		"title": "DynACof: A process-based model to study growth, yield and ecosystem services of coffee agroforestry systems",
+		"title-short": "DynACof",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S1364815219305870",
+		"volume": "124",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Maire",
+				"given": "Guerric",
+				"non-dropping-particle": "le"
+			},
+			{
+				"family": "Christina",
+				"given": "Mathias"
+			},
+			{
+				"family": "Georgiou",
+				"given": "Selena"
+			},
+			{
+				"family": "Imbach",
+				"given": "Pablo"
+			},
+			{
+				"family": "Hidalgo",
+				"given": "Hugo G."
+			},
+			{
+				"family": "Alfaro",
+				"given": "Eric J."
+			},
+			{
+				"family": "Blitz-Frayret",
+				"given": "Céline"
+			},
+			{
+				"family": "Charbonnier",
+				"given": "Fabien"
+			},
+			{
+				"family": "Lehner",
+				"given": "Peter"
+			},
+			{
+				"family": "Loustau",
+				"given": "Denis"
+			},
+			{
+				"family": "Roupsard",
+				"given": "Olivier"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					1,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/TPX6TE6I",
+		"type": "chapter",
+		"abstract": "Huit ans de travaux de recherche sur les services écosystémiques dans une grande ferme caféière du Costa Rica (observatoire collaboratif Coffee-Flux, en système agroforestier à base de caféiers sous de grands arbres d'Erythrina poeppigiana, surface projetée de couronne de l'ordre de 16 %) ont suggéré plusieurs applications pour les agriculteurs et les décideurs. Il est apparu que de nombreux services écosystémiques dépendaient des propriétés du sol (ici des Andisols), en particulier de l'érosion, de l'infiltration, de la capacité de stockage de l'eau et des éléments nutritifs. Nous confirmons qu'il est essentiel de lier les services hydrologiques et de conservation au type de sol en présence. Une densité adéquate d'arbres d'ombrage (plutôt faible ici) permet de réduire la sévérité des maladies foliaires avec, en perspective, une réduction de l'usage de pesticides-fongicides. Un simple inventaire de la surface basale au collet des caféiers permet d'estimer la biomasse souterraine et la moyenne d'âge d'une plantation de caféiers, ce qui permet d'évaluer sa valeur marchande ou de planifier son remplacement. Le protocole de calcul actuel pour la neutralité carbone des systèmes agroforestiers ne prend en compte que les arbres d'ombrage, pas la culture intercalaire. Dans la réalité, si on inclut les caféiers, on se rapproche très probablement de la neutralité. Des évaluations plus complètes, incluant les arbres, les caféiers, la litière, le sol et les racines dans le bilan en carbone du système agroforestier sont proposées. Les arbres d'ombrage offrent de nombreux servies écosystémiques s'ils sont gérés de manière adéquate dans le contexte local. Par rapport aux parcelles en plein soleil, nous montrons qu'ils réduisent l'érosion laminaire d'un facteur 2, augmentent la fixation de l'azote (N2) atmosphérique et le pourcentage d'azote recyclé dans le système, réduisant ainsi les besoins en engrais. Ils réduisent aussi la sévérité des maladies foliaires, augmentent la séquestration de carbone, améliorent le microclimat et atténuent substantiellement les effets des changements climatiques. Dans notre étude de cas, aucun effet négatif sur le rendement n'a été enregistré.",
+		"archive": "Agritrop 23-jan-2020",
+		"archive_location": "Agritrop : 592684",
+		"collection-title": "Update sciences et technologies",
+		"container-title": "Agroforesterie et services écosystémiques en zone tropicale : Recherche de compromis entre services d'approvisionnement et autres services",
+		"event-place": "Versailles, France",
+		"ISBN": "978-2-7592-3059-4",
+		"language": "fre",
+		"license": "All rights reserved",
+		"page": "37-52",
+		"publisher": "Ed. Quae",
+		"publisher-place": "Versailles, France",
+		"source": "Copyright Cirad - source : http://agritrop.cirad.fr/592684/",
+		"title": "Suivi des services écosystémiques dans un observatoire de caféiers agroforestiers. Applications pour la filière du café",
+		"author": [
+			{
+				"family": "Roupsard",
+				"given": "Olivier"
+			},
+			{
+				"family": "Allinne",
+				"given": "Clémentine"
+			},
+			{
+				"family": "Van Den Meersche",
+				"given": "Karel"
+			},
+			{
+				"family": "Vaast",
+				"given": "Philippe"
+			},
+			{
+				"family": "Rapidel",
+				"given": "Bruno"
+			},
+			{
+				"family": "Avelino",
+				"given": "Jacques"
+			},
+			{
+				"family": "Jourdan",
+				"given": "Christophe"
+			},
+			{
+				"family": "Le Maire",
+				"given": "Guerric"
+			},
+			{
+				"family": "Bonnefond",
+				"given": "Jean-Marc"
+			},
+			{
+				"family": "Harmand",
+				"given": "Jean-Michel"
+			},
+			{
+				"family": "Dauzat",
+				"given": "Jean"
+			},
+			{
+				"family": "Albrecht",
+				"given": "Alain"
+			},
+			{
+				"family": "Chevallier",
+				"given": "Tiphaine"
+			},
+			{
+				"family": "Barthès",
+				"given": "Bernard"
+			},
+			{
+				"family": "Clément-Vidal",
+				"given": "Anne"
+			},
+			{
+				"family": "Gomez Delgado",
+				"given": "Federico"
+			},
+			{
+				"family": "Charbonnier",
+				"given": "Fabien"
+			},
+			{
+				"family": "Benegas",
+				"given": "Laura"
+			},
+			{
+				"family": "Welsh",
+				"given": "Kristen"
+			},
+			{
+				"family": "Kinoshita",
+				"given": "Rintaro"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Pérez-Molina",
+				"given": "Junior Pastor"
+			},
+			{
+				"family": "Kim",
+				"given": "J."
+			},
+			{
+				"family": "Taugourdeau",
+				"given": "Simon"
+			},
+			{
+				"family": "Defrenet",
+				"given": "Elsa"
+			},
+			{
+				"family": "Nespoulous",
+				"given": "Jérôme"
+			},
+			{
+				"family": "Rançon",
+				"given": "Florian"
+			},
+			{
+				"family": "Guidat",
+				"given": "Florian"
+			},
+			{
+				"family": "Cambou",
+				"given": "Aurélie"
+			},
+			{
+				"family": "Soma",
+				"given": "Maxime"
+			},
+			{
+				"family": "Mages",
+				"given": "C."
+			},
+			{
+				"family": "Schnabel",
+				"given": "Florian"
+			},
+			{
+				"family": "Prieto",
+				"given": "Iván"
+			},
+			{
+				"family": "Picart",
+				"given": "Delphine"
+			},
+			{
+				"family": "Duthoit",
+				"given": "Maxime"
+			},
+			{
+				"family": "Rocheteau",
+				"given": "Alain"
+			},
+			{
+				"family": "Do",
+				"given": "Frédéric C."
+			},
+			{
+				"family": "Melo Virginio Filho",
+				"given": "Elias",
+				"non-dropping-particle": "de"
+			},
+			{
+				"family": "Moussa",
+				"given": "Rachida"
+			},
+			{
+				"family": "Le Bissonnais",
+				"given": "Yves"
+			},
+			{
+				"family": "Valentin",
+				"given": "Christian"
+			},
+			{
+				"family": "Sánchez-Murillo",
+				"given": "Ricardo"
+			},
+			{
+				"family": "Roumet",
+				"given": "Catherine"
+			},
+			{
+				"family": "Stokes",
+				"given": "Alexia"
+			},
+			{
+				"family": "Vierling",
+				"given": "Lee A."
+			},
+			{
+				"family": "Eitel",
+				"given": "Jan U.H."
+			},
+			{
+				"family": "Dreyer",
+				"given": "Erwin"
+			},
+			{
+				"family": "Saint-André",
+				"given": "L."
+			},
+			{
+				"family": "Malmer",
+				"given": "Anders"
+			},
+			{
+				"family": "Loustau",
+				"given": "Denis"
+			},
+			{
+				"family": "Isaac",
+				"given": "Marney E."
+			},
+			{
+				"family": "Martin",
+				"given": "Adam R."
+			},
+			{
+				"family": "Priemé",
+				"given": "A."
+			},
+			{
+				"family": "Elberling",
+				"given": "Bo"
+			},
+			{
+				"family": "Madsen",
+				"given": "Mikael"
+			},
+			{
+				"family": "Robelo",
+				"given": "A."
+			},
+			{
+				"family": "Robelo",
+				"given": "Diego"
+			},
+			{
+				"family": "Borgonovo",
+				"given": "Carlos"
+			},
+			{
+				"family": "Lehner",
+				"given": "Peter"
+			},
+			{
+				"family": "Ramirez",
+				"given": "Guillermo"
+			},
+			{
+				"family": "Jara",
+				"given": "Manuel"
+			},
+			{
+				"family": "Acuna Vargas",
+				"given": "R."
+			},
+			{
+				"family": "Barquero",
+				"given": "Alejandra"
+			},
+			{
+				"family": "Fonseca",
+				"given": "Carlos"
+			},
+			{
+				"family": "Gay",
+				"given": "Frédéric"
+			}
+		],
+		"editor": [
+			{
+				"family": "Seghieri Josiane (ed.)",
+				"given": "Harmand Jean-Michel (ed.)"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/A7FB6R57",
+		"type": "thesis",
+		"abstract": "Many agronomic systems could be at risk considering the short-term climate changes, but several effects and interactions  are  still uncertain. Therefore,  there  is  an  increasing  need  for  information  to  better  predict  future climate  change  impacts  on  perennial  crops  and  forests  and  to  design  new  agricultural  and  silvicultural practices to cope with these changes (Brisson et al., 2010). All those changes lead to complex combinations of effects  on  the  water  and  carbon  balances  of  ecosystems,  and  can  thus,  potentially,  affect  agro-ecosystem production (Way et al., 2015). Process-based  models  (PBMs)  are  generally  well  suited  to  address  these  challenges.  PBMs  apply  our understanding of fundamental physical and ecophysiological processes to simulate the system mechanistically (Bohn  et  al.,  2014).  They  can  be  used  to  estimate  fluxes  and  stocks  of  energy,  water,  and  carbon  in  the ecosystem, as a function of climate, soil, and plant characteristics. Coffee growth and fruit production are particularly sensitive to high temperatures and water availability, and previous studies often predicts future huge losses of productionor area cover. Nevertheless, shade provided in agroforestry  systems  could  mitigate  the  effects  of  climate  changes  under  different  management  options. Hence,  during  this  thesis,  we  first  updated  a  3D  PBM  (MAESPA)  to  account  for  temperature  and  vapor pressure  within  the  canopy,  and testedit  on  two  ecosystems,  a  Eucalyptus  plantation  in  Brazil,  and Coffea arabicaplantation in Costa Rica. Then, we used MAESPA to make metamodels that were integrated on a new dynamic  cropmodel  that  we  developed  to  assess  the Coffearesponse  to  climate  change,  and  the  possible solutions offered by different agroforestry management to mitigate these effects. Consequently, we modelled several  management  options  of  coffee  agroforestry  systems,  e.g.  shade  tree  density  and  species  to  estimate their suitability and provision of ecosystem services under predicted future climate changes. A rating between management scenarios was thenproposed by comparing canopy temperature, coffee and timber yield, carbon balance and water use of past and future coffee growth cycles, under two contrasted future climatic scenarios (RCP 4.5 and 8.5).The dynamic  crop model predicts an  increased coffee primary productivity thanks  to the increased atmospheric CO2concentration, but a decreased coffee yield because less flowers were initiated per coffee plants by 2100. The model predicts a positive shade effect on coffee yield, especially under high mean annual temperatures, up to +20.9% yield compared to full sun plantation under RCP8.5. However, the positive effect of shade couldn't help sustaining current yields, whatever the shade tree species or management.",
+		"event-place": "Bordeaux",
+		"license": "All rights reserved",
+		"number-of-pages": "271",
+		"publisher": "Université de Bordeaux",
+		"publisher-place": "Bordeaux",
+		"source": "Zotero",
+		"container-title": "Thesis",
+		"title": "Simulation de pratiques de gestion alternatives pour l'adaptation des plantations pérennes aux changements globaux",
+		"URL": "https://tel.archives-ouvertes.fr/tel-01718808/file/VEZY_REMI_2017.pdf",
+		"DOI": "https://theses.hal.science/tel-01718808",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					12,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/2VXH3BRX",
+		"type": "article-journal",
+		"abstract": "Abstract\nThe mechanistic model GO+ describes the functioning and growth of managed forests based upon biophysical and biogeochemical processes. The biophysical and biogeochemical processes included are modelled using standard formulations of radiative transfer, convective heat exchange, evapotranspiration, photosynthesis, respiration, plant phenology, growth and mortality, biomass nutrient content, and soil carbon dynamics. The forest ecosystem is modelled as three layers, namely the tree overstorey, understorey and soil. The vegetation layers include stems, branches and foliage and are partitioned dynamically between sunlit and shaded fractions. The soil carbon submodel is an adaption of the Roth-C model to simulate the impact of forest operations. The model runs at an hourly time step. It represents a forest stand covering typically 1 ha and can be straightforwardly upscaled across gridded data at regional, country or continental levels. GO+ accounts for both the immediate and long-term impacts of forest operations on energy, water and carbon exchanges within the soil–vegetation–atmosphere continuum. It includes exhaustive and versatile descriptions of management operations (soil preparation, regeneration, vegetation control, selective thinning, clear-cutting, coppicing, etc.), thus permitting the effects of a wide variety of forest management strategies to be estimated: from close to nature to intensive. This paper examines the sensitivity of the model to its main parameters and estimates how errors in parameter values are propagated into the predicted values of its main output variables. The sensitivity analysis demonstrates an interaction between the sensitivity of variables, with the climate and soil hydraulic properties being dominant under dry conditions but the leaf biochemical properties being most influential with wet soil. The sensitivity profile of the model changes from short to long timescales due to the cumulative effects of the fluxes of carbon, energy and water on the stand growth and canopy structure. Apart from a few specific cases, the model simulations are close to the values of the observations of atmospheric exchanges, tree growth, and soil carbon and water stock changes monitored over Douglas fir, European beech and pine forests of different ages. We also illustrate the capacity of the GO+ model to simulate the provision of key ecosystem services, such as the long-term storage of carbon in biomass and soil under various management and climate scenarios.",
+		"container-title": "Geoscientific Model Development",
+		"DOI": "https://doi.org/10.5194/gmd-13-5973-2020",
+		"ISSN": "1991-959X",
+		"issue": "12",
+		"language": "English",
+		"license": "All rights reserved",
+		"note": "number: 12\npublisher: Copernicus GmbH",
+		"page": "5973-6009",
+		"source": "gmd.copernicus.org",
+		"title": "Energy, water and carbon exchanges in managed forest ecosystems: description, sensitivity analysis and evaluation of the INRAE GO+ model, version 3.0",
+		"title-short": "Energy, water and carbon exchanges in managed forest ecosystems",
+		"URL": "https://gmd.copernicus.org/articles/13/5973/2020/",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Moreaux",
+				"given": "Virginie"
+			},
+			{
+				"family": "Martel",
+				"given": "Simon"
+			},
+			{
+				"family": "Bosc",
+				"given": "Alexandre"
+			},
+			{
+				"family": "Picart",
+				"given": "Delphine"
+			},
+			{
+				"family": "Achat",
+				"given": "David"
+			},
+			{
+				"family": "Moisy",
+				"given": "Christophe"
+			},
+			{
+				"family": "Aussenac",
+				"given": "Raphael"
+			},
+			{
+				"family": "Chipeaux",
+				"given": "Christophe"
+			},
+			{
+				"family": "Bonnefond",
+				"given": "Jean-Marc"
+			},
+			{
+				"family": "Figuères",
+				"given": "Soisick"
+			},
+			{
+				"family": "Trichet",
+				"given": "Pierre"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Badeau",
+				"given": "Vincent"
+			},
+			{
+				"family": "Longdoz",
+				"given": "Bernard"
+			},
+			{
+				"family": "Granier",
+				"given": "André"
+			},
+			{
+				"family": "Roupsard",
+				"given": "Olivier"
+			},
+			{
+				"family": "Nicolas",
+				"given": "Manuel"
+			},
+			{
+				"family": "Pilegaard",
+				"given": "Kim"
+			},
+			{
+				"family": "Matteucci",
+				"given": "Giorgio"
+			},
+			{
+				"family": "Jolivet",
+				"given": "Claudy"
+			},
+			{
+				"family": "Black",
+				"given": "Andrew T."
+			},
+			{
+				"family": "Picard",
+				"given": "Olivier"
+			},
+			{
+				"family": "Loustau",
+				"given": "Denis"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					12,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					12,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/EKLP3JUC",
+		"type": "article-journal",
+		"abstract": "Promoting plant diversity through crop mixtures is a mainstay of the agroecological transition. Modelling this transition requires considering both plant–plant interactions and plants’ interactions with abiotic and biotic environments. Modelling crop mixtures enables designing ways to use plant diversity to provide ecosystem services, as long as they include crop management as input. A single modelling approach is not sufficient, however, and complementarities between models may be critical to consider the multiple processes and system components involved at different and relevant spatial and temporal scales. In this article, we present different modelling solutions implemented in a variety of examples to upscale models from local interactions to ecosystem services. We highlight that modelling solutions (i.e. coupling, metamodelling, inverse or hybrid modelling) are built according to modelling objectives (e.g. understand the relative contributions of primary ecological processes to crop mixtures, quantify impacts of the environment and agricultural practices, assess the resulting ecosystem services) rather than to the scales of integration. Many outcomes of multispecies agroecosystems remain to be explored, both experimentally and through the heuristic use of modelling. Combining models to address plant diversity and predict ecosystem services at different scales remains rare but is critical to support the spatial and temporal prediction of the many systems that could be designed.",
+		"container-title": "in silico Plants",
+		"DOI": "https://doi.org/10.1093/insilicoplants/diab037",
+		"ISSN": "2517-5025",
+		"issue": "1",
+		"journalAbbreviation": "in silico Plants",
+		"license": "All rights reserved",
+		"note": "number: 1",
+		"page": "diab037",
+		"source": "Silverchair",
+		"title": "Exploring complementarities between modelling approaches that enable upscaling from plant community functioning to ecosystem services as a way to support agroecological transition",
+		"URL": "https://doi.org/10.1093/insilicoplants/diab037",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Gaudio",
+				"given": "Noémie"
+			},
+			{
+				"family": "Louarn",
+				"given": "Gaëtan"
+			},
+			{
+				"family": "Barillot",
+				"given": "Romain"
+			},
+			{
+				"family": "Meunier",
+				"given": "Clémentine"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Launay",
+				"given": "Marie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					2,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "raphael_p_a_perez_2022_6246090",
+		"type": "document",
+		"license": "All rights reserved",
+		"DOI": "https://doi.org/10.5281/zenodo.6246090",
+		"publisher": "Zenodo",
+		"title": "ARCHIMED-φ simulation files for the simulation of Design A from the article \"When architectural plasticity fails to counter the light competition imposed by planting design: an in silico approach using a functional-structural model of oil palm\"; in silico Plants journal",
+		"URL": "https://doi.org/10.5281/zenodo.6246090",
+		"author": [
+			{
+				"family": "Perez",
+				"given": "Raphaël P.A."
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Brancheriau",
+				"given": "Loïc"
+			},
+			{
+				"family": "Boudon",
+				"given": "Frédéric"
+			},
+			{
+				"family": "Grand",
+				"given": "François"
+			},
+			{
+				"family": "Raharjo",
+				"given": "Doni Artanto"
+			},
+			{
+				"family": "Caliman",
+				"given": "Jean-Pierre"
+			},
+			{
+				"family": "Dauzat",
+				"given": "Jean"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "remi_vezy_2021_4974228",
+		"type": "software",
+		"license": "All rights reserved",
+		"DOI": "https://doi.org/10.5281/zenodo.4974228",
+		"title": "SticsOnR: Manage STICS Simulations Running the Executable or JavaStics",
+		"publisher": "Zenodo",
+		"URL": "https://doi.org/10.5281/zenodo.4974228",
+		"version": "v0.2.2",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Buis",
+				"given": "Samuel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/TM8FVP22",
+		"type": "software",
+		"license": "All rights reserved",
+		"title": "SticsRFiles: Read and modify STICS Input/Output files",
+		"DOI": "https://doi.org/10.5281/zenodo.4443206",
+		"URL": "https://doi.org/10.5281/zenodo.4443206",
+		"version": "v0.4.2",
+		"publisher": "Zenodo",
+		"author": [
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Vezy",
+				"given": "Remi"
+			},
+			{
+				"family": "Buis",
+				"given": "Samuel"
+			},
+			{
+				"family": "Giner",
+				"given": "Michel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "remi_vezy_2022_6803363",
+		"type": "document",
+		"license": "All rights reserved",
+		"note": "DOI: 10.5281/zenodo.6803363\ntex.entrytype: dataset\ntex.version: 1.0.0",
+		"DOI": "https://doi.org/10.5281/zenodo.6803362",
+		"publisher": "Zenodo",
+		"title": "Data, code and software to reproduce the article entitled \"Modelling intercrops functioning to advance the design of innovative agroecological systems\"",
+		"URL": "https://doi.org/10.5281/zenodo.6803362",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Munz",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Gaudio",
+				"given": "Noémie"
+			},
+			{
+				"family": "Launay",
+				"given": "Marie"
+			},
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Ripoche",
+				"given": "Dominique"
+			},
+			{
+				"family": "Justes",
+				"given": "Eric"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					8,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "Vezy_SticsRPacks_Easily_Install_2021",
+		"type": "software",
+		"license": "All rights reserved",
+		"publisher": "Zenodo",
+		"title": "SticsRPacks: Easily install and load `SticsRPacks` packages",
+		"DOI": "https://doi.org/10.5281/zenodo.4448690",
+		"URL": "https://github.com/SticsRPacks/SticsRPacks, https://doi.org/10.5281/zenodo.4448690",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Remi"
+			},
+			{
+				"family": "Buis",
+				"given": "Samuel"
+			},
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Giner",
+				"given": "Michel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/RSBKZJX8",
+		"type": "software",
+		"license": "All rights reserved",
+		"title": "CroptimizR: A Package to Estimate Parameters of Crop Models",
+		"DOI": "https://doi.org/10.5281/zenodo.10425387",
+		"URL": "https://github.com/SticsRPacks/CroptimizR",
+		"version": "0.5.1",
+		"publisher": "Zenodo",
+		"author": [
+			{
+				"family": "Buis",
+				"given": "Samuel"
+			},
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Vezy",
+				"given": "Remi"
+			},
+			{
+				"family": "Giner",
+				"given": "Michel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/NPDA7R4I",
+		"type": "software",
+		"license": "All rights reserved",
+		"title": "CroPlotR: A Package to Analyze Crop Model Simulations Outputs with Plots and Statistics",
+		"URL": "https://github.com/SticsRPacks/CroPlotR",
+		"DOI": "https://doi.org/10.5281/zenodo.10893924",
+		"version": "0.9.0",
+		"publisher": "Zenodo",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Remi"
+			},
+			{
+				"family": "Buis",
+				"given": "Samuel"
+			},
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Giner",
+				"given": "Michel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/FDCTCDL4",
+		"type": "document",
+		"abstract": "This is the data, code and software to reproduce the article entitled \" Modeling soil-plant functioning of intercrops using comprehensive and generic formalisms implemented in the STICS model\". Here is a summary of the paper:\n\nThe growing demand for sustainable agriculture is raising interest in intercropping for its multiple potential benefits to avoid or limit the use of chemical inputs or increase the production per surface unit. Predicting the existence and magnitude of those benefits remains a challenge given the numerous interactions between interspecific plant-plant relationships, their environment and the agricultural practices. Soil-crop models are critical in understanding these interactions in dynamics during the whole growing season, but few models are capable of accurately simulating intercropping systems.\n\nIn this study, we propose a set of simple and generic formalisms for simulating key interactions in intercropping systems that can be readily included into existing dynamic crop models. This requires simulating important processes such as development, light interception, plant growth, N and water balance, and yield formation in response to management practices, soil conditions, and climate. These formalisms were integrated into the STICS soil-crop model and evaluated using observed data of intercropping systems of cereal and legumes mixtures, including Faba bean-Wheat, Pea-Barley, Sunflower-Soybean, and Wheat-Pea mixtures. We demonstrate that the proposed formalisms provide a comprehensive simulation of soil-plant interactions in various types of bispecific intercrops. The model was found consistent and generic under a range of spring and winter intercrops (nRMSE = 25% for maximum leaf area index, 23% for shoot biomass at harvest, and 18% for yield).\n\nThis is the first time a complete set of formalisms has been developed and published for simulating intercropping systems and integrated into a soil-crop model. With its emphasis on being generic, sufficiently accurate, simple, and easy to parameterize, STICS is well-suited to help researchers designing in silico the agroecological transition by virtually pre-screening sustainable, manageable intercrop systems adapted to local conditions.",
+		"language": "eng",
+		"license": "All rights reserved",
+		"publisher": "Zenodo",
+		"title": "Data, code and software to reproduce the article entitled \"Modeling soil-plant functioning of intercrops using comprehensive and generic formalisms implemented in the STICS model\"",
+		"DOI": "https://doi.org/10.5281/zenodo.6803362",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Munz",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Gaudio",
+				"given": "Noémie"
+			},
+			{
+				"family": "Launay",
+				"given": "Marie"
+			},
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Ripoche",
+				"given": "Dominique"
+			},
+			{
+				"family": "Justes",
+				"given": "Eric"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/AH7Q66VM",
+		"type": "software",
+		"license": "All rights reserved",
+		"title": "SticsRPacks: Easily Install and Load `SticsRPacks` Packages",
+		"URL": "https://github.com/SticsRPacks/SticsRPacks",
+		"DOI":"https://doi.org/10.5281/zenodo.10798206",
+		"version": "0.4.0",
+		"publisher": "Zenodo",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Remi"
+			},
+			{
+				"family": "Buis",
+				"given": "Samuel"
+			},
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Giner",
+				"given": "Michel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/UTHYUQE7",
+		"type": "software",
+		"license": "All rights reserved",
+		"note": "DOI: 10.5281/zenodo.7763416",
+		"publisher": "Zenodo",
+		"title": "MultiScaleTreeGraph.jl: Read, Write, Analyze, Compute and Plot Multi-scale Tree Graph Files",
+		"URL": "https://doi.org/10.5281/zenodo.7763416",
+		"DOI": "https://doi.org/10.5281/zenodo.7763416",
+		"version": "v0.10.1",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/L3QRMAA5",
+		"type": "software",
+		"license": "All rights reserved",
+		"note": "DOI: 10.5281/zenodo.7771412",
+		"publisher": "Zenodo",
+		"title": "VEZY/PlantBiophysics.jl: v0.9.2",
+		"URL": "https://doi.org/10.5281/zenodo.7771412",
+		"DOI": "https://doi.org/10.5281/zenodo.7771412",
+		"version": "v0.9.2",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Treillou",
+				"given": "Simon"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/SVDL66PG",
+		"type": "article-journal",
+		"container-title": "Journal of Open Source Software",
+		"DOI": "https://doi.org/10.21105/joss.05371",
+		"issue": "86",
+		"license": "All rights reserved",
+		"publisher": "publisher: The Open Journal",
+		"page": "5371",
+		"title": "PlantSimEngine: A Simulation Engine For The Soil-Plant-Atmosphere System",
+		"URL": "https://doi.org/10.21105/joss.05371",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/RGS8WUX8",
+		"type": "article-journal",
+		"abstract": "Functional–structural plant modelling approaches (FSPM) explore the relationships between the 3D structure and the physiological functioning of plants in relation to environmental conditions. In this study, we present a methodological approach that integrated architectural responses to planting design in an oil palm FSPM, and test the impact of planting design and architectural plasticity on physiological responses such as light interception and carbon assimilation. LiDAR-derived and direct measurements were performed on five planting designs to assess the phenotypic plasticity of architectural traits, and allowed evaluating the variations of the main parameters of an existing 3D plant model. Accordingly, we proposed a neighbourhood index (NI) as a simple explanatory variable of architectural plasticity, and used NI-based allometries to simulate architectural variations in 3D virtual plants. Light interception and carbon assimilation were then simulated on virtual plots reproducing the five studied designs. We found that the main traits affected by plant proximity were leaf dimensions, leaf weight and leaf erectness, whereas other structural traits like the frequency of leaflets along the rachis or biomechanical properties of leaves remained unchanged. Our simulation study highlighted model compliance to reproduce architectural plasticity and illustrated how architectural plasticity improved light interception via leaf area expansion, but how the competition for light imposed by the design can counterbalance this benefit in terms of carbon assimilation at stand scale. We conclude on the importance of planting patterns for plants with low architectural plasticity such as oil palm, and how in silico experiments can help in designing innovative planting patterns.",
+		"container-title": "in silico Plants",
+		"DOI": "https://doi.org/10.1093/insilicoplants/diac009",
+		"ISSN": "2517-5025",
+		"issue": "1",
+		"journalAbbreviation": "in silico Plants",
+		"license": "All rights reserved",
+		"page": "diac009",
+		"source": "Silverchair",
+		"title": "When architectural plasticity fails to counter the light competition imposed by planting design: an in silico approach using a functional–structural model of oil palm",
+		"title-short": "When architectural plasticity fails to counter the light competition imposed by planting design",
+		"URL": "https://doi.org/10.1093/insilicoplants/diac009",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Perez",
+				"given": "Raphaël P A"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Brancheriau",
+				"given": "Loïc"
+			},
+			{
+				"family": "Boudon",
+				"given": "Frédéric"
+			},
+			{
+				"family": "Grand",
+				"given": "François"
+			},
+			{
+				"family": "Ramel",
+				"given": "Merlin"
+			},
+			{
+				"family": "Artanto Raharjo",
+				"given": "Doni"
+			},
+			{
+				"family": "Caliman",
+				"given": "Jean-Pierre"
+			},
+			{
+				"family": "Dauzat",
+				"given": "Jean"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					6
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/DIQF5SRV",
+		"type": "article-journal",
+		"abstract": "The growing demand for sustainable agriculture is raising interest in intercropping for its multiple potential benefits to avoid or limit the use of chemical inputs or increase the production per surface unit. Predicting the existence and magnitude of those benefits remains a challenge given the numerous interactions between interspecific plant-plant relationships, their environment, and the agricultural practices. Soil-crop models are critical in understanding these interactions in dynamics during the whole growing season, but few models are capable of accurately simulating intercropping systems. In this study, we propose a set of simple and generic formalisms (i.e. the structure and mathematical representation necessary for designing a model) for simulating key interactions in bi-specific intercropping systems that can be readily included into existing dynamic crop models. This requires simulating important processes such as development, light interception, plant growth, N and water balance, and yield formation in response to management practices, soil conditions, and climate. These formalisms were integrated into the STICS soil-crop model and evaluated using observed data of intercropping systems of cereal and legumes mixtures, including Faba bean-Wheat, Pea-Barley, Soybean-Sunflower, and Wheat-Pea mixtures. We demonstrate that the proposed formalisms provide a comprehensive simulation of soil-plant interactions in various types of bispecific intercrops. The model was found consistent and generic under a range of spring and winter intercrops (nRMSE = 25% for maximum leaf area index, 23% for shoot biomass at harvest, and 18% for grain yield). This is the first time a complete set of formalisms has been developed and published for simulating bi-specific intercropping systems and integrated into a soil-crop model. With its emphasis on being generic, sufficiently accurate, simple, and easy to parameterize, STICS is well-suited to help researchers designing in silico the agroecological transition by virtually pre-screening sustainable, manageable intercrop systems adapted to local conditions.",
+		"container-title": "Agronomy for Sustainable Development",
+		"DOI": "https://doi.org/10.1007/s13593-023-00917-5",
+		"ISSN": "1773-0155",
+		"issue": "5",
+		"journalAbbreviation": "Agron. Sustain. Dev.",
+		"language": "en",
+		"license": "All rights reserved",
+		"page": "61",
+		"source": "Springer Link",
+		"title": "Modeling soil-plant functioning of intercrops using comprehensive and generic formalisms implemented in the STICS model",
+		"URL": "https://doi.org/10.1007/s13593-023-00917-5",
+		"volume": "43",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Munz",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Gaudio",
+				"given": "Noémie"
+			},
+			{
+				"family": "Launay",
+				"given": "Marie"
+			},
+			{
+				"family": "Lecharpentier",
+				"given": "Patrice"
+			},
+			{
+				"family": "Ripoche",
+				"given": "Dominique"
+			},
+			{
+				"family": "Justes",
+				"given": "Eric"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					24
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/HA5KRR5Y",
+		"type": "article-journal",
+		"abstract": "To assess the extent to which trees in a semi-arid silvopastoral system (SPS) can offset the greenhouse-gas (GHG) emissions of the system's livestock, this study used two process-based models (STEP-GENDEC-N2O and DynACof) to simulate 9 years of agricultural activity and resulting emissions in a SPS that has been operating in sahelian Senegal. STEP-GENDEC-N2O simulated soil N2O and CO2 fluxes, plus growth of the herbaceous layer, while DynACof focused on the tree layer. Outputs from the models included simulated time series of vegetative growth, water fluxes, and emissions. This output was validated through the use of published data, and measurements that were made at the SPS. Overall, the outputs from STEP-GENDEC-N2O agreed well with validation data for water fluxes, soil N, soil C, herbaceous biomass, and N2O emissions. Good agreement was also found between the measured fluxes of the SPS ecosystem, and the simulated values that were generated by combining STEP-GENDEC-N2O's simulations (of the herbaceous layer's heterotrophic respiration, autotrophic respiration, and gross primary productivity (GPP)) with DynACof's simulations of the tree layer's autotrophic respiration and GPP. Among the insights gained from the simulations was that in this SPS's sandy soils, nitrification was the dominant process that leads to N2O emissions. Our results show that the trees, at their current density (81 ha−1) offset 18 % to 41 % of the GHG emissions from livestock. With further development, the model set-up can be used for estimating the GHG offset at other tree densities, and will be useful for guiding future policies regarding climate-change adaptation and mitigation in the management of the Sahel's SPSs.",
+		"container-title": "Agricultural and Forest Meteorology",
+		"DOI": "https://doi.org/10.1016/j.agrformet.2023.109780",
+		"ISSN": "0168-1923",
+		"journalAbbreviation": "Agricultural and Forest Meteorology",
+		"license": "All rights reserved",
+		"page": "109780",
+		"source": "ScienceDirect",
+		"title": "To what extent are greenhouse-gas emissions offset by trees in a Sahelian silvopastoral system?",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0168192323004707",
+		"volume": "343",
+		"author": [
+			{
+				"family": "Agbohessou",
+				"given": "Yélognissè"
+			},
+			{
+				"family": "Delon",
+				"given": "Claire"
+			},
+			{
+				"family": "Mougin",
+				"given": "Eric"
+			},
+			{
+				"family": "Grippa",
+				"given": "Manuela"
+			},
+			{
+				"family": "Tagesson",
+				"given": "Torbern"
+			},
+			{
+				"family": "Diedhiou",
+				"given": "Moussa"
+			},
+			{
+				"family": "Ba",
+				"given": "Seydina"
+			},
+			{
+				"family": "Ngom",
+				"given": "Daouda"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Ndiaye",
+				"given": "Ousmane"
+			},
+			{
+				"family": "Assouma",
+				"given": "Mohamed H."
+			},
+			{
+				"family": "Diawara",
+				"given": "Mamadou"
+			},
+			{
+				"family": "Roupsard",
+				"given": "Olivier"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/DNVNPQ6Y",
+		"type": "article-journal",
+		"abstract": "Context\nAgroforestry systems provide critical benefits for food security and climate change mitigation. Yet, they are complex and heteregoneous sytems hard to optimize. The use of process-based crop models provides an opportunity to understand better the interactions between soil, crop, tree and climate and explore the impact of agroforestry on crop growth, for contrasting crop management.\nObjective\nThe objectives of this study were to i) calibrate the soil-crop STICS model for pearl millet (Pennisetum glaucum) in order to simulate millet potential growth and impact of water and nitrogen limitations on millet growth in open fields and ii) explore the impacts of the parkland tree Faidherbia albida on millet performance for contrasting N fertilizer inputs.\nMethods\nWe gathered a comprehensive database of 28 agronomically contrasting situations, ranging from near-potential growth to drought- and N-stress, either on-station or in a farmer’s home- or bush-fields. Parameters governing relevant plant and soil processes for grain yield were calibrated in a stepwise procedure. The calibrated model was used to explore the impact on millet growth of the widely reported benefits of Faidherbia albida, namely a minimum reduction in radiation thanks to the peculiar reverse phenology of this tree, improvement of soil water content at the beginning of the growing season and of organic nitrogen in the topsoil.\nResults\nModel simulations with the calibration dataset were reasonably accurate for aboveground biomass and grain yield. Normalized Root Mean Square Errors (nRMSE) for these variables were 29% and 26%, respectively; model efficiency (EF) was 0.58 for both. The nRMSE ranged from 33% to 53% for Soil Water Content (SWC), plant N uptake, grain number, and leaf-area index (LAI). Model accuracy was lower with the evaluation dataset. In the virtual experiment, millet yield decreased with incoming solar radiation, but only at levels of shading (e.g. below 80% of the radiation obtained with full sun) that do not occur under Faidherbia. The decline was greater when millet was fertilized. Increasing the initial soil water content did not affect simulated millet growth. Simulated millet aboveground biomass and grain yield increased with higher organic nitrogen contents of the topsoil, by 80% when millet was not fertilizer, but only by 25% when millet was fertilized.\nImplications\nThis study provides the first set of comprehensively calibrated parameters for applying STICS to pearl millet in open cropland. A virtual experiment with historical climate suggests that the benefits of Faidherbia decrease if farmers intensify crop production by adding more mineral N fertilizer. Hence, precise fertilizer management is recommended in Faidherbia parklands. These results illustrate the benefits of process-based crop modelling for better understanding the functioning of agroforestry systems.",
+		"container-title": "Field Crops Research",
+		"DOI": "https://doi.org/10.1016/j.fcr.2023.109206",
+		"ISSN": "0378-4290",
+		"journalAbbreviation": "Field Crops Research",
+		"license": "All rights reserved",
+		"page": "109206",
+		"source": "ScienceDirect",
+		"title": "Calibrating the STICS soil-crop model to explore the impact of agroforestry parklands on millet growth",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0378429023003994",
+		"volume": "306",
+		"author": [
+			{
+				"family": "Sow",
+				"given": "Sidy"
+			},
+			{
+				"family": "Senghor",
+				"given": "Yolande"
+			},
+			{
+				"family": "Sadio",
+				"given": "Khardiatou"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Roupsard",
+				"given": "Olivier"
+			},
+			{
+				"family": "Affholder",
+				"given": "François"
+			},
+			{
+				"family": "N’dienor",
+				"given": "Moussa"
+			},
+			{
+				"family": "Clermont-Dauphin",
+				"given": "Cathy"
+			},
+			{
+				"family": "Gaglo",
+				"given": "Espoir Koudjo"
+			},
+			{
+				"family": "Ba",
+				"given": "Seydina"
+			},
+			{
+				"family": "Tounkara",
+				"given": "Adama"
+			},
+			{
+				"family": "Balde",
+				"given": "Alpha Bocar"
+			},
+			{
+				"family": "Agbohessou",
+				"given": "Yelognissè"
+			},
+			{
+				"family": "Seghieri",
+				"given": "Josiane"
+			},
+			{
+				"family": "Sall",
+				"given": "Saidou Nourou"
+			},
+			{
+				"family": "Couedel",
+				"given": "Antoine"
+			},
+			{
+				"family": "Leroux",
+				"given": "Louise"
+			},
+			{
+				"family": "Jourdan",
+				"given": "Christophe"
+			},
+			{
+				"family": "Diaite",
+				"given": "Diaminatou Sanogo"
+			},
+			{
+				"family": "Falconnier",
+				"given": "Gatien N."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "vezy_remi_2022_7038482",
+		"type": "document",
+		"license": "All rights reserved",
+		"note": "DOI: 10.5281/zenodo.7038482\ntex.entrytype: dataset\ntex.version: v1.0.0",
+		"publisher": "Zenodo",
+		"title": "Data and code for the article \"Coupling LiDAR and structural models to improve the estimation of aboveground woody biomass\"",
+		"URL": "https://doi.org/10.5281/zenodo.7038481",
+		"DOI": "https://doi.org/10.5281/zenodo.7038481",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Millan",
+				"given": "Mathilde"
+			},
+			{
+				"family": "Bonnet",
+				"given": "Alexis"
+			},
+			{
+				"family": "Dauzat",
+				"given": "Jean"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "vezy_remi_2022_7004348",
+		"type": "software",
+		"license": "All rights reserved",
+		"note": "DOI: 10.5281/zenodo.7004348",
+		"publisher": "Zenodo",
+		"title": "MultiScaleTreeGraph.jl: Read, write, analyze, compute and plot multi-scale tree graph files",
+		"URL": "https://doi.org/10.5281/zenodo.5654676",
+		"DOI": "https://doi.org/10.5281/zenodo.5654676",		
+		"version": "v0.5.0",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6082108/items/PVXPMS25",
+		"type": "article-journal",
+		"abstract": "Monoculture systems in SouthEast Asia are facing challenges due to climate change-induced extreme weather conditions, leading to significant annual production losses for rice and oil palm. To ensure the stability of these crops, innovative strategies like resilient agroforestry systems need to be explored. Converting oil palm monocultures to rice-based intercropping systems shows promise, but achieving optimal yields requires adjusting palm density and identifying rice varieties adapted to changes in light quantity and diurnal fluctuation.This paper proposes a methodology that combines a model of light interception with indoor experiments to assess the feasibility of rice-oil palm agroforestry systems. Using a functional-structural plant model (FSPM) of oil palm, the planting design was optimized to maximize transmitted light for rice. Simulation results estimated the potential impact on oil palm carbon assimilation and transpiration. In growth chambers, simulated light conditions were replicated with adjustments to intensity and daily fluctuation. Three light treatments independently evaluated the effects on different rice accessions.The simulation study revealed intercropping designs that significantly increased light transmission for rice cultivation with minimal decrease in oil palm densities compared to conventional designs. The results estimated a loss in oil palm productivity of less than 10%, attributed to improved carbon assimilation and water use efficiency. Changes in rice plant architecture were primarily influenced by light quantity, while variations in yield components were attributed to light fluctuations. Different rice accessions exhibited diverse responses to light fluctuations, suggesting the potential for selecting genotypes suitable for agroforestry systems.",
+		"container-title": "Journal of Experimental Botany",
+		"DOI": "https://doi.org/10.1093/jxb/erae137",
+		"ISSN": "0022-0957",
+		"journalAbbreviation": "Journal of Experimental Botany",
+		"license": "All rights reserved",
+		"page": "erae137",
+		"title": "Combining modelling and experimental approaches to assess the feasibility of developing rice-oil palm agroforestry system",
+		"URL": "https://doi.org/10.1093/jxb/erae137",
+		"author": [
+			{
+				"family": "Perez",
+				"given": "Raphaël P A"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Bordon",
+				"given": "Romain"
+			},
+			{
+				"family": "Laisné",
+				"given": "Thomas"
+			},
+			{
+				"family": "Roques",
+				"given": "Sandrine"
+			},
+			{
+				"family": "Rebolledo",
+				"given": "Maria-Camila"
+			},
+			{
+				"family": "Rouan",
+				"given": "Lauriane"
+			},
+			{
+				"family": "Fabre",
+				"given": "Denis"
+			},
+			{
+				"family": "Gibert",
+				"given": "Olivier"
+			},
+			{
+				"family": "De Raissac",
+				"given": "Marcel"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					8,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					3,
+					27
+				]
+			]
+		}
+	}
+]
