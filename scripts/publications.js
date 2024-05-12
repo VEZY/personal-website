@@ -63,7 +63,7 @@ fetchPublications().then((publications) => {
 
         if (publication.type === 'article-journal') {
             articleListHTML += publicationHTML;
-        } else if (publication.type === 'book') {
+        } else if (publication.type === 'book' || publication.type === 'chapter') {
             bookListHTML += publicationHTML;
         } else if (publication.type === 'paper-conference') {
             conferenceListHTML += publicationHTML;
@@ -75,7 +75,7 @@ fetchPublications().then((publications) => {
 
     if (articleListHTML !== "") {
         document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-xl font-bold">Articles</h3>
+        <h3 class="text-lg font-bold">Articles</h3>
         <div class="flex flex-col gap-y-3">
             ${articleListHTML}
         </div>
@@ -84,7 +84,7 @@ fetchPublications().then((publications) => {
 
     if (bookListHTML !== "") {
         document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-xl font-bold">Books</h3>
+        <h3 class="text-lg font-bold">Books</h3>
         <div class="flex flex-col gap-y-3">
             ${bookListHTML}
         </div>
@@ -93,7 +93,7 @@ fetchPublications().then((publications) => {
 
     if (conferenceListHTML !== "") {
         document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-xl font-bold">Conference Papers</h3>
+        <h3 class="text-lg font-bold">Conference Papers</h3>
         <div class="flex flex-col gap-y-3">
             ${conferenceListHTML}
         </div>
@@ -102,7 +102,7 @@ fetchPublications().then((publications) => {
 
     if (softwareListHTML !== "") {
         document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-xl font-bold">Software</h3>
+        <h3 class="text-lg font-bold">Software</h3>
         <div class="flex flex-col gap-y-3">
             ${softwareListHTML}
         </div>
