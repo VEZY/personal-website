@@ -1,5 +1,6 @@
 // Name of the website:
 document.querySelector(".js-title").innerHTML = `${RESUME_DATA.given} ${RESUME_DATA.family} | ${RESUME_DATA.title}`;
+document.querySelector(".js-favicon").href = RESUME_DATA.favicon;
 document.querySelector(".js-person").innerHTML = `${RESUME_DATA.given} ${RESUME_DATA.family}`;
 document.querySelector(".js-about").innerHTML = RESUME_DATA.about;
 document.querySelector(".js-location").innerHTML = `

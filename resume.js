@@ -2,6 +2,9 @@ const RESUME_DATA = {
     given: "Rémi",
     family: "Vezy",
     initials: "RV",
+    favicon: "./media/icons/favicon.ico",
+    avatarUrl: "https://avatars.githubusercontent.com/u/12777793?v=4",
+    personalWebsiteUrl: "https://remivezy.com",
     location: "Montpellier, France, UTC+2",
     locationLink: "https://www.google.com/maps/place/Montpellier",
     title: "Researcher in plant modelling",
@@ -14,8 +17,6 @@ const RESUME_DATA = {
       Using my skills in agronomy, plant physiology, programming, and modeling, I aim to find sustainable solutions for farmers and stakeholders. 
       My work encompasses everything from innovative field measurement methods (such as whole-plant flux chambers and lidar) to developing hypotheses about plant functioning, implementing them into models, evaluating the models in isolation or in combination, and exploring innovative management approaches through prediction. 
       I also develop my own software to assist me in my modeling work.`,
-    avatarUrl: "https://avatars.githubusercontent.com/u/12777793?v=4",
-    personalWebsiteUrl: "https://remivezy.com",
     contact: {
       email: "remi.vezy@cirad.fr",
       tel: "+33467614455",
