@@ -39,7 +39,7 @@ fetchPublications().then((publications) => {
         document.querySelector('.js-publications').innerHTML+=`
         <h3 class="text-lg font-bold">Articles</h3>
         <div class="flex flex-col gap-y-3">
-            ${articleListHTML}
+                ${articleListHTML}
         </div>
         `;
     }
@@ -141,21 +141,19 @@ function createPublicationHTML(publication) {
     let year = getYear(publication);
 
     let publicationHTML = `
-    <div class="flex flex-col gap-y-3">
-        <div class="rounded-lg bg-card text-card-foreground p-3">
-            <div class="font-mono text-sm leading-none">
-                ${publication.title}
-                <p class="text-pretty font-medium font-mono text-muted-foreground mt-2 text-xs">${authors}</p>
-            </div>
-            <div class="flex flex-col space-y-1.5">
-                <div class="flex items-center justify-between gap-x-2 text-base">
-                    <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">
-                        <div class="font-semibold">
-                            ${journal} <a href="${doi.link}" class="hover:underline font-medium" target="_blank">${doi.reference}</a>
-                        </div>    
+    <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden">
+        <div class="font-mono text-sm leading-none">
+            ${publication.title}
+            <p class="text-pretty font-medium font-mono text-muted-foreground mt-2 text-xs">${authors}</p>
+        </div>
+        <div class="flex flex-col space-y-1.5">
+            <div class="flex items-center justify-between gap-x-2 text-base">
+                <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">
+                    <div class="font-semibold">
+                        ${journal} <a href="${doi.link}" class="hover:underline font-medium" target="_blank">${doi.reference}</a>
                     </div>    
-                    <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">${year}</div>
-                </div>
+                </div>    
+                <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">${year}</div>
             </div>
         </div>
     </div>
