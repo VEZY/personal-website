@@ -85,7 +85,11 @@ function getDOI(publication) {
     if (doi === undefined) {
         doi = publication.URL;
         if (doi === undefined) {
-            doi = publication.ISSN;
+            if (publication.ISSN === undefined) {
+                doi = '';
+            }else{
+                doi = `https://portal.issn.org/api/search?search[]=MUST=allissnbis=%22${publication.ISSN}%22`;
+            }
         }
     }
     return doi;
