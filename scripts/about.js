@@ -22,3 +22,6 @@ document.querySelector(".js-profile-picture").innerHTML = `
 
 
 document.querySelector(".js-summary ").innerHTML = RESUME_DATA.summary;
+document.querySelector(".js-copyright").innerHTML = `
+    Copyright &copy; ${new Date().getFullYear()} ${RESUME_DATA.given} ${RESUME_DATA.family}
+`;

@@ -124,6 +124,7 @@ html,
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
+  padding-top: 20px; 
 }
 
 /*
@@ -1602,4 +1603,17 @@ video {
 
 .open .arrow {
   transform: rotate(90deg);
+}
+
+.navigation {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  display: block;
 }
