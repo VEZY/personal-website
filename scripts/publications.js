@@ -81,18 +81,53 @@ function getJournal(publication) {
 }
 
 function getDOI(publication) {
-    let doi = publication.DOI;
-    if (doi === undefined) {
-        doi = publication.URL;
-        if (doi === undefined) {
+    let doi = "";
+    if (publication.DOI === undefined) {
+        if (publication.URL === undefined) {
             if (publication.ISSN === undefined) {
-                doi = '';
+                doi = {reference : '', link: ''};
             }else{
-                doi = `https://portal.issn.org/api/search?search[]=MUST=allissnbis=%22${publication.ISSN}%22`;
+                doi = {
+                    reference: publication.ISSN,
+                    link: `https://portal.issn.org/api/search?search[]=MUST=allissnbis=%22${publication.ISSN}%22`                    
+                };
             }
+        }else{
+            doi = processURL(publication.URL);
         }
+    } else {
+        // DOI are either given as e.g. "10.5281/zenodo.7038481", or with the full address e.g. https://doi.org/10.5281/zenodo.7038481
+        // We want to always return an object with the doi, and then the link (`{reference: doi, link: link}`), so if it is given as a link we want to extract the doi,
+        // and if it is given as a doi we want the full link too:
+        doi = processDoi(publication.DOI)
     }
+    
     return doi;
+}
+
+function processURL(url) {
+    return {reference : url.replace('https://www.', ''), link: url}
+}
+
+function processDoi(doi) {
+    const doiPrefix = 'https://doi.org/';
+    let reference, link;
+
+    if (doi === undefined) {
+        // If doi is undefined, set reference and link as undefined
+        reference = undefined;
+        link = undefined;
+    } else if (doi.startsWith(doiPrefix)) {
+        // If it's a full URL, extract the DOI reference
+        reference = doi.substring(doiPrefix.length);
+        link = doi;
+    } else {
+        // If it's just the DOI reference, construct the full URL
+        reference = doi;
+        link = doiPrefix + doi;
+    }
+
+    return { reference, link };
 }
 
 function getYear(publication) {
@@ -116,7 +151,7 @@ function createPublicationHTML(publication) {
                 <div class="flex items-center justify-between gap-x-2 text-base">
                     <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">
                         <div class="font-semibold">
-                            ${journal} <a href="${doi}" class="hover:underline font-medium" target="_blank">${doi}</a>
+                            ${journal} <a href="${doi.link}" class="hover:underline font-medium" target="_blank">${doi.reference}</a>
                         </div>    
                     </div>    
                     <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">${year}</div>
