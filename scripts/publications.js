@@ -37,17 +37,17 @@ fetchPublications().then((publications) => {
 
     if (articleListHTML !== "") {
         document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-lg font-bold">Articles</h3>
-        <div class="flex flex-col gap-y-3">
-                ${articleListHTML}
-        </div>
+        <h3 class="text-lg font-bold toggle-publications"><span class="arrow">&#9654;</span> Articles</h3>
+        <div class="flex flex-col gap-y-3 publication-container">
+            ${articleListHTML}
+        </div>        
         `;
     }
 
     if (bookListHTML !== "") {
         document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-lg font-bold">Books</h3>
-        <div class="flex flex-col gap-y-3">
+        <h3 class="text-lg font-bold toggle-publications"><span class="arrow">&#9654;</span> Books</h3>
+        <div class="flex flex-col gap-y-3 publication-container">
             ${bookListHTML}
         </div>
         `;
@@ -55,8 +55,9 @@ fetchPublications().then((publications) => {
 
     if (conferenceListHTML !== "") {
         document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-lg font-bold">Conference Papers</h3>
-        <div class="flex flex-col gap-y-3">
+        <h3 class="text-lg font-bold toggle-publications"><span class="arrow">&#9654;</span> Conference</h3>
+
+        <div class="flex flex-col gap-y-3 publication-container">
             ${conferenceListHTML}
         </div>
         `;
@@ -64,13 +65,24 @@ fetchPublications().then((publications) => {
 
     if (softwareListHTML !== "") {
         document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-lg font-bold">Software</h3>
-        <div class="flex flex-col gap-y-3">
+        <h3 class="text-lg font-bold toggle-publications"><span class="arrow">&#9654;</span> Software</h3>
+        <div class="flex flex-col gap-y-3 publication-container">
             ${softwareListHTML}
         </div>
         `;
     }
+
+    document.querySelectorAll('.toggle-publications').forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            const container = button.nextElementSibling;
+            button.classList.toggle('open');
+            container.classList.toggle('open');
+        });
+    });
 });
+
+
 
 function getJournal(publication) {
     let journal = publication['container-title'];

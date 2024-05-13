@@ -1576,3 +1576,30 @@ video {
   overflow: hidden;
   object-fit: cover;
 }
+
+.publication-container {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.publication-container.open {
+  max-height: none;
+}
+
+.toggle-publications {
+  cursor: pointer;
+  color: hsl(var(--muted-foreground));
+}
+
+.toggle-publications:hover {
+  color: hsl(var(--foreground));
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.open .arrow {
+  transform: rotate(90deg);
+}
