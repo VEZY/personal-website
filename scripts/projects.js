@@ -5,9 +5,9 @@ let resumeProjectsOrdered = RESUME_DATA.projects.sort((a, b) => b.end - a.end);
 
 if (resumeProjectsOrdered.length > 0) {
     PROJECTS_DATA += `
-    <div class="projects__list -mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+    <div class="projects__list -mx-3 flex justify-between">
         <h2 id="projects" class="text-xl font-bold">Projects</h2>
-        <a target="_blank" class="inline-flex items-center gap-1 text-xs justify-end">
+        <a target="_blank" class="inline-flex items-center gap-1 text-xs justify-end font-mono">
             <span class="size-1 rounded-full bg-green-500"></span>
             Ongoing projects
         </a>

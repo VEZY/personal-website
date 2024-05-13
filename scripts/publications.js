@@ -1,10 +1,10 @@
-async function fetchPublications() {
+async function fetchJSON(filePath) {
     try {
-        const response = await fetch('./media/publications.json');
+        const response = await fetch(filePath);
         const json = await response.json();
         return json;
     } catch (error) {
-        console.error('Error fetching publications:', error);
+        console.error(`Error fetching file ${filePath}:`, error);
         return null;
     }
 }
@@ -15,16 +15,18 @@ let conferenceListHTML = "";
 let softwareListHTML = "";
 
 // Parse the JSON file and create the HTML elements of each publication:
-fetchPublications().then((publications) => {
+fetchJSON('./media/publications.json').then((publications) => {
+    let nArticles = 0;
+
     publications.sort((a, b) => {
         const yearA = a.issued["date-parts"][0][0];
         const yearB = b.issued["date-parts"][0][0];
         return yearB - yearA;
     }).forEach((publication) => {
         let publicationHTML = createPublicationHTML(publication);
-        
         if (publication.type === 'article-journal') {
             articleListHTML += publicationHTML;
+            nArticles++;
         } else if (publication.type === 'book' || publication.type === 'chapter') {
             bookListHTML += publicationHTML;
         } else if (publication.type === 'paper-conference') {
@@ -78,6 +80,12 @@ fetchPublications().then((publications) => {
             const container = button.nextElementSibling;
             button.classList.toggle('open');
             container.classList.toggle('open');
+        });
+
+        fetchJSON('./media/author_stats.json').then((stats) => {
+            document.querySelectorAll('.science-stats').forEach((element) => {
+                element.innerHTML = getScienceStatsHTML(stats, nArticles);
+            });
         });
     });
 });
@@ -172,4 +180,29 @@ function createPublicationHTML(publication) {
     `;
 
     return publicationHTML;
+}
+
+function getScienceStatsHTML(stats, nArticles) {
+    stats.articles = nArticles
+    stats.lastUpdate = new Date(stats.lastUpdate)
+    const userLocale = navigator.language || navigator.userLanguage;
+    const lastUpdate = stats.lastUpdate.toLocaleDateString(userLocale, { year: 'numeric', month: 'long', day: 'numeric' });
+    return `
+    <h3 class="text-lg font-bold">Overall stats</h3>
+    <p class="text-xs justify-end font-mono text-pretty text-muted-foreground mt-2">Last update: ${lastUpdate}</p>
+    <div class="flex flex-wrap gap-y-3">
+        <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden font-mono text-sm leading-none">
+                <span>Citations: ${stats.citations}</span>
+        </div>
+        <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden font-mono text-sm leading-none">
+                <span>h-index: ${stats.hIndex}</span>
+        </div>
+        <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden font-mono text-sm leading-none">
+                <span>i10-index: ${stats.i10Index}</span>
+        </div>
+        <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden font-mono text-sm leading-none">
+                <span>A-Rank articles: ${stats.articles}</span>
+        </div>
+    </div>
+    `
 }
