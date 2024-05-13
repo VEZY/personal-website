@@ -15,7 +15,7 @@ let conferenceListHTML = "";
 let softwareListHTML = "";
 
 // Parse the JSON file and create the HTML elements of each publication:
-fetchJSON('./media/publications.json').then((publications) => {
+fetchJSON('./publications/publications.json').then((publications) => {
     let nArticles = 0;
 
     publications.sort((a, b) => {
@@ -82,7 +82,7 @@ fetchJSON('./media/publications.json').then((publications) => {
             container.classList.toggle('open');
         });
 
-        fetchJSON('./media/author_stats.json').then((stats) => {
+        fetchJSON('./publications/author_stats.json').then((stats) => {
             document.querySelectorAll('.science-stats').forEach((element) => {
                 element.innerHTML = getScienceStatsHTML(stats, nArticles);
             });
