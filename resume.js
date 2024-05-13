@@ -64,7 +64,7 @@ const RESUME_DATA = {
       {
         company: "CIRAD",
         link: "https://www.cirad.fr/en",
-        badges: ["Permanent position"],
+        contract: "Permanent position",
         title: "Researcher in functional-structural plant modelling",
         // logo: ParabolLogo,
         start: "2018",
@@ -76,7 +76,7 @@ const RESUME_DATA = {
       {
         company: "INRAE",
         link: "https://www.inrae.fr/en",
-        badges: ["Postdoc position"],
+        contract: "Postdoc position",
         title: "Postdoc in crop modelling",
         // logo: ClevertechLogo,
         start: "2018",
@@ -87,7 +87,7 @@ const RESUME_DATA = {
       {
         company: "INRAE",
         link: "PhD position",
-        badges: [],
+        contract: "PhD",
         title: "Doctorate in environmental physics",
         // logo: JojoMobileLogo,
         start: "2014",
