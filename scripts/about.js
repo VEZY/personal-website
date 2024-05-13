@@ -3,7 +3,7 @@ document.querySelector(".js-title").innerHTML = `${RESUME_DATA.given} ${RESUME_D
 document.querySelector(".js-person").innerHTML = `${RESUME_DATA.given} ${RESUME_DATA.family}`;
 document.querySelector(".js-about").innerHTML = RESUME_DATA.about;
 document.querySelector(".js-location").innerHTML = `
-<a class="js-location inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+<a class="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
     href="${RESUME_DATA.locationLink}" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -15,3 +15,10 @@ document.querySelector(".js-location").innerHTML = `
     ${RESUME_DATA.location}
 </a>
 `;
+
+document.querySelector(".js-profile-picture").innerHTML = `
+    <img class="aspect-square h-full w-full" alt="${RESUME_DATA.given} ${RESUME_DATA.family}" src="${RESUME_DATA.avatarUrl}"/>
+`;
+
+
+document.querySelector(".js-summary ").innerHTML = RESUME_DATA.summary;
