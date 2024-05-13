@@ -1,6 +1,6 @@
 // Name of the website:
-document.querySelector(".js-title").innerHTML = `${RESUME_DATA.name} | ${RESUME_DATA.title}`;
-document.querySelector(".js-person").innerHTML = RESUME_DATA.name;
+document.querySelector(".js-title").innerHTML = `${RESUME_DATA.given} ${RESUME_DATA.family} | ${RESUME_DATA.title}`;
+document.querySelector(".js-person").innerHTML = `${RESUME_DATA.given} ${RESUME_DATA.family}`;
 document.querySelector(".js-about").innerHTML = RESUME_DATA.about;
 document.querySelector(".js-location").innerHTML = `
 <a class="js-location inline-flex gap-x-1.5 align-baseline leading-none hover:underline"

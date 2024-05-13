@@ -608,7 +608,7 @@
 		"source": "Zotero",
 		"container-title": "Thesis",
 		"title": "Simulation de pratiques de gestion alternatives pour l'adaptation des plantations pérennes aux changements globaux",
-		"URL": "https://tel.archives-ouvertes.fr/tel-01718808/file/VEZY_REMI_2017.pdf",
+		"URL": "https://tel.archives-ouvertes.fr/tel-01718808/file/VEZY_Rémi_2017.pdf",
 		"DOI": "https://theses.hal.science/tel-01718808",
 		"author": [
 			{
@@ -869,7 +869,7 @@
 		}
 	},
 	{
-		"id": "remi_vezy_2021_4974228",
+		"id": "Rémi_vezy_2021_4974228",
 		"type": "software",
 		"license": "All rights reserved",
 		"DOI": "https://doi.org/10.5281/zenodo.4974228",
@@ -916,7 +916,7 @@
 			},
 			{
 				"family": "Vezy",
-				"given": "Remi"
+				"given": "Rémi"
 			},
 			{
 				"family": "Buis",
@@ -937,7 +937,7 @@
 		}
 	},
 	{
-		"id": "remi_vezy_2022_6803363",
+		"id": "Rémi_vezy_2022_6803363",
 		"type": "document",
 		"license": "All rights reserved",
 		"note": "DOI: 10.5281/zenodo.6803363\ntex.entrytype: dataset\ntex.version: 1.0.0",
@@ -996,7 +996,7 @@
 		"author": [
 			{
 				"family": "Vezy",
-				"given": "Remi"
+				"given": "Rémi"
 			},
 			{
 				"family": "Buis",
@@ -1039,7 +1039,7 @@
 			},
 			{
 				"family": "Vezy",
-				"given": "Remi"
+				"given": "Rémi"
 			},
 			{
 				"family": "Giner",
@@ -1067,7 +1067,7 @@
 		"author": [
 			{
 				"family": "Vezy",
-				"given": "Remi"
+				"given": "Rémi"
 			},
 			{
 				"family": "Buis",
@@ -1152,7 +1152,7 @@
 		"author": [
 			{
 				"family": "Vezy",
-				"given": "Remi"
+				"given": "Rémi"
 			},
 			{
 				"family": "Buis",
@@ -1597,7 +1597,7 @@
 		}
 	},
 	{
-		"id": "vezy_remi_2022_7038482",
+		"id": "vezy_Rémi_2022_7038482",
 		"type": "document",
 		"license": "All rights reserved",
 		"note": "DOI: 10.5281/zenodo.7038482\ntex.entrytype: dataset\ntex.version: v1.0.0",
@@ -1633,7 +1633,7 @@
 		}
 	},
 	{
-		"id": "vezy_remi_2022_7004348",
+		"id": "vezy_Rémi_2022_7004348",
 		"type": "software",
 		"license": "All rights reserved",
 		"note": "DOI: 10.5281/zenodo.7004348",

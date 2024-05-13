@@ -72,10 +72,6 @@ fetchPublications().then((publications) => {
     }
 });
 
-function getAuthors(authors) {
-    return authors.map((author) => `${author.given} ${author.family}`).join(', ');
-}
-
 function getJournal(publication) {
     let journal = publication['container-title'];
     if (journal === undefined) {
@@ -100,7 +96,7 @@ function getYear(publication) {
 }
 
 function createPublicationHTML(publication) {
-    let authors = getAuthors(publication.author);
+    let authors = getAuthorsStudentsHighlighted(publication.author);
     let journal = getJournal(publication);
     let doi = getDOI(publication);
     let year = getYear(publication);

@@ -1,5 +1,6 @@
 const RESUME_DATA = {
-    name: "Rémi Vezy",
+    given: "Rémi",
+    family: "Vezy",
     initials: "RV",
     location: "Montpellier, France, UTC+2",
     locationLink: "https://www.google.com/maps/place/Montpellier",
@@ -232,4 +233,12 @@ const RESUME_DATA = {
         end: "2017",
     }
     ],
-  };
+    students: [
+      {given: "Sidy", family: "Sow"},
+      {given: "Yélognissè", family: "Agbohessou"},
+      {given: "Moussa",family: "Diedhiou"},
+      {given: "Mathilde",family: "Millan"},
+      {given: "Valentin",family: "Torrelli"},
+      {given: "Simon",family: "Treillou"},
+    ],
+};
