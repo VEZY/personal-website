@@ -188,21 +188,20 @@ function getScienceStatsHTML(stats, nArticles) {
     const userLocale = navigator.language || navigator.userLanguage;
     const lastUpdate = stats.lastUpdate.toLocaleDateString(userLocale, { year: 'numeric', month: 'long', day: 'numeric' });
     return `
-    <h3 class="text-lg font-bold">Overall stats</h3>
-    <p class="text-xs justify-end font-mono text-pretty text-muted-foreground mt-2">Last update: ${lastUpdate}</p>
-    <div class="flex flex-wrap gap-y-3">
-        <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden font-mono text-sm leading-none">
+    <div class="flex flex-wrap text-xl font-bold gap-1">
+        <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
                 <span>Citations: ${stats.citations}</span>
         </div>
-        <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden font-mono text-sm leading-none">
+        <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
                 <span>h-index: ${stats.hIndex}</span>
         </div>
-        <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden font-mono text-sm leading-none">
+        <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
                 <span>i10-index: ${stats.i10Index}</span>
         </div>
-        <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden font-mono text-sm leading-none">
+        <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
                 <span>A-Rank articles: ${stats.articles}</span>
         </div>
     </div>
+    <p class="text-xs justify-end font-mono text-pretty text-muted-foreground mt-2">Last update: ${lastUpdate}</p>
     `
 }
