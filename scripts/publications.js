@@ -135,7 +135,7 @@ function getYear(publication) {
 }
 
 function createPublicationHTML(publication) {
-    let authors = getAuthorsStudentsHighlighted(publication.author);
+    let authors = getAuthorsStudentsHighlighted(publication.author, 6, 2, 1);
     let journal = getJournal(publication);
     let doi = getDOI(publication);
     let year = getYear(publication);
