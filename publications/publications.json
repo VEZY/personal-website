@@ -1,5 +1,44 @@
 [
 	{
+		"id": "MILLAN_2024",
+		"type": "article-journal",
+		"abstract": "Lidar is a promising tool for fast and accurate measurements of trees. There are several approaches to estimate aboveground woody biomass using lidar point clouds. One of the most widely used methods involves fitting geometric primitives (e.g. cylinders) to the point cloud, thereby reconstructing both the geometry and topology of the tree. However, current algorithms are not suited for accurate estimation of the volume of finer branches, because of the unreliable point dispersions from e.g. beam footprint compared to the structure diameter.We propose a new method that couples point cloud-based skeletonization and multi-linear statistical modelling based on structural data to make a model (structural model) that accurately estimates the aboveground woody biomass of trees from high-quality lidar point clouds, including finer branches. The structural model was tested at segment, axis, and branch level, and compared to a cylinder fitting algorithm and to the pipe model theory.The model accurately predicted the biomass with 1.6% nRMSE at the segment scale from a k-fold cross-validation. It also gave satisfactory results when up-scaled to the branch level with a significantly lower error (13% nRMSE) and bias (-5%) compared to conventional cylinder fitting to the point cloud (nRMSE: 92%, bias: 82%), or using the pipe model theory (nRMSE: 31%, bias: -27%).The model was then applied to the whole-tree scale and showed that the sampled trees had more than 1.7km of structures on average and that 96% of that length was coming from the twigs (i.e. &lt;5 cm diameter). Our results showed that neglecting twigs can lead to a significant underestimation of tree aboveground woody biomass (-21%).The structural model approach is an effective method that allows a more accurate estimation of the volumes of smaller branches from lidar point clouds. This method is versatile but requires manual measurements on branches for calibration. Nevertheless, once the model is calibrated, it can provide unbiased and large-scale estimations of tree structure volumes, making it an excellent choice for accurate 3D reconstruction of trees and estimating standing biomass.",
+		"container-title": "Annals of Botany",
+		"DOI": "https://doi.org/10.1093/aob/mcae083",
+		"ISSN": "0305-7364",
+		"license": "All rights reserved",
+		"page": "",
+		"title": "Advancing Fine Branch Biomass Estimation with Lidar and Structural Models",
+		"volume": "",
+		"author": [
+			{
+				"family": "Millan",
+				"given": "M."
+			},
+			{
+				"family": "Bonnet",
+				"given": "A."
+			},
+			{
+				"family": "Dauzat",
+				"given": "J."
+			},
+			{
+				"family": "Vezy",
+				"given": "R."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					3,
+					6
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/users/6082108/items/63IXMQZW",
 		"type": "article-journal",
 		"abstract": "Although large amounts of potassium (K) are applied in tropical crops and planted forests, little is known about the interaction between K nutrition and water supply regimes on water resources in tropical regions. This interaction is a major issue because climate change is expected to increase the length of drought periods in many tropical regions and soil water availability in deep soil layers is likely to have a major influence on tree growth during dry periods in tropical planted forests. A process-based model (MAESPA) was parameterized in a throughfall exclusion experiment in Brazil to gain insight into the combined effects of K deficiency and rainfall reduction (37% throughfall exclusion) on the water used by the trees, soil water storage and water table fluctuations over the first 4.5 years after planting Eucalyptus grandis trees. A comparison of canopy transpiration in each plot with the values predicted for the same soil with the water content maintained at field capacity, made it possible to calculate a soil-driven tree water stress index for each treatment. Compared to K-fertilized trees with undisturbed rainfall (+K+W), canopy transpiration was 40% lower for K deficiency (−K+W), 20% lower for W deficit (+K−W) and 36% lower for combined K deficiency and W deficit (−K−W) on average. Water was withdrawn in deeper soil layers for −W than for +W, particularly over dry seasons. Under contrasted K availability, water withdrawal was more superficial for −K than for +K. Mean soil water content down to 18 m below surface (mbs) was 24% higher for −K+W than for +K+W from 2 years after planting (after canopy closure), while it was 24% lower for +K−W and 12% lower for −K−W than for +K+W. The soil-driven tree water stress index was 166% higher over the first 4.5 years after planting for −W than for +W, 76% lower for −K than for +K, and 14% lower for −K−W than for +K+W. Over the study period, deep seepage was higher by 371 mm yr−1 (+122%) for −K than for +K and lower by 200 mm yr−1 (−66%) for −W than for +W. Deep seepage was lower by 44% for −K−W than for +K+W. At the end of the study period, the model predicted a higher water table for −K (10 mbs for −K+W and 16 mbs for −K−W) than for +K (16 mbs for +K+W and 18 mbs for +K−W). Our study suggests that flexible fertilization regimes could contribute to adjusting the local trade-off between wood production and demand for soil water resources in planted forests.",
