@@ -18,6 +18,9 @@ let softwareListHTML = "";
 fetchJSON('./publications/publications.json').then((publications) => {
     let nArticles = 0;
 
+    if (!publications) {
+        return;
+    }
     publications.sort((a, b) => {
         const yearA = a.issued["date-parts"][0][0];
         const yearB = b.issued["date-parts"][0][0];
