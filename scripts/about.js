@@ -22,7 +22,12 @@ document.querySelector(".js-profile-picture").innerHTML = `
 `;
 
 
-document.querySelector(".js-summary ").innerHTML = RESUME_DATA.summary;
+document.querySelector(".js-summary ").innerHTML = `
+    <p>${RESUME_DATA.summary.first}</p>
+    <p>${RESUME_DATA.summary.second}</p>
+    <p>${RESUME_DATA.summary.third}</p>
+`;
+
 document.querySelector(".js-copyright").innerHTML += `
     Copyright &copy; ${new Date().getFullYear()} ${RESUME_DATA.given} ${RESUME_DATA.family}.
     Like this site? <a class = "underline" href="https://github.com/VEZY/personal-website">Make it your own with the template on Github</a>

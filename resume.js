@@ -8,15 +8,12 @@ const RESUME_DATA = {
     location: "Montpellier, France, UTC+2",
     locationLink: "https://www.google.com/maps/place/Montpellier",
     title: "Researcher in plant modelling",
-    about:
-      "Researcher in plant modelling, with a special interest in real-world applications.",
-    summary:
-      `I am a researcher at the AMAP lab in CIRAD specializing in plant modeling. 
-      My work involves creating functional-structural plant models that can predict plant growth and yield based on environmental conditions and management practices. 
-      My main goal is to develop scalable models that can be applied to different systems, from organs to plants, and even to complex systems like agroforestry. 
-      Using my skills in agronomy, plant physiology, programming, and modeling, I aim to find sustainable solutions for farmers and stakeholders. 
-      My work encompasses everything from innovative field measurement methods (such as whole-plant flux chambers and lidar) to developing hypotheses about plant functioning, implementing them into models, evaluating the models in isolation or in combination, and exploring innovative management approaches through prediction. 
-      I also develop my own software to assist me in my modeling work.`,
+    about: "Researcher in plant modelling, manager of the FSPM research theme @UmrAmap.",
+    summary: {
+      first: `I'm a researcher at the AMAP lab in CIRAD, specializing in plant modeling. I focus on agronomy and develop models that help us understand how plants grow and produce based on their environment and how they're managed.`,
+      second: `My research primarily deals with perennial crops like oil palm 🌴, cacao 🍫, and coffee ☕. I also explore mixed cropping systems 🌱🌽 and agroforestry 🫑🌳🥬, aiming to improve sustainable farming practices. I use innovative methods like whole-plant flux chambers and lidar to measure and study plants.`,
+      third: `By creating and testing these models, I develop new ideas about plant functions and find better ways to manage crops. I also create my own software to support this work, ensuring that my models are as accurate and useful as possible.`,
+    },
     contact: {
       email: "remi.vezy@cirad.fr",
       tel: "+33467614455",
@@ -24,33 +21,33 @@ const RESUME_DATA = {
         {
           name: "GitHub",
           url: "https://github.com/VEZY",
-          icon: "./media/icons/github.svg",
+          icon: "./media/icons/github.svg"
         },
         {
           name: "LinkedIn",
           url: "https://www.linkedin.com/in/remivezy/",
-          icon: "./media/icons/linkedin.svg",
+          icon: "./media/icons/linkedin.svg"
         },
         {
           name: "X",
           url: "https://x.com/VezyRemi",
-          icon: "./media/icons/x.svg",
+          icon: "./media/icons/x.svg"
         },
         {
           name: "ORCiD",
           url: "https://orcid.org/0000-0002-0808-1461",
-          icon: "./media/icons/orcid.svg",
+          icon: "./media/icons/orcid.svg"
         },
         {
           name: "Scholar",
           url: "https://scholar.google.fr/citations?user=09R4xY0AAAAJ&hl",
-          icon: "./media/icons/google-scholar.svg",
+          icon: "./media/icons/google-scholar.svg"
         },
         {
           name: "ResearchGate",
           url: "https://www.researchgate.net/profile/Remi-Vezy",
-          icon: "./media/icons/researchgate.svg",
-          },        
+          icon: "./media/icons/researchgate.svg"
+        },        
       ],
     },
     education: [
