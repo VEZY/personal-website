@@ -232,12 +232,14 @@ const RESUME_DATA = {
     }
     ],
     students: [
-      {given: "Sidy", family: "Sow"},
       {given: "Yélognissè", family: "Agbohessou"},
+      {given: "Alexis",family: "Bonnet"},
+      {given: "Oriane", family: "Braud"},
       {given: "Moussa",family: "Diedhiou"},
       {given: "Mathilde",family: "Millan"},
       {given: "Valentin",family: "Torrelli"},
       {given: "Simon",family: "Treillou"},
-      {given: "Alexis",family: "Bonnet"},
+      {given: "Sidy", family: "Sow"},
+      {given: "Thomas", family: "Wibaux"},
     ],
 };
