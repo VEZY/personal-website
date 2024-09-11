@@ -1,5 +1,60 @@
 [
 	{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/IEY4XFJ5",
+		"type": "article-journal",
+		"abstract": "Theobroma cacao, a tropical cauliflorous fruit tree, typically produces flowers and fruits twice a year and exhibits alternate harvesting patterns over consecutive six-monthly seasons in regions with bi-modal rainfall distribution, such as Côte d'Ivoire. This study investigated seasonal variations in flowering and fruiting among trees in populations of mixed cacao genotypes. The intensities of crown and trunk flowering and pod production were monitored for eight consecutive six-monthly seasons on 114 adult cacao trees grown from seedlings. We investigated distributions of seasonal flowering and fruiting values, relationships between flowering and pod production, and the effects of seasonal cumulative rainfall. The patterns of seasonal flowering and fruiting series were analyzed using two descriptors: the first distinguishing between regular and variable patterns, and the second analyzing the structure of such variability, classifying it as either irregular or alternating. Despite being subjected to similar climate and agronomic management, individual trees exhibited highly variable flowering and fruiting behaviors within each season, as well as variable patterns of flowering and fruiting across seasons. Seasonal alternate fruiting on a population scale masked highly variable patterns among trees, and only 19 % of the trees exhibited marked alternate fruiting patterns. Variations in pod production on a tree scale were mainly related to variations in trunk flowering. Endogenous factors seemed to control seasonal variations in flowering and fruiting, even though exogenous factors, both climatic and agronomic, could structure flowering and fruiting patterns at the orchard scale.",
+		"container-title": "Scientia Horticulturae",
+		"DOI": "10.1016/j.scienta.2024.113529",
+		"ISSN": "0304-4238",
+		"journalAbbreviation": "Scientia Horticulturae",
+		"page": "113529",
+		"source": "ScienceDirect",
+		"title": "Does seasonal flowering and fruiting patterns of cacao only depend on climatic factors? The case study of mixed genotype populations in Côte d'Ivoire",
+		"title-short": "Does seasonal flowering and fruiting patterns of cacao only depend on climatic factors?",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S030442382400685X",
+		"volume": "337",
+		"author": [
+			{
+				"family": "Wibaux",
+				"given": "Thomas"
+			},
+			{
+				"family": "Normand",
+				"given": "Frédéric"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Durand",
+				"given": "Jean-Baptiste"
+			},
+			{
+				"family": "Lauri",
+				"given": "Pierre-Éric"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					10
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					11,
+					1
+				]
+			]
+		}
+	},
+	{
 		"id": "MILLAN_2024",
 		"type": "article-journal",
 		"abstract": "Lidar is a promising tool for fast and accurate measurements of trees. There are several approaches to estimate aboveground woody biomass using lidar point clouds. One of the most widely used methods involves fitting geometric primitives (e.g. cylinders) to the point cloud, thereby reconstructing both the geometry and topology of the tree. However, current algorithms are not suited for accurate estimation of the volume of finer branches, because of the unreliable point dispersions from e.g. beam footprint compared to the structure diameter.We propose a new method that couples point cloud-based skeletonization and multi-linear statistical modelling based on structural data to make a model (structural model) that accurately estimates the aboveground woody biomass of trees from high-quality lidar point clouds, including finer branches. The structural model was tested at segment, axis, and branch level, and compared to a cylinder fitting algorithm and to the pipe model theory.The model accurately predicted the biomass with 1.6% nRMSE at the segment scale from a k-fold cross-validation. It also gave satisfactory results when up-scaled to the branch level with a significantly lower error (13% nRMSE) and bias (-5%) compared to conventional cylinder fitting to the point cloud (nRMSE: 92%, bias: 82%), or using the pipe model theory (nRMSE: 31%, bias: -27%).The model was then applied to the whole-tree scale and showed that the sampled trees had more than 1.7km of structures on average and that 96% of that length was coming from the twigs (i.e. &lt;5 cm diameter). Our results showed that neglecting twigs can lead to a significant underestimation of tree aboveground woody biomass (-21%).The structural model approach is an effective method that allows a more accurate estimation of the volumes of smaller branches from lidar point clouds. This method is versatile but requires manual measurements on branches for calibration. Nevertheless, once the model is calibrated, it can provide unbiased and large-scale estimations of tree structure volumes, making it an excellent choice for accurate 3D reconstruction of trees and estimating standing biomass.",
