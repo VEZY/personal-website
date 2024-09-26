@@ -1158,40 +1158,6 @@
 		}
 	},
 	{
-		"id": "Vezy_SticsRPacks_Easily_Install_2021",
-		"type": "software",
-		"license": "All rights reserved",
-		"publisher": "Zenodo",
-		"title": "SticsRPacks: Easily install and load `SticsRPacks` packages",
-		"DOI": "https://doi.org/10.5281/zenodo.4448690",
-		"URL": "https://github.com/SticsRPacks/SticsRPacks, https://doi.org/10.5281/zenodo.4448690",
-		"author": [
-			{
-				"family": "Vezy",
-				"given": "Rémi"
-			},
-			{
-				"family": "Buis",
-				"given": "Samuel"
-			},
-			{
-				"family": "Lecharpentier",
-				"given": "Patrice"
-			},
-			{
-				"family": "Giner",
-				"given": "Michel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/6082108/items/RSBKZJX8",
 		"type": "software",
 		"license": "All rights reserved",
@@ -1800,31 +1766,6 @@
 				[
 					"2022",
 					8
-				]
-			]
-		}
-	},
-	{
-		"id": "vezy_Rémi_2022_7004348",
-		"type": "software",
-		"license": "All rights reserved",
-		"note": "DOI: 10.5281/zenodo.7004348",
-		"publisher": "Zenodo",
-		"title": "MultiScaleTreeGraph.jl: Read, write, analyze, compute and plot multi-scale tree graph files",
-		"URL": "https://doi.org/10.5281/zenodo.5654676",
-		"DOI": "https://doi.org/10.5281/zenodo.5654676",		
-		"version": "v0.5.0",
-		"author": [
-			{
-				"family": "Vezy",
-				"given": "Rémi"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022",
-					3
 				]
 			]
 		}
