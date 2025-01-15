@@ -10,7 +10,7 @@ const RESUME_DATA = {
     title: "Researcher in plant modelling",
     about: "Researcher in plant modelling, manager of the FSPM research theme @UmrAmap.",
     summary: {
-      first: `I specialize in building process-based plant models with the aim of bringing scientific knowledge closer to everyday farming. Working at the AMAP lab in CIRAD, I focus on crops like oil palm 🌴, cacao 🍫, and coffee ☕—always keeping an eye on how these models can truly help farmers and researchers.`,
+      first: `I specialize in building process-based plant models with the aim of bringing scientific knowledge closer to everyday farming. Working at the AMAP lab in CIRAD, I focus on crops like oil palm 🌴, cacao 🍫, and coffee ☕—always keeping an eye on how models can truly help farmers and researchers.`,
       second: `My work involves collecting high-quality data using innovative methods like whole-plant flux chambers and lidar, then calibrating and refining the models so they accurately reflect the complex realities of plant growth. From mixed cropping 🌱🌽 to agroforestry 🫑🌳🥬 systems, I strive to make each insight not just scientifically sound but genuinely useful in the field.`,
       third: `Ultimately, I want these models—and the software I develop around them—to guide better decisions about resource use and yield forecasts. By keeping my models grounded in real-world needs, I hope to do my part in feeding both today’s and tomorrow’s humanity.`,
     },
