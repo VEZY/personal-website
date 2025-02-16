@@ -1,5 +1,83 @@
 [
 	{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/GNTRXEBE",
+		"type": "article-journal",
+		"abstract": "Cereal-legume intercrops have numerous advantages over monocultures. However, the intercrop’s performance depends on the plant genotypes, management, and environment. Process-based agro-ecosystem models are important tools to evaluate the performance of intercrop systems as field experiments are limited in the number of treatments. The objective of this study was to calibrate and evaluate a new process-based intercrop model using an extensive experimental data set and to test whether the model is suitable for comparing intercrop management strategies. The data set includes all combinations of 12 different spring wheat entries (SW, Triticum aestivum L.) with two faba bean (FB, Vicia faba L.) cultivars, at two sowing densities, in three different environments. The results show that the intercrop model was capable of simulating the absolute mixture (intercrop) effects (AME) for grain yield, above-ground biomass, and topsoil root biomass, for both crops. However, the intercrop model does not perform better than a benchmark that ignores the intercrop effects when simulating plant height, fraction of intercepted radiation, volumetric soil water content, and subsoil root biomass. The intercrop model predicted reasonably well the differences between species and between SW cultivars for grain yield and aboveground plant biomass. Overall, the tested process-based model can be a useful tool for designing and pre-evaluation multiple combinations of crop management, species, and cultivars suitable for intercropping in diverse conditions.",
+		"container-title": "Agriculture, Ecosystems & Environment",
+		"DOI": "10.1016/j.agee.2024.109302",
+		"ISSN": "0167-8809",
+		"journalAbbreviation": "Agriculture, Ecosystems & Environment",
+		"page": "109302",
+		"source": "ScienceDirect",
+		"title": "Evaluating a new intercrop model for capturing mixture effects with an extensive intercrop dataset",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0167880924004201",
+		"volume": "378",
+		"author": [
+			{
+				"family": "Demie",
+				"given": "Dereje T."
+			},
+			{
+				"family": "Wallach",
+				"given": "Daniel"
+			},
+			{
+				"family": "Döring",
+				"given": "Thomas F."
+			},
+			{
+				"family": "Ewert",
+				"given": "Frank"
+			},
+			{
+				"family": "Gaiser",
+				"given": "Thomas"
+			},
+			{
+				"family": "Hadir",
+				"given": "Sofia"
+			},
+			{
+				"family": "Krauss",
+				"given": "Gunther"
+			},
+			{
+				"family": "Paul",
+				"given": "Madhuri"
+			},
+			{
+				"family": "Hernández-Ochoa",
+				"given": "Ixchel M."
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Seidel",
+				"given": "Sabine J."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/IEY4XFJ5",
 		"type": "article-journal",
 		"abstract": "Theobroma cacao, a tropical cauliflorous fruit tree, typically produces flowers and fruits twice a year and exhibits alternate harvesting patterns over consecutive six-monthly seasons in regions with bi-modal rainfall distribution, such as Côte d'Ivoire. This study investigated seasonal variations in flowering and fruiting among trees in populations of mixed cacao genotypes. The intensities of crown and trunk flowering and pod production were monitored for eight consecutive six-monthly seasons on 114 adult cacao trees grown from seedlings. We investigated distributions of seasonal flowering and fruiting values, relationships between flowering and pod production, and the effects of seasonal cumulative rainfall. The patterns of seasonal flowering and fruiting series were analyzed using two descriptors: the first distinguishing between regular and variable patterns, and the second analyzing the structure of such variability, classifying it as either irregular or alternating. Despite being subjected to similar climate and agronomic management, individual trees exhibited highly variable flowering and fruiting behaviors within each season, as well as variable patterns of flowering and fruiting across seasons. Seasonal alternate fruiting on a population scale masked highly variable patterns among trees, and only 19 % of the trees exhibited marked alternate fruiting patterns. Variations in pod production on a tree scale were mainly related to variations in trunk flowering. Endogenous factors seemed to control seasonal variations in flowering and fruiting, even though exogenous factors, both climatic and agronomic, could structure flowering and fruiting patterns at the orchard scale.",
@@ -1080,40 +1158,6 @@
 		}
 	},
 	{
-		"id": "Vezy_SticsRPacks_Easily_Install_2021",
-		"type": "software",
-		"license": "All rights reserved",
-		"publisher": "Zenodo",
-		"title": "SticsRPacks: Easily install and load `SticsRPacks` packages",
-		"DOI": "https://doi.org/10.5281/zenodo.4448690",
-		"URL": "https://github.com/SticsRPacks/SticsRPacks, https://doi.org/10.5281/zenodo.4448690",
-		"author": [
-			{
-				"family": "Vezy",
-				"given": "Rémi"
-			},
-			{
-				"family": "Buis",
-				"given": "Samuel"
-			},
-			{
-				"family": "Lecharpentier",
-				"given": "Patrice"
-			},
-			{
-				"family": "Giner",
-				"given": "Michel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/6082108/items/RSBKZJX8",
 		"type": "software",
 		"license": "All rights reserved",
@@ -1722,31 +1766,6 @@
 				[
 					"2022",
 					8
-				]
-			]
-		}
-	},
-	{
-		"id": "vezy_Rémi_2022_7004348",
-		"type": "software",
-		"license": "All rights reserved",
-		"note": "DOI: 10.5281/zenodo.7004348",
-		"publisher": "Zenodo",
-		"title": "MultiScaleTreeGraph.jl: Read, write, analyze, compute and plot multi-scale tree graph files",
-		"URL": "https://doi.org/10.5281/zenodo.5654676",
-		"DOI": "https://doi.org/10.5281/zenodo.5654676",		
-		"version": "v0.5.0",
-		"author": [
-			{
-				"family": "Vezy",
-				"given": "Rémi"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022",
-					3
 				]
 			]
 		}

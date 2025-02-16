@@ -10,9 +10,9 @@ const RESUME_DATA = {
     title: "Researcher in plant modelling",
     about: "Researcher in plant modelling, manager of the FSPM research theme @UmrAmap.",
     summary: {
-      first: `I'm a researcher at the AMAP lab in CIRAD, specializing in plant modeling. I focus on agronomy and develop models that help us understand how plants grow and produce based on their environment and how they're managed.`,
-      second: `My research primarily deals with perennial crops like oil palm 🌴, cacao 🍫, and coffee ☕. I also explore mixed cropping systems 🌱🌽 and agroforestry 🫑🌳🥬, aiming to improve sustainable farming practices. I use innovative methods like whole-plant flux chambers and lidar to measure and study plants.`,
-      third: `By creating and testing these models, I develop new ideas about plant functions and find better ways to manage crops. I also create my own software to support this work, ensuring that my models are as accurate and useful as possible.`,
+      first: `I specialize in building process-based plant models with the aim of bringing scientific knowledge closer to everyday farming. Working at the AMAP lab in CIRAD, I focus on crops like oil palm 🌴, cacao 🍫, and coffee ☕—always keeping an eye on how models can truly help farmers and researchers.`,
+      second: `My work involves collecting high-quality data using innovative methods like whole-plant flux chambers and lidar, then calibrating and refining the models so they accurately reflect the complex realities of plant growth. From mixed cropping 🌱🌽 to agroforestry 🫑🌳🥬 systems, I strive to make each insight not just scientifically sound but genuinely useful in the field.`,
+      third: `Ultimately, I want these models—and the software I develop around them—to guide better decisions about resource use and yield forecasts. By keeping my models grounded in real-world needs, I hope to do my part in feeding both today’s and tomorrow’s humanity.`,
     },
     contact: {
       email: "remi.vezy@cirad.fr",
