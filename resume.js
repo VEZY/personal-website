@@ -8,11 +8,11 @@ const RESUME_DATA = {
     location: "Montpellier, France, UTC+2",
     locationLink: "https://www.google.com/maps/place/Montpellier",
     title: "Researcher in plant modelling",
-    about: "Researcher in plant modelling, manager of the FSPM research theme @UmrAmap.",
+    about: `Researcher in plant modelling and digital twins <a href="https://amap.cirad.fr/en/index.php" class="underline hover:text-accent-foreground" >@UmrAmap</a>.`,
     summary: {
-      first: `I specialize in building process-based plant models with the aim of bringing scientific knowledge closer to everyday farming. Working at the AMAP lab in CIRAD, I focus on crops like oil palm 🌴, cacao 🍫, and coffee ☕—always keeping an eye on how models can truly help farmers and researchers.`,
-      second: `My work involves collecting high-quality data using innovative methods like whole-plant flux chambers and lidar, then calibrating and refining the models so they accurately reflect the complex realities of plant growth. From mixed cropping 🌱🌽 to agroforestry 🫑🌳🥬 systems, I strive to make each insight not just scientifically sound but genuinely useful in the field.`,
-      third: `Ultimately, I want these models—and the software I develop around them—to guide better decisions about resource use and yield forecasts. By keeping my models grounded in real-world needs, I hope to do my part in feeding both today’s and tomorrow’s humanity.`,
+      first: `I specialize in plant growth modeling, predicting plant development and yield based on genotype, environment, and management (<strong>G×E×M</strong>). My work bridges <strong>ecophysiology, agronomy, and computational modeling</strong> to better understand plant function and architecture.`,
+      second: `A key focus of my research is <strong>digital twins</strong> —virtual models that replicate real plant systems to test hypotheses, predict responses, and optimize management strategies. By integrating high-resolution data acquisition (<em>lidar, gas exchanges</em>...) with <a class="underline hover:text-accent-foreground" href="https://virtualplantlab.github.io/PlantSimEngine.jl/stable/">cutting-edge modeling frameworks</a>, I aim to make simulations both realistic and actionable.`,
+      third: `Driven by a passion for sustainability and technology, I develop tools that enhance resource efficiency, improve yield, and strengthen resilience, ensuring that research translates into tangible benefits for growers and stakeholders.`,
     },
     contact: {
       email: "remi.vezy@cirad.fr",
