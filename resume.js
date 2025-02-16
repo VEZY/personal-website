@@ -105,7 +105,25 @@ const RESUME_DATA = {
       "Arduino",
     ],
     projects: [
-        {
+      {
+        title: "Galileo",
+        tags: [
+          "EU Horizon",
+          "7M€",
+          "STICS",
+          "lidar",
+          "architecture",
+        ],
+        description: "Strengthening rural livelihoods and resilience to climate change in Africa: innovative agroforestry integrating people, trees, crops and livestock.",
+        link: {
+          label: "https://cordis.europa.eu",
+          href: "https://cordis.europa.eu/project/id/101181623",
+        },
+        logo: "./media/projects/galileo.jpeg",
+        start: "2025",
+        end: "2028",
+      },
+      {
             title: "IntercropValuES",
             tags: [
               "EU Horizon",
