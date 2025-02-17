@@ -162,7 +162,7 @@ const RESUME_DATA = {
         tags: ["Private sector", "0.4M€", "FSPM"],
         description:
           "Developing a functional-structural plant model for oil palm (Elaeis guineensis).",
-        logo: "./media/projects/palmstudio.png",
+        logo: "./media/projects/palmstudio.jpg",
         link: {
           label: "github.com",
           href: "https://github.com/PalmStudio",
