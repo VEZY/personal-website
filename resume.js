@@ -116,8 +116,8 @@ const RESUME_DATA = {
         ],
         description: "Strengthening rural livelihoods and resilience to climate change in Africa: innovative agroforestry integrating people, trees, crops and livestock.",
         link: {
-          label: "https://cordis.europa.eu",
-          href: "https://cordis.europa.eu/project/id/101181623",
+          label: "https://galileo-project.eu",
+          href: "https://galileo-project.eu/",
         },
         logo: "./media/projects/galileo.jpeg",
         start: "2025",
