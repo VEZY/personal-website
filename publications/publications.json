@@ -1,4 +1,47 @@
 [
+		{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/4ZJ4J9K7",
+		"type": "paper-conference",
+		"container-title": "Acta Horticulturae",
+		"DOI": "10.17660/ActaHortic.2025.1423.9",
+		"ISBN": "2406-6168",
+		"note": "issue: 1423\njournalAbbreviation: ActaHortic.",
+		"page": "61-68",
+		"publisher": "International Society for Horticultural Science (ISHS), Leuven, Belgium",
+		"title": "Effects of light intensity on growth and flowering of the cauliflorous species Theobroma cacao",
+		"URL": "https://doi.org/10.17660/ActaHortic.2025.1423.9",
+		"author": [
+			{
+				"family": "Wibaux",
+				"given": "Thomas"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Pondo Kouakou",
+				"given": "Olsen"
+			},
+			{
+				"family": "M'Bo Kacou",
+				"given": "Antoine Alban"
+			},
+			{
+				"family": "Lauri",
+				"given": "Pierre-Eric"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					3,
+					31
+				]
+			]
+		}
+	},
 	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/GNTRXEBE",
 		"type": "article-journal",
