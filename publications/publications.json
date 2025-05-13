@@ -1,5 +1,59 @@
 [
-		{
+	{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/BQZFQ3R3",
+		"type": "article-journal",
+		"abstract": "The Virtual Plant Laboratory (VPL) is a software for building, simulating, and visualizing functional-structural plant (FSP) models. FSP models focus on the interactions between plant structure, internal physiological processes, and the biotic and abiotic environment. VPL is built in the Julia programming language and is designed to be a flexible and extensible platform for FSP modeling. Using Julia brings the advantage that only one programming language is required for the whole modeling cycle as Julia is as fast as compiled languages but also dynamic as interpreted languages. VPL provides a graph rewriting system for building dynamic models of plant growth and development, an interactive 3D visualization system and a Monte Carlo ray tracer for simulating light interception by plant canopies. In this paper, we introduce VPL, highlighting the main components, modeling paradigms, and design decisions behind it, as well as a future roadmap for further development. We also present a model for intercropping of legumes and cereals that was built fully with VPL, as an example of what can be built with this software. VPL is open source and available in all common operating systems for anyone to use. Full documentation and tutorials are available at https://virtualplantlab.com.",
+		"container-title": "in silico Plants",
+		"DOI": "10.1093/insilicoplants/diaf005",
+		"ISSN": "2517-5025",
+		"journalAbbreviation": "in silico Plants",
+		"page": "diaf005",
+		"source": "Silverchair",
+		"title": "The Virtual Plant Laboratory: a modern plant modeling framework in Julia",
+		"title-short": "The Virtual Plant Laboratory",
+		"URL": "https://doi.org/10.1093/insilicoplants/diaf005",
+		"author": [
+			{
+				"family": "Morales",
+				"given": "Alejandro"
+			},
+			{
+				"family": "Kottelenberg",
+				"given": "David B"
+			},
+			{
+				"family": "Ernst",
+				"given": "Ana"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Evers",
+				"given": "Jochem B"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					28
+				]
+			]
+		}
+	},	
+	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/4ZJ4J9K7",
 		"type": "article-journal",
 		"container-title": "Acta Horticulturae",
