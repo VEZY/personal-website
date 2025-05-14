@@ -1,5 +1,64 @@
 [
 	{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/5JVCYURN",
+		"type": "article-journal",
+		"abstract": "CONTEXT\nClimate change may lead to negative impacts on coffee production, such as reduced yields. Addressing this issue requires identifying climate risks and assessing the adaptation potential of agronomic practices across spatial and environmental gradients.\nOBJECTIVE\nThis study aimed to evaluate climate change impacts on arabica coffee yields at continental scale and evaluate a specific adaptation measure, i.e. increasing shade tree density in agroforestry settings, by simulating the physiological links between coffee growth, climatic factors and agronomic management.\nMETHODS\nAfter evaluating the performance of the process-based model DynACof in simulating arabica yields (using data from previous studies), we developed a new tool called G-DynACof, a modelling framework for spatializing DynACof on a regional scale using extensive climate projections and soil geodata. We used G-DynACof to simulate trends of potential coffee yields in Latin America and Africa using an ensemble of downscaled and bias-corrected climate projections for the period 2036–2065 compared to a historical period 1985–2014.\nRESULTS AND CONCLUSIONS\nDespite considerable uncertainties due to the scarcity of information on agronomic management at the regional scale, our results indicate that potential yields could decrease between 23 % and 35 % in Latin America and between 16 % and 21 % in Africa, depending on the Shared Socioeconomic Pathway (SSP) considered (SSP1–2.6 and SSP5–8.5, respectively). Yield variations were very heterogeneous in space, with yields increasing at high altitudes and low latitudes, indicating a possible future shift of production areas. In our simulations, the effect of increased shade tree density on productivity was also spatially variable, and its potential for adaptation to climate change remains uncertain, requiring further investigation.\nSIGNIFICANCE\nImpact analyses and adaptation modelling of coffee agrosystems, together with socio-economic indicators, can delineate realistic, comprehensive, integrated risk assessments and support effective adaptation recommendations.",
+		"container-title": "Agricultural Systems",
+		"DOI": "10.1016/j.agsy.2025.104353",
+		"ISSN": "0308-521X",
+		"journalAbbreviation": "Agricultural Systems",
+		"page": "104353",
+		"source": "ScienceDirect",
+		"title": "Projecting trends of arabica coffee yield under climate change: A process-based modelling study at continental scale",
+		"title-short": "Projecting trends of arabica coffee yield under climate change",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0308521X25000939",
+		"volume": "227",
+		"author": [
+			{
+				"family": "Della Peruta",
+				"given": "Raniero"
+			},
+			{
+				"family": "Mereu",
+				"given": "Valentina"
+			},
+			{
+				"family": "Spano",
+				"given": "Donatella"
+			},
+			{
+				"family": "Marras",
+				"given": "Serena"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Trabucco",
+				"given": "Antonio"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/BQZFQ3R3",
 		"type": "article-journal",
 		"abstract": "The Virtual Plant Laboratory (VPL) is a software for building, simulating, and visualizing functional-structural plant (FSP) models. FSP models focus on the interactions between plant structure, internal physiological processes, and the biotic and abiotic environment. VPL is built in the Julia programming language and is designed to be a flexible and extensible platform for FSP modeling. Using Julia brings the advantage that only one programming language is required for the whole modeling cycle as Julia is as fast as compiled languages but also dynamic as interpreted languages. VPL provides a graph rewriting system for building dynamic models of plant growth and development, an interactive 3D visualization system and a Monte Carlo ray tracer for simulating light interception by plant canopies. In this paper, we introduce VPL, highlighting the main components, modeling paradigms, and design decisions behind it, as well as a future roadmap for further development. We also present a model for intercropping of legumes and cereals that was built fully with VPL, as an example of what can be built with this software. VPL is open source and available in all common operating systems for anyone to use. Full documentation and tutorials are available at https://virtualplantlab.com.",
