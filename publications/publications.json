@@ -1,5 +1,57 @@
 [
 	{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/N6X3DZFU",
+		"type": "article-journal",
+		"abstract": "Theobroma cacao L., a tropical sciaphilous tree, exhibits cauliflory, with persistent flowering sites known as flower cushions. Cushions develop from floral buds located at the axils of leaves or cataphylls. They can sustain recurrent flowering and contribute to the tree's fruit production throughout its lifespan. However, factors influencing their formation and flowering activity remain poorly understood.Architectural and geometrical measurements, combined with weekly monitoring of flowering activity at the node scale, were conducted on plagiotropic branches of two cacao genotypes under medium and heavy shade. We investigated how architecture and geometry influence cushion formation, frequency and duration of flowering episodes, and synchrony of flowering among cushions at different scales.Flower cushions developed once a flush (growth unit) had reached a specific ontogenetic age, defined by its position along the shoot (axis). The probability of flower cushion formation was then primarily determined by the node’s (phytomer) position within the flush and its basal diameter. Heavy shade (90% light reduction) greatly limited cushion formation, irrespective of the architectural traits or growth characteristics of the node, flush or shoot. In contrast, the temporal activity of the flower cushions was not related to architectural or geometrical factors, and flowering occurred with moderate synchrony at the growth unit, axis, and branch scales.These findings indicate the dual importance of shoot ontogeny and node-specific traits in flower cushion formation in this cauliflorous species. They also demonstrate the overall negative influence of heavy shade on flower cushion development, and the absence of architectural constraints on the flowering activity of cushions during the tree’s first reproductive phase. Further analyses are needed to better understand the hormonal and carbohydrate regulation of flowering and fruiting in productive trees of this cauliflorous species.",
+		"container-title": "Annals of Botany",
+		"DOI": "10.1093/aob/mcaf107",
+		"ISSN": "0305-7364",
+		"journalAbbreviation": "Annals of Botany",
+		"page": "mcaf107",
+		"title": "A spatial perspective on flowering in cauliflorous cacao: architecture defines flower cushion location, not its early activity",
+		"URL": "https://doi.org/10.1093/aob/mcaf107",
+		"author": [
+			{
+				"family": "Wibaux",
+				"given": "T"
+			},
+			{
+				"family": "Lauri",
+				"given": "P-É"
+			},
+			{
+				"family": "M’Bo Kacou",
+				"given": "A A"
+			},
+			{
+				"family": "Kouakou",
+				"given": "O Pondo"
+			},
+			{
+				"family": "Vezy",
+				"given": "R"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					10,
+					6
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					6,
+					10
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/5JVCYURN",
 		"type": "article-journal",
 		"abstract": "CONTEXT\nClimate change may lead to negative impacts on coffee production, such as reduced yields. Addressing this issue requires identifying climate risks and assessing the adaptation potential of agronomic practices across spatial and environmental gradients.\nOBJECTIVE\nThis study aimed to evaluate climate change impacts on arabica coffee yields at continental scale and evaluate a specific adaptation measure, i.e. increasing shade tree density in agroforestry settings, by simulating the physiological links between coffee growth, climatic factors and agronomic management.\nMETHODS\nAfter evaluating the performance of the process-based model DynACof in simulating arabica yields (using data from previous studies), we developed a new tool called G-DynACof, a modelling framework for spatializing DynACof on a regional scale using extensive climate projections and soil geodata. We used G-DynACof to simulate trends of potential coffee yields in Latin America and Africa using an ensemble of downscaled and bias-corrected climate projections for the period 2036–2065 compared to a historical period 1985–2014.\nRESULTS AND CONCLUSIONS\nDespite considerable uncertainties due to the scarcity of information on agronomic management at the regional scale, our results indicate that potential yields could decrease between 23 % and 35 % in Latin America and between 16 % and 21 % in Africa, depending on the Shared Socioeconomic Pathway (SSP) considered (SSP1–2.6 and SSP5–8.5, respectively). Yield variations were very heterogeneous in space, with yields increasing at high altitudes and low latitudes, indicating a possible future shift of production areas. In our simulations, the effect of increased shade tree density on productivity was also spatially variable, and its potential for adaptation to climate change remains uncertain, requiring further investigation.\nSIGNIFICANCE\nImpact analyses and adaptation modelling of coffee agrosystems, together with socio-economic indicators, can delineate realistic, comprehensive, integrated risk assessments and support effective adaptation recommendations.",
@@ -111,7 +163,7 @@
 				]
 			]
 		}
-	},	
+	},
 	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/4ZJ4J9K7",
 		"type": "article-journal",
@@ -1440,7 +1492,7 @@
 		"license": "All rights reserved",
 		"title": "SticsRPacks: Easily Install and Load `SticsRPacks` Packages",
 		"URL": "https://github.com/SticsRPacks/SticsRPacks",
-		"DOI":"https://doi.org/10.5281/zenodo.10798206",
+		"DOI": "https://doi.org/10.5281/zenodo.10798206",
 		"version": "0.4.0",
 		"publisher": "Zenodo",
 		"author": [
