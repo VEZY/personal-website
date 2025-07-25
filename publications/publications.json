@@ -1,5 +1,76 @@
 [
 	{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/8XXVIMHG",
+		"type": "article-journal",
+		"abstract": "Agroforestry systems might contribute to balance some of the production, environmental and social challenges associated with agricultural intensification in tropical regions. However, the intricate functional dynamics within agroecosystems, combined with their diverse objectives, make it difficult to maximise productivity and identifying factors that constrain crop yields. Canopy structural traits strongly influence light distribution in agroforestry systems, affecting crop variability in light-use efficiency and productivity. Yet, information on 3D vegetation structure in agroforestry systems remains scarce, despite its potential to provide valuable information to better understand the functional complexity of these systems. Our workflow overcome this limitation by incorporating Terrestrial Laser Scanning (TLS) technology and a voxelization approach for light ray tracing (AMAPVox). In this context, this study aims to determine how TLS data, processed using a voxelization approach, can be applied in multi-strata agroforestry systems to quantify the three-dimensional (3D) distribution of Plant Area Density (PAD) across vegetation strata and the total Plant Area Index (PAI). We used detailed multi-scan voxelized data from 28 experimental plots established in Côte d’Ivoire with different species compositions and planting arrangements to quantify the 3D distribution of PAD and key structural traits (PAI, light attenuation and transmittance) at multiple spatial resolutions. Validation with estimates of light measurements based on hemispherical photographs at tree level showed a high level of concordance (R2 > 0.42; p-value < 0.05) in estimating plant area index (PAI). Species composition, rather than planting arrangement, notably influenced the vertical distribution of PAD and canopy structural traits. PAI in the plots ranged from 4.94 m2 m−2 to 22.31 m2 m−2. The proposed approach, using TLS data and a voxel-based methodology, enables high-resolution modelling of canopy structural traits in multi-strata agroforestry systems. These results provide highly detailed measurements of key crop yield indicators, allowing decision support to develop management activities that increase crop production while minimising inputs and maintaining ecosystem services.",
+		"container-title": "Computers and Electronics in Agriculture",
+		"DOI": "10.1016/j.compag.2025.110795",
+		"ISSN": "0168-1699",
+		"journalAbbreviation": "Computers and Electronics in Agriculture",
+		"page": "110795",
+		"source": "ScienceDirect",
+		"title": "Quantifying canopy structural traits in agroforestry systems through Terrestrial Laser Scanning: A case study in cocoa-based agroforestry systems",
+		"title-short": "Quantifying canopy structural traits in agroforestry systems through Terrestrial Laser Scanning",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0168169925009019",
+		"volume": "238",
+		"author": [
+			{
+				"family": "Ariza-Salamanca",
+				"given": "Antonio Jesús"
+			},
+			{
+				"family": "González-Moreno",
+				"given": "Pablo"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Peynaud",
+				"given": "Emilie"
+			},
+			{
+				"family": "Palacios-Rodríguez",
+				"given": "Guillermo"
+			},
+			{
+				"family": "Lara-Gómez",
+				"given": "Miguel Ángel"
+			},
+			{
+				"family": "Crozier",
+				"given": "Jayne"
+			},
+			{
+				"family": "Stirling",
+				"given": "Clare"
+			},
+			{
+				"family": "Navarro-Cerrillo",
+				"given": "Rafael Mª"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					7,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					11,
+					1
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/N6X3DZFU",
 		"type": "article-journal",
 		"abstract": "Theobroma cacao L., a tropical sciaphilous tree, exhibits cauliflory, with persistent flowering sites known as flower cushions. Cushions develop from floral buds located at the axils of leaves or cataphylls. They can sustain recurrent flowering and contribute to the tree's fruit production throughout its lifespan. However, factors influencing their formation and flowering activity remain poorly understood.Architectural and geometrical measurements, combined with weekly monitoring of flowering activity at the node scale, were conducted on plagiotropic branches of two cacao genotypes under medium and heavy shade. We investigated how architecture and geometry influence cushion formation, frequency and duration of flowering episodes, and synchrony of flowering among cushions at different scales.Flower cushions developed once a flush (growth unit) had reached a specific ontogenetic age, defined by its position along the shoot (axis). The probability of flower cushion formation was then primarily determined by the node’s (phytomer) position within the flush and its basal diameter. Heavy shade (90% light reduction) greatly limited cushion formation, irrespective of the architectural traits or growth characteristics of the node, flush or shoot. In contrast, the temporal activity of the flower cushions was not related to architectural or geometrical factors, and flowering occurred with moderate synchrony at the growth unit, axis, and branch scales.These findings indicate the dual importance of shoot ontogeny and node-specific traits in flower cushion formation in this cauliflorous species. They also demonstrate the overall negative influence of heavy shade on flower cushion development, and the absence of architectural constraints on the flowering activity of cushions during the tree’s first reproductive phase. Further analyses are needed to better understand the hormonal and carbohydrate regulation of flowering and fruiting in productive trees of this cauliflorous species.",
