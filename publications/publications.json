@@ -1,5 +1,109 @@
 [
 	{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/TXVGDNRN",
+		"type": "article-journal",
+		"abstract": "Faidherbia albida is known to affect the yield of various crops, typically in a pattern where the impact decreases with increasing distance from the tree. While several studies have investigated the spatial extent of this effect, limited research has explored how this distance varies across different crops or its relationship with crop yield and the Land Equivalent Ratio. In this study, we used a geostatistical approach combined with multispectral UAV (Unmanned Aerial Vehicle) imagery to address these gaps in understanding. The results showed that, in contrast to its tripling effect on millet yield, F. albida does not have a significant impact on groundnut pod yield, it only improves its haulm yield under its crown by about 50 %. The geostatistical analysis showed that F. albida affects the groundnut crop up to 9.8-m, compared to 18-m for millet. Yield upscaling from subplots to the whole plot was achieved with an error of 8 % for groundnut pod yield and 13 % for haulm yield. Groundnut’s partial Land Equivalent Ratio (LERcp) was 1.02 for pod yield and 1.05 for haulm yield, which was lower than the LERcp for millet. We concluded that the distance at which agroforestry trees influence crops is a reliable predictor of their effect on yield and Land Equivalent Ratio. This approach offers a promising tool for future agroforestry studies, potentially guiding crop management strategies in agroforestry systems.",
+		"container-title": "Agriculture, Ecosystems & Environment",
+		"DOI": "10.1016/j.agee.2025.109918",
+		"ISSN": "0167-8809",
+		"journalAbbreviation": "Agriculture, Ecosystems & Environment",
+		"page": "109918",
+		"source": "ScienceDirect",
+		"title": "Proxydetection of the impact distance of trees on crops: An indicator of the Land Equivalent Ratio?",
+		"title-short": "Proxydetection of the impact distance of trees on crops",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0167880925004505",
+		"volume": "394",
+		"author": [
+			{
+				"family": "Agbohessou",
+				"given": "Yélognissè"
+			},
+			{
+				"family": "Audebert",
+				"given": "Alain"
+			},
+			{
+				"family": "Ndour",
+				"given": "Adama"
+			},
+			{
+				"family": "Leroux",
+				"given": "Louise"
+			},
+			{
+				"family": "Jourdan",
+				"given": "Christophe"
+			},
+			{
+				"family": "Clermont-Dauphin",
+				"given": "Cathy"
+			},
+			{
+				"family": "Sow",
+				"given": "Sidy"
+			},
+			{
+				"family": "Pierre",
+				"given": "Caroline"
+			},
+			{
+				"family": "Taugourdeau",
+				"given": "Simon"
+			},
+			{
+				"family": "Sarr",
+				"given": "Mame Sokhna"
+			},
+			{
+				"family": "Diatta",
+				"given": "Sekouna"
+			},
+			{
+				"family": "Sanogo",
+				"given": "Diaminatou"
+			},
+			{
+				"family": "Seghieri",
+				"given": "Josiane"
+			},
+			{
+				"family": "Maire",
+				"given": "Guerric",
+				"non-dropping-particle": "le"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Fonceka",
+				"given": "Daniel"
+			},
+			{
+				"family": "Roupsard",
+				"given": "Olivier"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					18
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					12,
+					1
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/8XXVIMHG",
 		"type": "article-journal",
 		"abstract": "Agroforestry systems might contribute to balance some of the production, environmental and social challenges associated with agricultural intensification in tropical regions. However, the intricate functional dynamics within agroecosystems, combined with their diverse objectives, make it difficult to maximise productivity and identifying factors that constrain crop yields. Canopy structural traits strongly influence light distribution in agroforestry systems, affecting crop variability in light-use efficiency and productivity. Yet, information on 3D vegetation structure in agroforestry systems remains scarce, despite its potential to provide valuable information to better understand the functional complexity of these systems. Our workflow overcome this limitation by incorporating Terrestrial Laser Scanning (TLS) technology and a voxelization approach for light ray tracing (AMAPVox). In this context, this study aims to determine how TLS data, processed using a voxelization approach, can be applied in multi-strata agroforestry systems to quantify the three-dimensional (3D) distribution of Plant Area Density (PAD) across vegetation strata and the total Plant Area Index (PAI). We used detailed multi-scan voxelized data from 28 experimental plots established in Côte d’Ivoire with different species compositions and planting arrangements to quantify the 3D distribution of PAD and key structural traits (PAI, light attenuation and transmittance) at multiple spatial resolutions. Validation with estimates of light measurements based on hemispherical photographs at tree level showed a high level of concordance (R2 > 0.42; p-value < 0.05) in estimating plant area index (PAI). Species composition, rather than planting arrangement, notably influenced the vertical distribution of PAD and canopy structural traits. PAI in the plots ranged from 4.94 m2 m−2 to 22.31 m2 m−2. The proposed approach, using TLS data and a voxel-based methodology, enables high-resolution modelling of canopy structural traits in multi-strata agroforestry systems. These results provide highly detailed measurements of key crop yield indicators, allowing decision support to develop management activities that increase crop production while minimising inputs and maintaining ecosystem services.",
