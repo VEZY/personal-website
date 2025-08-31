@@ -33,7 +33,7 @@ function formatProject(project) {
             <div class="flex flex-col space-y-1.5">
                 <div class="space-y-1">
                         <h3 class="font-semibold tracking-tight text-base">
-                            <a href="${project.link.href}" target="_blank"
+                            <a href="${project.link.href}" target="_blank" rel="noopener noreferrer"
                                 class="inline-flex items-center gap-1 hover:underline">${project.title}
     `;
 
@@ -50,7 +50,7 @@ function formatProject(project) {
                     <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
                     </div>
                 <div class="hidden font-mono text-xs underline print:visible">${project.link.label}</div>
-                <img class="project__logo" src=${project.logo} alt="${project.title} logo" />
+                <img class="project__logo" src=${project.logo} alt="${project.title} logo" loading="lazy" decoding="async" />
                 <p class="text-muted-foreground font-mono text-xs">${project.description}</p>
             </div>
         </div>

@@ -78,17 +78,35 @@ fetchJSON('./publications/publications.json').then((publications) => {
     }
 
     document.querySelectorAll('.toggle-publications').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault();
+        // Make toggle keyboard accessible
+        button.setAttribute('tabindex', '0');
+        button.setAttribute('role', 'button');
+        button.setAttribute('aria-expanded', 'false');
+
+        const toggle = () => {
             const container = button.nextElementSibling;
             button.classList.toggle('open');
             container.classList.toggle('open');
+            const expanded = container.classList.contains('open');
+            button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        };
+
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            toggle();
         });
 
-        fetchJSON('./publications/author_stats.json').then((stats) => {
-            document.querySelectorAll('.science-stats').forEach((element) => {
-                element.innerHTML = getScienceStatsHTML(stats, nArticles);
-            });
+        button.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                toggle();
+            }
+        });
+    });
+
+    fetchJSON('./publications/author_stats.json').then((stats) => {
+        document.querySelectorAll('.science-stats').forEach((element) => {
+            element.innerHTML = getScienceStatsHTML(stats, nArticles);
         });
     });
 });
@@ -173,7 +191,7 @@ function createPublicationHTML(publication) {
             <div class="flex items-center justify-between gap-x-2 text-base">
                 <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">
                     <div class="font-semibold">
-                        ${journal} <a href="${doi.link}" class="hover:underline font-medium" target="_blank">${doi.reference}</a>
+                        ${journal} <a href="${doi.link}" class="hover:underline font-medium" target="_blank" rel="noopener noreferrer">${doi.reference}</a>
                     </div>    
                 </div>    
                 <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">${year}</div>
