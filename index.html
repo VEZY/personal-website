@@ -59,12 +59,13 @@
         <section class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
             <div class="flex items-center justify-between">
                 <div class="flex-1 space-y-1.5">
-                    <h1 class="js-person text-2xl font-bold"></h1>
-                    <p class="js-about max-w-md text-pretty font-mono text-sm text-muted-foreground"></p>
-                    <div class="js-location max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
-                    </div>
-                    <div class="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden js-contacts"
-                        id="contacts">
+                    <h1 class="js-person text-2xl font-bold">Rémi Vezy</h1>
+                    <p class="js-about max-w-md text-pretty font-mono text-sm text-muted-foreground">Researcher in plant modelling and digital twins <a href="https://amap.cirad.fr/en/index.php" class="underline hover:text-accent-foreground">@UmrAmap</a>.</p>
+                    <div class="js-location max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">Montpellier, France, UTC+2</div>
+                    <div class="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden js-contacts" id="contacts">
+                        <a href="mailto:remi.vezy@cirad.fr" class="underline">remi.vezy@cirad.fr</a>
+                        <span aria-hidden="true">·</span>
+                        <a href="tel:+33467614455" class="underline">+33 4 67 61 44 55</a>
                     </div>
                 </div>
                 <div class="js-profile-picture relative flex shrink-0 overflow-hidden rounded-xl size-28"></div>
@@ -72,7 +73,11 @@
 
             <section id="about">
                 <h2 class="text-xl font-bold">About</h2>
-                <div class="js-summary text-pretty font-mono text-sm text-muted-foreground space-y-1.5"></div>
+                <div class="js-summary text-pretty font-mono text-sm text-muted-foreground space-y-1.5">
+                    <p>I specialize in plant growth modeling, predicting plant development and yield based on genotype, environment, and management (G×E×M). My work bridges ecophysiology, agronomy, and computational modeling to better understand plant function and architecture.</p>
+                    <p>A key focus of my research is digital twins —virtual models that replicate real plant systems to test hypotheses, predict responses, and optimize management strategies. By integrating high-resolution data acquisition (lidar, gas exchanges...) with cutting-edge modeling frameworks, I aim to make simulations both realistic and actionable.</p>
+                    <p>Driven by a passion for sustainability and technology, I develop tools that enhance resource efficiency, improve yield, and strengthen resilience, ensuring that research translates into tangible benefits for growers and stakeholders.</p>
+                </div>
             </section>
 
             <section id="experience" class="js-work flex min-h-0 flex-col gap-y-3">
