@@ -188,6 +188,7 @@ const RESUME_DATA = {
         description:
           "Carbon Sequestration and greenhouse gas emissions in agro-sylvopastoral ecosystems in the Sahelian CILSS States",
         role: "Participant",
+        referee: true,
         contribution: "Cirad advisor of the PhD of Moussa Diedhiou. Expertise on lidar data processing and analysis; plant architecture measurements and computations.",
         logo: "./media/projects/cassecs.jpg",
         link: {
