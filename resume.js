@@ -115,6 +115,10 @@ const RESUME_DATA = {
           "architecture",
         ],
         description: "Strengthening rural livelihoods and resilience to climate change in Africa: innovative agroforestry integrating people, trees, crops and livestock.",
+        role: "Participant",
+        workPackage: "6",
+        referee: true,
+        contribution: "Extraction of traits from lidar pointclouds for model calibration and validation; Developing STICS for coupling with tree models.",
         link: {
           label: "https://galileo-project.eu",
           href: "https://galileo-project.eu/",
@@ -132,6 +136,10 @@ const RESUME_DATA = {
               "FSPM",
             ],
             description: "Leverage intercropping to create productive, diverse, resilient, profitable, and eco-friendly cropping systems accepted by farmers and agri-food actors. 🌱🌾",
+            referee: true,
+            workPackage: "4",
+            // task: "4.1",
+            contribution: "Co-advisor of Oriane Braud's PhD.",
             link: {
               label: "intercropvalues.eu",
               href: "https://intercropvalues.eu/",
@@ -149,6 +157,8 @@ const RESUME_DATA = {
           "Julia",
         ],
         description: "Enhancing the sustainability of cocoa production in Ivory Coast and Ghana.",
+        role: "Participant",
+        contribution: "Co-advisor of Thomas Wibaux's PhD. Assistance on the plant architecture and ecophysiology measurement protocols. MTG computations.",
         link: {
           label: "cocoa4future.com",
           href: "https://www.cocoa4future.org/",
@@ -162,6 +172,8 @@ const RESUME_DATA = {
         tags: ["Private sector", "0.4M€", "FSPM"],
         description:
           "Developing a functional-structural plant model for oil palm (Elaeis guineensis).",
+        role: "PI",
+        contribution: "Primary developer of the modeling pipeline and measurements acquisitions (whole-plant flux chamber...); project management and coordination.",
         logo: "./media/projects/palmstudio.jpg",
         link: {
           label: "github.com",
@@ -175,6 +187,8 @@ const RESUME_DATA = {
         tags: ["EU DESIRA", "5.6M€", "lidar"],
         description:
           "Carbon Sequestration and greenhouse gas emissions in agro-sylvopastoral ecosystems in the Sahelian CILSS States",
+        role: "Participant",
+        contribution: "Cirad advisor of the PhD of Moussa Diedhiou. Expertise on lidar data processing and analysis; plant architecture measurements and computations.",
         logo: "./media/projects/cassecs.jpg",
         link: {
           label: "cassecs.org",
@@ -254,7 +268,7 @@ const RESUME_DATA = {
         title: "PlantSimEngine.jl",
         org: "VirtualPlantLab",
         tags: ["Julia", "FSPM", "simulation"],
-        description: "Composable engine for Functional-Structural Plant Models in Julia.",
+        description: "Modelling framework for Plants in Julia (crop and FSP models).",
         link: {
           label: "github.com/VirtualPlantLab/PlantSimEngine.jl",
           href: "https://github.com/VirtualPlantLab/PlantSimEngine.jl"
@@ -273,8 +287,8 @@ const RESUME_DATA = {
       {
         title: "PlantBiophysics.jl",
         org: "VEZY",
-        tags: ["Julia", "biophysics", "canopy"],
-        description: "Biophysical processes for plant and canopy modeling (radiation, gas exchange, energy).",
+        tags: ["Julia", "biophysics", "leaf", "canopy"],
+        description: "Calibration and simulation of biophysical processes (photosynthesis, conductance, energy balance...)",
         link: {
           label: "github.com/VEZY/PlantBiophysics.jl",
           href: "https://github.com/VEZY/PlantBiophysics.jl"
@@ -294,7 +308,7 @@ const RESUME_DATA = {
         title: "PlantGeom.jl",
         org: "VEZY",
         tags: ["Julia", "geometry", "3D"],
-        description: "Utilities for 3D plant geometry and mesh/voxel workflows.",
+        description: "Everything 3D for plants 🌱.",
         link: {
           label: "github.com/VEZY/PlantGeom.jl",
           href: "https://github.com/VEZY/PlantGeom.jl"
@@ -303,8 +317,8 @@ const RESUME_DATA = {
       {
         title: "PlantMeteo.jl",
         org: "PalmStudio",
-        tags: ["Julia", "meteorology", "forcing"],
-        description: "Meteorological utilities for plant modeling (forcing, gaps, transforms).",
+        tags: ["Julia", "meteorology"],
+        description: "Meteorological utilities for plant modeling (efficient data structures, pre-computations, database queries...).",
         link: {
           label: "github.com/PalmStudio/PlantMeteo.jl",
           href: "https://github.com/PalmStudio/PlantMeteo.jl"

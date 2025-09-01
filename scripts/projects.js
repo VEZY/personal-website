@@ -68,6 +68,35 @@ function formatProject(project) {
                 <div class="hidden font-mono text-xs underline print:visible">${project.link.label}</div>
                 <img class="project__logo" src=${project.logo} alt="${project.title} logo" loading="lazy" decoding="async" />
                 <p class="text-muted-foreground font-mono text-xs">${project.description}</p>
+                ${(() => {
+                    const hasDetails = Boolean(project.role || project.workPackage || project.task || project.referee || project.contribution);
+                    if (!hasDetails) return '';
+                    const roles = [];
+                    if (project.role) roles.push(project.role);
+                    if (project.workPackage) roles.push(`WP ${project.workPackage}`);
+                    if (project.task) roles.push(`Task ${project.task}`);
+                    if (project.referee) roles.push('Lab referee');
+
+                    let html = `
+                    <button class="project-popover-toggle" aria-expanded="false" aria-label="More details" type="button">i</button>
+                    <div class="project-popover" role="tooltip" aria-hidden="true">`;
+                    if (roles.length) {
+                      html += `
+                        <div class="project-popover__section">
+                          <div class="project-popover__section-title">Role</div>
+                          <div class="project-popover__roles">${roles.map(r => `<span class="role-chip">${r}</span>`).join('')}</div>
+                        </div>`;
+                    }
+                    if (project.contribution) {
+                      html += `
+                        <div class="project-popover__section">
+                          <div class="project-popover__section-title">Contribution</div>
+                          <div class="project-popover__contrib">${project.contribution}</div>
+                        </div>`;
+                    }
+                    html += `</div>`;
+                    return html;
+                })()}
             </div>
         </div>
         <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
@@ -155,3 +184,41 @@ if (collapseToggle && grid) {
 
 // Notify layout-dependent scripts (e.g., scrollspy) that content size changed on initial render
 window.dispatchEvent(new Event('resize'));
+
+// Popover toggle logic for mobile/touch and accessibility
+(function wireProjectPopovers(){
+  const projects = Array.from(document.querySelectorAll('.project'));
+  const closeAll = () => projects.forEach(card => {
+    const pop = card.querySelector('.project-popover');
+    const btn = card.querySelector('.project-popover-toggle');
+    if (pop) pop.classList.remove('is-open');
+    if (btn) btn.setAttribute('aria-expanded','false');
+  });
+
+  projects.forEach(card => {
+    const btn = card.querySelector('.project-popover-toggle');
+    const pop = card.querySelector('.project-popover');
+    if (!btn || !pop) return;
+
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const willOpen = !pop.classList.contains('is-open');
+      closeAll();
+      if (willOpen) {
+        pop.classList.add('is-open');
+        btn.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    const target = e.target;
+    if (!(target instanceof Element)) return;
+    if (target.closest('.project')) return; // clicks inside project are handled
+    closeAll();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeAll();
+  });
+})();
