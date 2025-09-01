@@ -40,69 +40,51 @@ fetchJSON('./publications/publications.json').then((publications) => {
     }
     );    
 
+    const container = document.querySelector('.js-publications');
+
     if (articleListHTML !== "") {
-        document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-lg font-bold toggle-publications"><span class="arrow">&#9654;</span> Articles</h3>
-        <div class="flex flex-col gap-y-3 publication-container">
-            ${articleListHTML}
-        </div>        
+        container.innerHTML += `
+        <details class="publication-group" open>
+            <summary class="text-lg font-bold">Articles</summary>
+            <div class="flex flex-col gap-y-3">
+                ${articleListHTML}
+            </div>
+        </details>
         `;
     }
 
     if (bookListHTML !== "") {
-        document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-lg font-bold toggle-publications"><span class="arrow">&#9654;</span> Books</h3>
-        <div class="flex flex-col gap-y-3 publication-container">
-            ${bookListHTML}
-        </div>
+        container.innerHTML += `
+        <details class="publication-group">
+            <summary class="text-lg font-bold">Books</summary>
+            <div class="flex flex-col gap-y-3">
+                ${bookListHTML}
+            </div>
+        </details>
         `;
     }
 
     if (conferenceListHTML !== "") {
-        document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-lg font-bold toggle-publications"><span class="arrow">&#9654;</span> Conference</h3>
-
-        <div class="flex flex-col gap-y-3 publication-container">
-            ${conferenceListHTML}
-        </div>
+        container.innerHTML += `
+        <details class="publication-group">
+            <summary class="text-lg font-bold">Conference</summary>
+            <div class="flex flex-col gap-y-3">
+                ${conferenceListHTML}
+            </div>
+        </details>
         `;
     }
 
     if (softwareListHTML !== "") {
-        document.querySelector('.js-publications').innerHTML+=`
-        <h3 class="text-lg font-bold toggle-publications"><span class="arrow">&#9654;</span> Software</h3>
-        <div class="flex flex-col gap-y-3 publication-container">
-            ${softwareListHTML}
-        </div>
+        container.innerHTML += `
+        <details class="publication-group">
+            <summary class="text-lg font-bold">Software</summary>
+            <div class="flex flex-col gap-y-3">
+                ${softwareListHTML}
+            </div>
+        </details>
         `;
     }
-
-    document.querySelectorAll('.toggle-publications').forEach(button => {
-        // Make toggle keyboard accessible
-        button.setAttribute('tabindex', '0');
-        button.setAttribute('role', 'button');
-        button.setAttribute('aria-expanded', 'false');
-
-        const toggle = () => {
-            const container = button.nextElementSibling;
-            button.classList.toggle('open');
-            container.classList.toggle('open');
-            const expanded = container.classList.contains('open');
-            button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-        };
-
-        button.addEventListener('click', (event) => {
-            event.preventDefault();
-            toggle();
-        });
-
-        button.addEventListener('keydown', (event) => {
-            if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault();
-                toggle();
-            }
-        });
-    });
 
     fetchJSON('./publications/author_stats.json').then((stats) => {
         document.querySelectorAll('.science-stats').forEach((element) => {
