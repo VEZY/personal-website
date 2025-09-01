@@ -6,7 +6,7 @@ let resumeProjectsOrdered = RESUME_DATA.projects.sort((a, b) => b.end - a.end);
 if (resumeProjectsOrdered.length > 0) {
     PROJECTS_DATA += `
     <div class="projects__list -mx-3 flex justify-between">
-        <h2 id="projects" class="text-xl font-bold">Projects</h2>
+        <h2 class="text-xl font-bold">Projects</h2>
         <a target="_blank" class="inline-flex items-center gap-1 text-xs justify-end font-mono">
             <span class="size-1 rounded-full bg-green-500"></span>
             Ongoing projects
