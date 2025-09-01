@@ -8,7 +8,7 @@ const RESUME_DATA = {
     location: "Montpellier, France, UTC+2",
     locationLink: "https://www.google.com/maps/place/Montpellier",
     title: "Researcher in plant modelling",
-    about: `Researcher in plant modelling and digital twins <a href="https://amap.cirad.fr/en/index.php" class="underline hover:text-accent-foreground" >@UmrAmap</a>.`,
+    about: `Researcher in plant modelling <a href="https://amap.cirad.fr/en/index.php" class="underline hover:text-accent-foreground" >@UmrAmap</a>.`,
     summary: {
       first: `I specialize in plant growth modeling, predicting plant development and yield based on genotype, environment, and management (<strong>G×E×M</strong>). My work bridges <strong>ecophysiology, agronomy, and computational modeling</strong> to better understand plant function and architecture.`,
       second: `A key focus of my research is <strong>digital twins</strong> —virtual models that replicate real plant systems to test hypotheses, predict responses, and optimize management strategies. By integrating high-resolution data acquisition (<em>lidar, gas exchanges</em>...) with <a class="underline hover:text-accent-foreground" href="https://virtualplantlab.github.io/PlantSimEngine.jl/stable/">cutting-edge modeling frameworks</a>, I aim to make simulations both realistic and actionable.`,

@@ -1,5 +1,15 @@
 const currentYear = new Date().getFullYear();
 
+function isOngoing(project) {
+    const end = project.end;
+    if (end == null) return false;
+    const endStr = String(end).trim().toLowerCase();
+    if (endStr === 'present' || endStr === 'ongoing' || endStr === 'current') return true;
+    const endYear = parseInt(endStr, 10);
+    if (Number.isNaN(endYear)) return false;
+    return endYear >= currentYear;
+}
+
 let PROJECTS_DATA = ``;
 let resumeProjectsOrdered = RESUME_DATA.projects.sort((a, b) => b.end - a.end);
 
@@ -37,8 +47,8 @@ function formatProject(project) {
                                 class="inline-flex items-center gap-1 hover:underline">${project.title}
     `;
 
-    if (project.end >= currentYear) {
-        projectHTML += `<span class="size-1 rounded-full bg-green-500"></span>`
+    if (isOngoing(project)) {
+        projectHTML += `<span class="size-1 rounded-full bg-green-500" aria-label="Ongoing"></span>`
     }
 
     projectHTML += `
@@ -71,3 +81,5 @@ function formatProject(project) {
 }
 
 document.querySelector(".js-projects").innerHTML = PROJECTS_DATA;
+// Notify layout-dependent scripts (e.g., scrollspy) that content size changed
+window.dispatchEvent(new Event('resize'));
