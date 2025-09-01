@@ -982,6 +982,28 @@ video {
   transform: translateY(-1px);
 }
 
+/* Collapsible past projects */
+.collapsible-grid {
+  position: relative;
+}
+.collapsible-grid .fadeout {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4rem;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), hsl(var(--background)) 60%);
+  pointer-events: none;
+}
+.collapsible-grid.is-collapsed .past-extra { display: none; }
+.collapsible-grid:not(.is-collapsed) .fadeout { display: none; }
+
+/* Progressive fading for projects */
+.projects-grid .project {
+  transition: opacity 0.25s ease;
+}
+.projects-grid.no-fade .project { opacity: 1 !important; }
+
 /* Modern floating nav */
 .navigation {
   background-color: hsl(var(--card) / 0.85);
