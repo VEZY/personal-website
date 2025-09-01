@@ -1119,7 +1119,7 @@ video {
 }
 
 
-main section > h2::after, #projects h2::after {
+main section > h2::after, #projects h2::after, #software h2::after {
   content: '';
   display: block;
   width: 56px;

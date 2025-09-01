@@ -249,6 +249,68 @@ const RESUME_DATA = {
         end: "2017",
     }
     ],
+    software: [
+      {
+        title: "PlantSimEngine.jl",
+        org: "VirtualPlantLab",
+        tags: ["Julia", "FSPM", "simulation"],
+        description: "Composable engine for Functional-Structural Plant Models in Julia.",
+        link: {
+          label: "github.com/VirtualPlantLab/PlantSimEngine.jl",
+          href: "https://github.com/VirtualPlantLab/PlantSimEngine.jl"
+        }
+      },
+      {
+        title: "MultiScaleTreeGraph.jl",
+        org: "VEZY",
+        tags: ["Julia", "MTG", "architecture"],
+        description: "Multi-scale tree graph data model and tools for plant architecture.",
+        link: {
+          label: "github.com/VEZY/MultiScaleTreeGraph.jl",
+          href: "https://github.com/VEZY/MultiScaleTreeGraph.jl"
+        }
+      },
+      {
+        title: "PlantBiophysics.jl",
+        org: "VEZY",
+        tags: ["Julia", "biophysics", "canopy"],
+        description: "Biophysical processes for plant and canopy modeling (radiation, gas exchange, energy).",
+        link: {
+          label: "github.com/VEZY/PlantBiophysics.jl",
+          href: "https://github.com/VEZY/PlantBiophysics.jl"
+        }
+      },
+      {
+        title: "XPalm.jl",
+        org: "PalmStudio",
+        tags: ["Julia", "FSPM", "oil palm"],
+        description: "Functional-structural plant model for oil palm (Elaeis guineensis).",
+        link: {
+          label: "github.com/PalmStudio/XPalm.jl",
+          href: "https://github.com/PalmStudio/XPalm.jl"
+        }
+      },
+      {
+        title: "PlantGeom.jl",
+        org: "VEZY",
+        tags: ["Julia", "geometry", "3D"],
+        description: "Utilities for 3D plant geometry and mesh/voxel workflows.",
+        link: {
+          label: "github.com/VEZY/PlantGeom.jl",
+          href: "https://github.com/VEZY/PlantGeom.jl"
+        }
+      },
+      {
+        title: "PlantMeteo.jl",
+        org: "PalmStudio",
+        tags: ["Julia", "meteorology", "forcing"],
+        description: "Meteorological utilities for plant modeling (forcing, gaps, transforms).",
+        link: {
+          label: "github.com/PalmStudio/PlantMeteo.jl",
+          href: "https://github.com/PalmStudio/PlantMeteo.jl"
+        }
+      }
+    ],
     students: [
       {given: "Yélognissè", family: "Agbohessou"},
       {given: "Alexis",family: "Bonnet"},
