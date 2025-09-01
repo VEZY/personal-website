@@ -1010,8 +1010,7 @@ video {
   position: absolute;
   top: 0.5rem;
   left: calc(100% + 8px);
-  min-width: 26rem;
-  width: min(36rem, 90vw);
+  width: 100%;
   background: hsl(var(--card));
   color: hsl(var(--card-foreground));
   border: 1px solid hsl(var(--border));
@@ -1106,8 +1105,8 @@ video {
     left: 0;
     right: auto;
     top: calc(100% + 8px);
-    min-width: auto;
-    width: min(34rem, 95vw);
+    width: 100%;
+    max-width: 95vw;
   }
   .project-popover::before, .project-popover::after {
     top: -6px;
