@@ -188,23 +188,23 @@
 		"author": [
 			{
 				"family": "Wibaux",
-				"given": "T"
+				"given": "Thomas"
 			},
 			{
 				"family": "Lauri",
-				"given": "P-É"
+				"given": "Pierre-Éric"
 			},
 			{
 				"family": "M’Bo Kacou",
-				"given": "A A"
+				"given": "Antoine Alba"
 			},
 			{
-				"family": "Kouakou",
-				"given": "O Pondo"
+				"family": "Pondo Kouakou",
+				"given": "Olsen"
 			},
 			{
 				"family": "Vezy",
-				"given": "R"
+				"given": "Rémi"
 			}
 		],
 		"accessed": {
@@ -568,44 +568,44 @@
 		"author": [
 			{
 				"family": "Christina",
-				"given": "M."
+				"given": "Mathias"
 			},
 			{
 				"family": "Maire",
-				"given": "G.",
+				"given": "Guerric",
 				"non-dropping-particle": "le"
 			},
 			{
 				"family": "Nouvellon",
-				"given": "Y."
+				"given": "Yann"
 			},
 			{
 				"family": "Vezy",
-				"given": "R."
+				"given": "Rémi"
 			},
 			{
 				"family": "Bordon",
-				"given": "B."
+				"given": "Bruno"
 			},
 			{
 				"family": "Battie-Laclau",
-				"given": "P."
+				"given": "Patricia"
 			},
 			{
 				"family": "Gonçalves",
-				"given": "J. L. M."
+				"given": "José Leonardo de Moraes"
 			},
 			{
 				"family": "Delgado-Rojas",
-				"given": "J. S."
+				"given": "Juan Sinforiano"
 			},
 			{
 				"family": "Bouillet",
-				"given": "J. P."
+				"given": "Jean-Pierre"
 			},
 			{
 				"family": "Laclau",
-				"given": "J. P."
+				"given": "Jean-Paul"
 			}
 		],
 		"issued": {
@@ -631,11 +631,11 @@
 		"author": [
 			{
 				"family": "Gaucherel",
-				"given": "C."
+				"given": "Cédric"
 			},
 			{
 				"family": "Vezy",
-				"given": "R."
+				"given": "Rémi"
 			},
 			{
 				"family": "Gontrand",
@@ -647,7 +647,7 @@
 			},
 			{
 				"family": "Ramesh",
-				"given": "B. R."
+				"given": "Brahmasamudra Ranganna"
 			}
 		],
 		"issued": {
