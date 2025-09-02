@@ -362,6 +362,20 @@ const RESUME_DATA = {
           label: "forge.inrae.fr/stics-dev/modulostics",
           href: "https://forge.inrae.fr/stics-dev/modulostics"
         }
+      },
+      {
+        title: "SticsRPacks",
+        org: "INRAE",
+        tags: ["R", "STICS", "interface"],
+        description: "R packages to run, parameterize, and analyze STICS model simulations.",
+        docs: {
+          label: "sticsrpacks.github.io/SticsRPacks",
+          href: "https://sticsrpacks.github.io/SticsRPacks/"
+        },
+        repo: {
+          label: "github.com/SticsRPacks/SticsRPacks",
+          href: "https://github.com/SticsRPacks/SticsRPacks"
+        }
       }
     ],
     students: [
