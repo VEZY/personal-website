@@ -1,4 +1,13 @@
 const GH_ICON = './media/icons/github.svg';
+const GL_ICON = './media/icons/gitlab.svg';
+
+function repoIcon(url) {
+  try {
+    const href = String(url || '').toLowerCase();
+    if (href.includes('gitlab') || href.includes('stics.inrae.fr')) return GL_ICON;
+  } catch (_) {}
+  return GH_ICON;
+}
 
 let SOFTWARE_HTML = ``;
 const software = Array.isArray(RESUME_DATA.software) ? RESUME_DATA.software : [];
@@ -21,6 +30,7 @@ if (software.length > 0) {
 }
 
 function formatSoftwareCard(pkg) {
+  const icon = repoIcon(pkg?.link?.href);
   let html = '';
   html += `
     <div class="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
@@ -30,7 +40,7 @@ function formatSoftwareCard(pkg) {
             ${pkg.title}
           </a>
         </h3>
-        <img src="${GH_ICON}" alt="GitHub" class="size-4" />
+        <img src="${icon}" alt="Repository" class="size-4" />
       </div>
       <div class="text-pretty font-mono text-xs text-muted-foreground">
         ${pkg.description}
@@ -49,4 +59,3 @@ function formatSoftwareCard(pkg) {
 document.querySelector('.js-software').innerHTML = SOFTWARE_HTML;
 // Notify layout-dependent scripts (e.g., scrollspy) that content changed
 window.dispatchEvent(new Event('resize'));
-

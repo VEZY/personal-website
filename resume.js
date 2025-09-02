@@ -324,6 +324,16 @@ const RESUME_DATA = {
           label: "github.com/PalmStudio/PlantMeteo.jl",
           href: "https://github.com/PalmStudio/PlantMeteo.jl"
         }
+      },
+      {
+        title: "STICS",
+        org: "INRAE",
+        tags: ["Crop model", "FORTRAN", "R interface"],
+        description: "Soil–crop model to simulate crop growth, soil water and nitrogen dynamics; widely used in research and applications.",
+        link: {
+          label: "stics.inrae.fr",
+          href: "https://stics.inrae.fr/"
+        }
       }
     ],
     students: [
