@@ -270,7 +270,11 @@ const RESUME_DATA = {
         org: "VirtualPlantLab",
         tags: ["Julia", "FSPM", "simulation"],
         description: "Modelling framework for Plants in Julia (crop and FSP models).",
-        link: {
+        docs: {
+          label: "virtualplantlab.github.io/PlantSimEngine.jl",
+          href: "https://virtualplantlab.github.io/PlantSimEngine.jl/stable/"
+        },
+        repo: {
           label: "github.com/VirtualPlantLab/PlantSimEngine.jl",
           href: "https://github.com/VirtualPlantLab/PlantSimEngine.jl"
         }
@@ -280,7 +284,11 @@ const RESUME_DATA = {
         org: "VEZY",
         tags: ["Julia", "MTG", "architecture"],
         description: "Multi-scale tree graph data model and tools for plant architecture.",
-        link: {
+        docs: {
+          label: "vezy.github.io/MultiScaleTreeGraph.jl",
+          href: "https://vezy.github.io/MultiScaleTreeGraph.jl/stable/"
+        },
+        repo: {
           label: "github.com/VEZY/MultiScaleTreeGraph.jl",
           href: "https://github.com/VEZY/MultiScaleTreeGraph.jl"
         }
@@ -290,7 +298,11 @@ const RESUME_DATA = {
         org: "VEZY",
         tags: ["Julia", "biophysics", "leaf", "canopy"],
         description: "Calibration and simulation of biophysical processes (photosynthesis, conductance, energy balance...)",
-        link: {
+        docs: {
+          label: "vezy.github.io/PlantBiophysics.jl",
+          href: "https://vezy.github.io/PlantBiophysics.jl/stable/"
+        },
+        repo: {
           label: "github.com/VEZY/PlantBiophysics.jl",
           href: "https://github.com/VEZY/PlantBiophysics.jl"
         }
@@ -300,7 +312,11 @@ const RESUME_DATA = {
         org: "PalmStudio",
         tags: ["Julia", "FSPM", "oil palm"],
         description: "Functional-structural plant model for oil palm (Elaeis guineensis).",
-        link: {
+        docs: {
+          label: "palmstudio.github.io/XPalm.jl",
+          href: "https://palmstudio.github.io/XPalm.jl/stable/"
+        },
+        repo: {
           label: "github.com/PalmStudio/XPalm.jl",
           href: "https://github.com/PalmStudio/XPalm.jl"
         }
@@ -310,7 +326,11 @@ const RESUME_DATA = {
         org: "VEZY",
         tags: ["Julia", "geometry", "3D"],
         description: "Everything 3D for plants 🌱.",
-        link: {
+        docs: {
+          label: "vezy.github.io/PlantGeom.jl",
+          href: "https://vezy.github.io/PlantGeom.jl/stable/"
+        },
+        repo: {
           label: "github.com/VEZY/PlantGeom.jl",
           href: "https://github.com/VEZY/PlantGeom.jl"
         }
@@ -320,7 +340,11 @@ const RESUME_DATA = {
         org: "PalmStudio",
         tags: ["Julia", "meteorology"],
         description: "Meteorological utilities for plant modeling (efficient data structures, pre-computations, database queries...).",
-        link: {
+        docs: {
+          label: "palmstudio.github.io/PlantMeteo.jl",
+          href: "https://palmstudio.github.io/PlantMeteo.jl/stable/"
+        },
+        repo: {
           label: "github.com/PalmStudio/PlantMeteo.jl",
           href: "https://github.com/PalmStudio/PlantMeteo.jl"
         }
@@ -330,9 +354,13 @@ const RESUME_DATA = {
         org: "INRAE",
         tags: ["Crop model", "FORTRAN", "R interface"],
         description: "Soil–crop model to simulate crop growth, soil water and nitrogen dynamics; widely used in research and applications.",
-        link: {
+        docs: {
           label: "stics.inrae.fr",
           href: "https://stics.inrae.fr/"
+        },
+        repo: {
+          label: "forge.inrae.fr/stics-dev/modulostics",
+          href: "https://forge.inrae.fr/stics-dev/modulostics"
         }
       }
     ],

@@ -4,7 +4,7 @@ const GL_ICON = './media/icons/gitlab.svg';
 function repoIcon(url) {
   try {
     const href = String(url || '').toLowerCase();
-    if (href.includes('gitlab') || href.includes('stics.inrae.fr')) return GL_ICON;
+    if (href.includes('gitlab') || href.includes('forge.inrae.fr')) return GL_ICON;
   } catch (_) {}
   return GH_ICON;
 }
@@ -30,17 +30,22 @@ if (software.length > 0) {
 }
 
 function formatSoftwareCard(pkg) {
-  const icon = repoIcon(pkg?.link?.href);
+  const docsHref = pkg?.docs?.href || pkg?.link?.href || '#';
+  const docsLabel = pkg?.docs?.label || pkg?.link?.label || pkg?.title || 'Docs';
+  const repoHref = pkg?.repo?.href || pkg?.link?.href || '#';
+  const icon = repoIcon(repoHref);
   let html = '';
   html += `
     <div class="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
       <div class="flex items-start justify-between">
         <h3 class="font-semibold tracking-tight text-base">
-          <a href="${pkg.link.href}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 hover:underline">
+          <a href="${docsHref}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 hover:underline">
             ${pkg.title}
           </a>
         </h3>
-        <img src="${icon}" alt="Repository" class="size-4" />
+        <a href="${repoHref}" target="_blank" rel="noopener noreferrer" aria-label="Source repository">
+          <img src="${icon}" alt="Repository" class="size-4" />
+        </a>
       </div>
       <div class="text-pretty font-mono text-xs text-muted-foreground">
         ${pkg.description}
@@ -50,7 +55,7 @@ function formatSoftwareCard(pkg) {
           ${(pkg.tags || []).map(t => `<div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">${t}</div>`).join('')}
         </div>
       </div>
-      <div class="hidden font-mono text-xs underline print:visible">${pkg.link.label}</div>
+      <div class="hidden font-mono text-xs underline print:visible">${docsLabel}</div>
     </div>
   `;
   return html;
