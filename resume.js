@@ -173,7 +173,7 @@ const RESUME_DATA = {
         description:
           "Developing a functional-structural plant model for oil palm (Elaeis guineensis).",
         role: "PI",
-        contribution: "Primary developer of the modeling pipeline and measurements acquisitions (whole-plant flux chamber...); project management and coordination.",
+        contribution: "Project management and coordination. Primary developer of the modeling pipeline and measurements acquisitions (whole-plant flux chamber...).",
         logo: "./media/projects/palmstudio.jpg",
         link: {
           label: "github.com",

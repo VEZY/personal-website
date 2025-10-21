@@ -2225,5 +2225,67 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/local/58v4eqQ4/items/GSBCHV8M",
+		"type": "article-journal",
+		"abstract": "Process-based biophysical models are essential for understanding and predicting plant responses to environment, yet their development and application remains hindered by the “two-language problem”: models are typically prototyped in interactive, slow languages and then reimplemented in compiled, fast languages for simulation. This workflow requires more human resources, and it may introduce delays, errors, and complexity for model evaluation and prototyping iteration.We present PlantBiophysics.jl, a pure Julia package that unifies model prototyping, calibration, simulation, and evaluation of biophysical models within a single, high-performance and interactive environment. The package currently supports four key processes: light interception, energy balance, photosynthesis, and stomatal conductance. It provides automated model composition and coupling through a modular and extensible architecture. The package supports uncertainty propagation and compatibility with 3D plant structures and dynamic meteorological inputs.We benchmarked PlantBiophysics.jl against the widely used R package plantecophys and the Julia package LeafGasExchange.jl. Simulations ran up to ∼6700x and ∼460x faster, respectively, while improving predictive accuracy (e.g., net assimilation nRMSE: 5% vs. 9% and 12%, respectively). By allowing models to be easily swapped, coupled, or extended, and by supporting simulations at scales ranging from single leaves to 3D plant canopies, PlantBiophysics.jl provides a robust, efficient, and transparent tool for plant ecophysiologists and modelers.",
+		"container-title": "in silico Plants",
+		"DOI": "10.1093/insilicoplants/diaf021",
+		"ISSN": "2517-5025",
+		"journalAbbreviation": "in silico Plants",
+		"page": "diaf021",
+		"source": "Silverchair",
+		"title": "PlantBiophysics.jl: A High-Performance, Modular Software for Prototyping and Scaling Biophysical Models from Leaf to Canopy",
+		"title-short": "PlantBiophysics.jl",
+		"URL": "https://doi.org/10.1093/insilicoplants/diaf021",
+		"author": [
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			},
+			{
+				"family": "Treillou",
+				"given": "Simon"
+			},
+			{
+				"family": "Mackeown",
+				"given": "Samuel"
+			},
+			{
+				"family": "Peynaud",
+				"given": "Emilie"
+			},
+			{
+				"family": "Perez",
+				"given": "Raphaël P A"
+			},
+			{
+				"family": "Arsouze",
+				"given": "Thomas"
+			},
+			{
+				"family": "Dauzat",
+				"given": "Jean"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					10,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					10,
+					14
+				]
+			]
+		}
 	}
 ]
