@@ -1291,6 +1291,14 @@ video {
     filter: none !important;
     text-shadow: none !important;
   }
+  
+  /* Force profile picture and other background images to print */
+  .js-profile-picture, .js-profile-picture img {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
   a, a:visited { text-decoration: underline; }
   .print-force-new-page { page-break-before: always; }
   .print\:p-12 { padding: 3rem !important; }

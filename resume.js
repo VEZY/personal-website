@@ -388,5 +388,6 @@ const RESUME_DATA = {
       {given: "Simon",family: "Treillou"},
       {given: "Sidy", family: "Sow"},
       {given: "Thomas", family: "Wibaux"},
+      {given: "Antonio Jesús", family: "Ariza-Salamanca"},
     ],
 };
