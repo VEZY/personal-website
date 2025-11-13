@@ -909,7 +909,9 @@ video {
 @media print {
 
   .print\:visible {
+    /* Ensure elements marked print:visible actually render even if hidden on screen */
     visibility: visible;
+    display: block !important;
   }
 
   .print\:flex {
@@ -937,6 +939,8 @@ video {
   .print\:p-12 {
     padding: 3rem;
   }
+  /* Hide the disclosure arrow in Publications when printing */
+  .publication-group summary::before { content: none !important; display: none !important; }
 }
 
 /* Publications disclosure styling */
@@ -1006,6 +1010,7 @@ video {
 
 /* Project hover popover */
 .project { position: relative; overflow: visible; z-index: 1; }
+.project-link-overlay { position: absolute; inset: 0; z-index: 1; }
 .project-popover {
   position: absolute;
   top: 0.5rem;
@@ -1140,6 +1145,7 @@ video {
   background: hsl(var(--card));
   color: hsl(var(--muted-foreground));
   transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  z-index: 2;
 }
 .project-popover-toggle:hover,
 .project-popover-toggle:focus-visible {
@@ -1278,7 +1284,8 @@ video {
 @media print {
   .navigation { display: none !important; }
   * {
-    background: transparent !important;
+    /* Use background-color only to preserve background images like the profile picture */
+    background-color: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     filter: none !important;
@@ -1287,6 +1294,18 @@ video {
   a, a:visited { text-decoration: underline; }
   .print-force-new-page { page-break-before: always; }
   .print\:p-12 { padding: 3rem !important; }
+
+  /* Projects: show everything when printing */
+  .projects-collapse-toggle { display: none !important; }
+  .collapsible-grid .fadeout { display: none !important; }
+  .collapsible-grid.is-collapsed .past-extra { display: block !important; }
+  .projects-grid .project { opacity: 1 !important; break-inside: avoid; page-break-inside: avoid; }
+
+  /* Publications: avoid splitting individual cards, allow groups to flow */
+  #publications .publication-card { break-inside: avoid; page-break-inside: avoid; }
+
+  /* Hide footer/copyright when printing */
+  footer, .js-copyright { display: none !important; }
 }
 
 

@@ -46,11 +46,11 @@ function formatProject(project) {
 
     projectHTML += `
         <div class="project rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3" data-ongoing="${isOngoing(project)}">
+            <a class="project-link-overlay" href="${project.link.href}" target="_blank" rel="noopener noreferrer" aria-label="Open project: ${project.title}"></a>
             <div class="flex flex-col space-y-1.5">
                 <div class="space-y-1">
                         <h3 class="font-semibold tracking-tight text-base">
-                            <a href="${project.link.href}" target="_blank" rel="noopener noreferrer"
-                                class="inline-flex items-center gap-1 hover:underline">${project.title}
+                            <span class="inline-flex items-center gap-1">${project.title}
     `;
 
     if (isOngoing(project)) {
@@ -58,7 +58,7 @@ function formatProject(project) {
     }
 
     projectHTML += `
-                            </a>
+                            </span>
                         </h3>
                         <div class="text-pretty font-mono text-xs text-muted-foreground flex overflow-hidden tracking-tight">
                             ${project.start}-${project.end}
@@ -66,8 +66,8 @@ function formatProject(project) {
                     <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
                     </div>
                 <div class="hidden font-mono text-xs underline print:visible">${project.link.label}</div>
-                <img class="project__logo" src=${project.logo} alt="${project.title} logo" loading="lazy" decoding="async" />
-                <p class="text-muted-foreground font-mono text-xs">${project.description}</p>
+                                <img class="project__logo" src=${project.logo} alt="${project.title} logo" loading="lazy" decoding="async" />
+                                <p class="text-muted-foreground font-mono text-xs">${project.description}</p>
                 ${(() => {
                     const hasDetails = Boolean(project.role || project.workPackage || project.task || project.referee || project.contribution);
                     if (!hasDetails) return '';

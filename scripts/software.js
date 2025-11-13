@@ -43,9 +43,7 @@ function formatSoftwareCard(pkg) {
             ${pkg.title}
           </a>
         </h3>
-        <a href="${repoHref}" target="_blank" rel="noopener noreferrer" aria-label="Source repository">
-          <img src="${icon}" alt="Repository" class="size-4" />
-        </a>
+        <img src="${icon}" alt="Repository" class="size-4" />
       </div>
       <div class="text-pretty font-mono text-xs text-muted-foreground">
         ${pkg.description}
@@ -55,7 +53,6 @@ function formatSoftwareCard(pkg) {
           ${(pkg.tags || []).map(t => `<div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">${t}</div>`).join('')}
         </div>
       </div>
-      <div class="hidden font-mono text-xs underline print:visible">${docsLabel}</div>
     </div>
   `;
   return html;

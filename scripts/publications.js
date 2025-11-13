@@ -164,7 +164,7 @@ function createPublicationHTML(publication) {
     let year = getYear(publication);
 
     let publicationHTML = `
-    <div class="rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden">
+    <div class="publication-card rounded-lg bg-card text-card-foreground p-3 border border-muted overflow-hidden">
         <div class="font-mono text-sm leading-none">
             ${publication.title}
             <p class="text-pretty font-medium font-mono text-muted-foreground mt-2 text-xs">${authors}</p>
@@ -190,7 +190,7 @@ function getScienceStatsHTML(stats, nArticles) {
     stats.lastUpdate = new Date(stats.lastUpdate)
     const userLocale = navigator.language || navigator.userLanguage;
     const lastUpdate = stats.lastUpdate.toLocaleDateString(userLocale, { year: 'numeric', month: 'long', day: 'numeric' });
-    return `
+        return `
     <div class="flex flex-wrap text-xl font-bold gap-1">
         <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
                 <span>Citations: ${stats.citations}</span>
@@ -205,6 +205,41 @@ function getScienceStatsHTML(stats, nArticles) {
                 <span>A-Rank articles: ${stats.articles}</span>
         </div>
     </div>
-    <p class="text-xs justify-end font-mono text-pretty text-muted-foreground mt-2">Last update: ${lastUpdate}</p>
+        <p class="print:hidden text-xs justify-end font-mono text-pretty text-muted-foreground mt-2">Last update: ${lastUpdate}</p>
     `
 }
+
+// Ensure all relevant content is visible for printing
+window.addEventListener('beforeprint', () => {
+    // Open all publication groups (e.g., Books, Software)
+    const groups = document.querySelectorAll('.publication-group');
+    groups.forEach(g => {
+        g.dataset.wasOpen = g.hasAttribute('open') ? '1' : '0';
+        g.setAttribute('open', 'open');
+    });
+
+    // Expand projects (show all) during print
+    const grid = document.querySelector('.projects-grid');
+    if (grid) {
+        const wasCollapsed = grid.classList.contains('is-collapsed');
+        grid.dataset.wasCollapsed = wasCollapsed ? '1' : '0';
+        if (wasCollapsed) grid.classList.remove('is-collapsed');
+    }
+    try { window.dispatchEvent(new Event('resize')); } catch (e) {}
+});
+
+window.addEventListener('afterprint', () => {
+    // Restore publication groups' open state
+    document.querySelectorAll('.publication-group').forEach(g => {
+        if (g.dataset.wasOpen === '0') g.removeAttribute('open');
+        g.removeAttribute('data-was-open');
+    });
+
+    // Restore projects collapse state
+    const grid = document.querySelector('.projects-grid');
+    if (grid && grid.dataset.wasCollapsed === '1') {
+        grid.classList.add('is-collapsed');
+    }
+    if (grid) grid.removeAttribute('data-was-collapsed');
+    try { window.dispatchEvent(new Event('resize')); } catch (e) {}
+});
