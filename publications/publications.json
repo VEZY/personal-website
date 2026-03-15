@@ -1,5 +1,81 @@
 [
 	{
+		"id": "http://zotero.org/users/6082108/items/9YRRGJMJ",
+		"type": "article",
+		"abstract": "Functional-structural plant models (FSPM) replicate plants' responses to their environment and are useful for predicting behavior in a changing climate. However, they rely on detailed measurements of traits, which are difficult to collect consistently across scales, often limiting model parameterization and thorough evaluation, and thereby reducing confidence in model predictions. Here, we provided a comprehensive dataset of structural and biophysical measurements from four oil palm plants (Elaeis guinnensis) grown under multiple controlled environmental scenarios, including varying CO2 concentrations, light, temperature and humidity conditions. The dataset included detailed reconstructions of the three-dimensional plant structures derived from terrestrial LiDAR point clouds, and enabled the parametrization of biophysical processes at the leaf scale such as photosynthesis and stomatal conductance, as well as the collection of plant-scale measurements (gas exchange measurements of CO2 and H20), which can be compared with FSPM simulations. The tree-dimensional reconstructions effectively represented the architecture of the plants and showed strong correlation with the measured total leaf area. Hence, future comparisons between simulated and observed physiological traits could be used to evaluate the quality of the physiological formalisms independently. By bridging the scales from individual leaves to the entire plant, this database allows modellers to both calibrate their biophysical models at a fine spatial resolution and evaluate their predictive accuracy at the plant scale. The provided data will facilitate benchmarking of biophysical models, help identify sources of model uncertainty, and ultimately enhance model predictions, which can be applied in various fields, from cognitive studies to decision support applications.",
+		"DOI": "10.48550/arXiv.2601.03308",
+		"note": "arXiv:2601.03308 [q-bio]",
+		"number": "arXiv:2601.03308",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "A Comprehensive Database of Leaf Temperature, Water, and CO 2 Fluxes in Young Oil Palm Plants Across Diverse Climate Scenarios",
+		"URL": "http://arxiv.org/abs/2601.03308",
+		"author": [
+			{
+				"family": "Perez",
+				"given": "Raphael"
+			},
+			{
+				"family": "Torrelli",
+				"given": "Valentin"
+			},
+			{
+				"family": "Roques",
+				"given": "Sandrine"
+			},
+			{
+				"family": "Devidal",
+				"given": "Sébastien"
+			},
+			{
+				"family": "Piel",
+				"given": "Clément"
+			},
+			{
+				"family": "Landais",
+				"given": "Damien"
+			},
+			{
+				"family": "Ramel",
+				"given": "Merlin"
+			},
+			{
+				"family": "Arsouze",
+				"given": "Thomas"
+			},
+			{
+				"family": "Lamour",
+				"given": "Julien"
+			},
+			{
+				"family": "Caliman",
+				"given": "Jean-Pierre"
+			},
+			{
+				"family": "Vezy",
+				"given": "Rémi"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					3,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					1,
+					6
+				]
+			]
+		}
+	},
+	{
 		"id": "http://zotero.org/users/local/58v4eqQ4/items/TXVGDNRN",
 		"type": "article-journal",
 		"abstract": "Faidherbia albida is known to affect the yield of various crops, typically in a pattern where the impact decreases with increasing distance from the tree. While several studies have investigated the spatial extent of this effect, limited research has explored how this distance varies across different crops or its relationship with crop yield and the Land Equivalent Ratio. In this study, we used a geostatistical approach combined with multispectral UAV (Unmanned Aerial Vehicle) imagery to address these gaps in understanding. The results showed that, in contrast to its tripling effect on millet yield, F. albida does not have a significant impact on groundnut pod yield, it only improves its haulm yield under its crown by about 50 %. The geostatistical analysis showed that F. albida affects the groundnut crop up to 9.8-m, compared to 18-m for millet. Yield upscaling from subplots to the whole plot was achieved with an error of 8 % for groundnut pod yield and 13 % for haulm yield. Groundnut’s partial Land Equivalent Ratio (LERcp) was 1.02 for pod yield and 1.05 for haulm yield, which was lower than the LERcp for millet. We concluded that the distance at which agroforestry trees influence crops is a reliable predictor of their effect on yield and Land Equivalent Ratio. This approach offers a promising tool for future agroforestry studies, potentially guiding crop management strategies in agroforestry systems.",
