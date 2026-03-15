@@ -10,9 +10,9 @@ const RESUME_DATA = {
     title: "Researcher in plant modelling",
     about: `Researcher in plant modelling <a href="https://amap.cirad.fr/en/index.php" class="underline hover:text-accent-foreground" >@UmrAmap</a>.`,
     summary: {
-      first: `I specialize in plant growth modeling, predicting plant development and yield based on genotype, environment, and management (<strong>G×E×M</strong>). My work bridges <strong>ecophysiology, agronomy, and computational modeling</strong> to better understand plant function and architecture.`,
-      second: `A key focus of my research is <strong>digital twins</strong> —virtual models that replicate real plant systems to test hypotheses, predict responses, and optimize management strategies. By integrating high-resolution data acquisition (<em>lidar, gas exchanges</em>...) with <a class="underline hover:text-accent-foreground" href="https://virtualplantlab.github.io/PlantSimEngine.jl/stable/">cutting-edge modeling frameworks</a>, I aim to make simulations both realistic and actionable.`,
-      third: `Driven by a passion for sustainability and technology, I develop tools that enhance resource efficiency, improve yield, and strengthen resilience, ensuring that research translates into tangible benefits for growers and stakeholders.`,
+      first: `I work at the intersection of <strong>ecophysiology, agronomy and computational modelling</strong> to understand how complex systems behave across scales. My research focuses on creating multiscale digital twins to uncover the general rules and hidden variables that govern development and performance. By integrating high‑resolution data from lidar, imaging and microclimate sensors with <a class="underline hover:text-accent-foreground" href="https://virtualplantlab.github.io/PlantSimEngine.jl/stable/">cutting-edge modeling frameworks</a>, I aim to make simulations both realistic and informative.`,
+      second: `A core part of my practice is building the tools needed to explore these questions. I design multiscale modelling software, develop methods to extract structure from noisy data and prototype the hardware necessary to automate measurements. Whether working with crops, ecosystems or other complex systems, I strive to turn complexity into actionable insight.`,
+      third: `Driven by curiosity and a commitment to sustainability, I develop approaches that enhance resource efficiency, improve resilience and translate scientific advances into benefits for growers and stakeholders.`,
     },
     contact: {
       email: "remi.vezy@cirad.fr",
