@@ -19,23 +19,21 @@ const RESUME_DATA = {
       [
         "I work at the intersection of ",
         { text: "ecophysiology, agronomy and computational modelling", strong: true },
-        " to understand how complex plant systems behave across scales. My research focuses on multiscale digital twins that connect plant architecture, biophysics and agronomy to explain development, performance and resilience.",
+        " to understand how complex plant systems behave across scales. My goal is to turn plant and cropping systems into measurable, testable and ultimately designable systems by linking structure, physiology and environment.",
       ],
       [
-        "I also coordinate the FSPM research theme at AMAP, co-lead the ",
-        { text: "STICS", href: "https://stics.inrae.fr/eng/" },
-        " Working Group on Testing, Evaluation and Calibration, and oversee intercropping-related developments in STICS.",
+        "I develop multiscale digital twins and computational workflows that connect plant architecture, biophysics and agronomy. By combining modelling with lidar, imaging, gas exchange and microclimate data, I aim to make simulations both biologically informative and operational for research and decision support.",
       ],
       [
-        "My current work spans oil palm, cacao, Sahelian agroforestry systems and intercrops. I combine lidar, imaging, gas exchange and microclimate data with simulation, and I build much of the required tooling in Julia, alongside R and Fortran when needed.",
+        "Beyond prediction alone, I am interested in identifying the general principles that govern development, resilience and performance in living systems, and in using that understanding to help design more robust, efficient and sustainable agroecosystems.",
       ],
     ],
     currentFocusTitle: "Current Focus",
     currentFocus: [
-      "Working on methods and tools to discover the general principles governing complex systems for optimizing their design and management.",
-      "Developing digital twins, lidar-based trait extraction workflows and open-source Julia tools for multiscale plant modelling.",
-      "Advancing model evaluation and calibration pipelines for STICS and functional-structural plant models.",
-      "Advising PhD students (currently x2) and leading or contributing to European and international projects on crops, agroforestry and climate resilience.",
+      "Developing digital twins, 3D phenotyping workflows and open-source Julia tools for multiscale plant modelling.",
+      "Advancing testing, evaluation, calibration and intercropping support in STICS and related modelling workflows.",
+      "Studying oil palm, cacao, Sahelian agroforestry systems and intercrops through the joint analysis of structure, physiology and environment.",
+      "Advising PhD students and contributing to European and international projects on crops, agroforestry and climate resilience.",
     ],
     serviceTitle: "Scientific Responsibilities",
     service: [
@@ -46,7 +44,7 @@ const RESUME_DATA = {
         ],
         organization: "AMAP lab",
         description:
-          "I coordinate the Functional-Structural Plant Modelling research theme at AMAP.",
+          "I help structure collaborations and research directions around functional-structural plant modelling at AMAP.",
       },
       {
         title: [
@@ -56,7 +54,7 @@ const RESUME_DATA = {
         ],
         organization: "STICS",
         description:
-          "I co-lead the working group dedicated to testing, evaluation and calibration within the STICS community.",
+          "I coordinate community work on testing protocols, benchmarking, evaluation and calibration within the STICS community.",
       },
       {
         title: [
@@ -65,16 +63,7 @@ const RESUME_DATA = {
         ],
         organization: "STICS",
         description:
-          "I oversee intercropping-related developments in STICS, a widely used soil-crop model.",
-      }, 
-      {
-        title: [
-          "Member of the ",
-          { text: "MACS4Plants network", href: "https://macs4plants.cirad.fr/" },
-        ],
-        organization: "CIRAD",
-        description:
-          "I contribute to the Mathematics and Computer Science for Plant Sciences network.",
+          "I am currently the main developer of the intercropping-related code in STICS and preparing a major new release with substantial methodological and software improvements (v11).",
       },
     ],
     contact: {
