@@ -65,6 +65,30 @@ body {
   top: 1rem;
 }
 
+.service-item-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  column-gap: 0.5rem;
+}
+
+.service-item-org {
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .service-item-header {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.25rem;
+  }
+
+  .service-item-org {
+    text-align: left;
+    white-space: normal;
+  }
+}
+
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)

@@ -14,6 +14,33 @@ const RESUME_DATA = {
       second: `A core part of my practice is building the tools needed to explore these questions. I design multiscale modelling software, develop methods to extract structure from noisy data and prototype the hardware necessary to automate measurements. Whether working with crops, ecosystems or other complex systems, I strive to turn complexity into actionable insight.`,
       third: `Driven by curiosity and a commitment to sustainability, I develop approaches that enhance resource efficiency, improve resilience and translate scientific advances into benefits for growers and stakeholders.`,
     },
+    serviceTitle: "Scientific Leadership",
+    service: [
+      {
+        title: "Coordinator of the <a href=\"https://amap.cirad.fr/en/index.php\" class=\"underline hover:text-accent-foreground\">FSPM research theme</a>",
+        organization: "AMAP lab",
+        description:
+          "I coordinate the Functional-Structural Plant Modelling research theme at AMAP.",
+      },
+      {
+        title: "Co-leader of the <a href=\"https://stics.inrae.fr/eng/\" class=\"underline hover:text-accent-foreground\">STICS</a> Working Group on Testing, Evaluation and Calibration",
+        organization: "STICS",
+        description:
+          "I co-lead the working group dedicated to testing, evaluation and calibration within the STICS community.",
+      },
+      {
+        title: "Intercropping referee for <a href=\"https://stics.inrae.fr/eng/\" class=\"underline hover:text-accent-foreground\">STICS</a>",
+        organization: "STICS",
+        description:
+          "I oversee intercropping-related developments in STICS, a widely used soil-crop model.",
+      }, 
+      {
+        title: "Member of the <a href=\"https://macs4plants.cirad.fr/\" class=\"underline hover:text-accent-foreground\">MACS4Plants network</a>",
+        organization: "CIRAD",
+        description:
+          "I am a member of the MAthematics and Computer Science for Plant sciences network.",
+      },
+    ],
     contact: {
       email: "remi.vezy@cirad.fr",
       tel: "+33467614455",
