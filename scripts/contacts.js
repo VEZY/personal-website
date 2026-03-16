@@ -3,7 +3,7 @@ let CONTACTS_DATA = '';
 
 if (RESUME_DATA.contact.email) {
     CONTACTS_DATA += `
-    <a href="mailto:${RESUME_DATA.contact.email}" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8">
+    <a href="mailto:${RESUME_DATA.contact.email}" aria-label="Email" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
             stroke-linejoin="round" class="lucide lucide-mail size-4">
@@ -16,7 +16,7 @@ if (RESUME_DATA.contact.email) {
 
 if (RESUME_DATA.contact.tel) {
     CONTACTS_DATA += `
-    <a href="tel:${RESUME_DATA.contact.tel}" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8">
+    <a href="tel:${RESUME_DATA.contact.tel}" aria-label="Phone" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
             stroke-linejoin="round" class="lucide lucide-phone size-4">
@@ -32,8 +32,8 @@ if (RESUME_DATA.contact.tel) {
 if (RESUME_DATA.contact.social.length > 0) {
     RESUME_DATA.contact.social.forEach((social) => {
         CONTACTS_DATA += `
-        <a href="${social.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8">
-            <object class="js-contact size-4" type="image/svg+xml" data="${social.icon}" alt="${social.title}" onload="this.parentNode.replaceChild(this.contentDocument.documentElement, this);"></object>
+        <a href="${social.url}" target="_blank" rel="noopener noreferrer" aria-label="${social.name}" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground size-8">
+            <object class="js-contact size-4" type="image/svg+xml" data="${social.icon}" aria-label="${social.name}" onload="this.parentNode.replaceChild(this.contentDocument.documentElement, this);"></object>
         </a>
         `;
     });

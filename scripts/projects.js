@@ -11,7 +11,7 @@ function isOngoing(project) {
 }
 
 let PROJECTS_DATA = ``;
-let resumeProjectsOrdered = RESUME_DATA.projects.sort((a, b) => b.end - a.end);
+let resumeProjectsOrdered = [...RESUME_DATA.projects].sort((a, b) => b.end - a.end);
 
 if (resumeProjectsOrdered.length > 0) {
     // Determine first past-project index (first non-ongoing)

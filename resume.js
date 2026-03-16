@@ -8,37 +8,72 @@ const RESUME_DATA = {
     location: "Montpellier, France, UTC+2",
     locationLink: "https://www.google.com/maps/place/Montpellier",
     title: "Researcher in plant modelling",
-    about: `Researcher in plant modelling <a href="https://amap.cirad.fr/en/index.php" class="underline hover:text-accent-foreground" >@UmrAmap</a>.`,
-    summary: {
-      first: `I work at the intersection of <strong>ecophysiology, agronomy and computational modelling</strong> to understand how complex systems behave across scales. My research focuses on creating multiscale digital twins to uncover the general rules and hidden variables that govern development and performance. By integrating high‑resolution data from lidar, imaging and microclimate sensors with <a class="underline hover:text-accent-foreground" href="https://virtualplantlab.github.io/PlantSimEngine.jl/stable/">cutting-edge modeling frameworks</a>, I aim to make simulations both realistic and informative.`,
-      second: `A core part of my practice is building the tools needed to explore these questions. I design multiscale modelling software, develop methods to extract structure from noisy data and prototype the hardware necessary to automate measurements. Whether working with crops, ecosystems or other complex systems, I strive to turn complexity into actionable insight.`,
-      third: `Driven by curiosity and a commitment to sustainability, I develop approaches that enhance resource efficiency, improve resilience and translate scientific advances into benefits for growers and stakeholders.`,
-    },
+    seoDescription:
+      "Researcher in plant modelling at AMAP lab, coordinating FSPM research, contributing to STICS, and developing digital twins and software for crops and agroforestry systems.",
+    headline: [
+      "Researcher in plant modelling at ",
+      { text: "AMAP lab", href: "https://amap.cirad.fr/en/index.php" },
+      ".",
+    ],
+    summary: [
+      [
+        "I work at the intersection of ",
+        { text: "ecophysiology, agronomy and computational modelling", strong: true },
+        " to understand how complex plant systems behave across scales. My research focuses on multiscale digital twins that connect plant architecture, biophysics and agronomy to explain development, performance and resilience.",
+      ],
+      [
+        "I also coordinate the FSPM research theme at AMAP, co-lead the ",
+        { text: "STICS", href: "https://stics.inrae.fr/eng/" },
+        " Working Group on Testing, Evaluation and Calibration, and oversee intercropping-related developments in STICS.",
+      ],
+      [
+        "My current work spans oil palm, cacao, Sahelian agroforestry systems and intercrops. I combine lidar, imaging, gas exchange and microclimate data with simulation, and I build much of the required tooling in Julia, alongside R and Fortran when needed.",
+      ],
+    ],
+    currentFocusTitle: "Current Focus",
+    currentFocus: [
+      "Developing digital twins, lidar-based trait extraction workflows and open-source Julia tools for multiscale plant modelling.",
+      "Advancing model evaluation and calibration pipelines for STICS and functional-structural plant models.",
+      "Advising PhD students (currently x2) and leading or contributing to European and international projects on crops, agroforestry and climate resilience.",
+    ],
     serviceTitle: "Scientific Leadership",
     service: [
       {
-        title: "Coordinator of the <a href=\"https://amap.cirad.fr/en/index.php\" class=\"underline hover:text-accent-foreground\">FSPM research theme</a>",
+        title: [
+          "Coordinator of the ",
+          { text: "FSPM research theme", href: "https://amap.cirad.fr/en/index.php" },
+        ],
         organization: "AMAP lab",
         description:
           "I coordinate the Functional-Structural Plant Modelling research theme at AMAP.",
       },
       {
-        title: "Co-leader of the <a href=\"https://stics.inrae.fr/eng/\" class=\"underline hover:text-accent-foreground\">STICS</a> Working Group on Testing, Evaluation and Calibration",
+        title: [
+          "Co-leader of the ",
+          { text: "STICS", href: "https://stics.inrae.fr/eng/" },
+          " Working Group on Testing, Evaluation and Calibration",
+        ],
         organization: "STICS",
         description:
           "I co-lead the working group dedicated to testing, evaluation and calibration within the STICS community.",
       },
       {
-        title: "Intercropping referee for <a href=\"https://stics.inrae.fr/eng/\" class=\"underline hover:text-accent-foreground\">STICS</a>",
+        title: [
+          "Intercropping referee for ",
+          { text: "STICS", href: "https://stics.inrae.fr/eng/" },
+        ],
         organization: "STICS",
         description:
           "I oversee intercropping-related developments in STICS, a widely used soil-crop model.",
       }, 
       {
-        title: "Member of the <a href=\"https://macs4plants.cirad.fr/\" class=\"underline hover:text-accent-foreground\">MACS4Plants network</a>",
+        title: [
+          "Member of the ",
+          { text: "MACS4Plants network", href: "https://macs4plants.cirad.fr/" },
+        ],
         organization: "CIRAD",
         description:
-          "I am a member of the MAthematics and Computer Science for Plant sciences network.",
+          "I contribute to the Mathematics and Computer Science for Plant Sciences network.",
       },
     ],
     contact: {
@@ -111,7 +146,7 @@ const RESUME_DATA = {
       },
       {
         company: "INRAE",
-        link: "PhD position",
+        link: "https://www.inrae.fr/en",
         contract: "PhD",
         title: "Doctorate in environmental physics",
         // logo: JojoMobileLogo,

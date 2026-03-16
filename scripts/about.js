@@ -1,11 +1,13 @@
 // Name of the website:
-document.querySelector(".js-title").innerHTML = `${RESUME_DATA.given} ${RESUME_DATA.family} | ${RESUME_DATA.title}`;
+const pageTitle = `${RESUME_DATA.given} ${RESUME_DATA.family} | ${RESUME_DATA.title}`;
+document.title = pageTitle;
+document.querySelector(".js-title").textContent = pageTitle;
 document.querySelector(".js-favicon").href = RESUME_DATA.favicon;
-document.querySelector(".js-person").innerHTML = `${RESUME_DATA.given} ${RESUME_DATA.family}`;
-document.querySelector(".js-about").innerHTML = RESUME_DATA.about;
+document.querySelector(".js-person").textContent = `${RESUME_DATA.given} ${RESUME_DATA.family}`;
+document.querySelector(".js-about").innerHTML = renderInlineContent(RESUME_DATA.headline);
 document.querySelector(".js-location").innerHTML = `
 <a class="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-    href="${RESUME_DATA.locationLink}" target="_blank">
+    href="${RESUME_DATA.locationLink}" target="_blank" rel="noopener noreferrer">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
         stroke-linejoin="round" class="lucide lucide-globe size-3">
@@ -21,12 +23,26 @@ document.querySelector(".js-profile-picture").innerHTML = `
     <img class="aspect-square h-full w-full" alt="${RESUME_DATA.given} ${RESUME_DATA.family}" src="${RESUME_DATA.avatarUrl}"/>
 `;
 
+const summaryHTML = (RESUME_DATA.summary ?? []).map((paragraph) => `
+    <p>${renderInlineContent(paragraph)}</p>
+`).join("");
+const focusHTML = (RESUME_DATA.currentFocus ?? []).length > 0 ? `
+    <div class="about-focus">
+        <p class="about-focus__title">${escapeHTML(RESUME_DATA.currentFocusTitle ?? "Current Focus")}</p>
+        <ul class="about-focus__list">
+            ${(RESUME_DATA.currentFocus ?? []).map((item) => `<li>${escapeHTML(item)}</li>`).join("")}
+        </ul>
+    </div>
+` : "";
 
-document.querySelector(".js-summary ").innerHTML = `
-    <p>${RESUME_DATA.summary.first}</p>
-    <p>${RESUME_DATA.summary.second}</p>
-    <p>${RESUME_DATA.summary.third}</p>
-`;
+document.querySelector(".js-summary").innerHTML = `${summaryHTML}${focusHTML}`;
+
+const metaDescription = RESUME_DATA.seoDescription ?? "";
+document.querySelector('meta[name="description"]')?.setAttribute("content", metaDescription);
+document.querySelector('meta[property="og:title"]')?.setAttribute("content", pageTitle);
+document.querySelector('meta[property="og:description"]')?.setAttribute("content", metaDescription);
+document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", pageTitle);
+document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", metaDescription);
 
 document.querySelector(".js-copyright").innerHTML += `
     Copyright &copy; ${new Date().getFullYear()} ${RESUME_DATA.given} ${RESUME_DATA.family}.
