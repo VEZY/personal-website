@@ -32,11 +32,12 @@ const RESUME_DATA = {
     ],
     currentFocusTitle: "Current Focus",
     currentFocus: [
+      "Working on methods and tools to discover the general principles governing complex systems for optimizing their design and management.",
       "Developing digital twins, lidar-based trait extraction workflows and open-source Julia tools for multiscale plant modelling.",
       "Advancing model evaluation and calibration pipelines for STICS and functional-structural plant models.",
       "Advising PhD students (currently x2) and leading or contributing to European and international projects on crops, agroforestry and climate resilience.",
     ],
-    serviceTitle: "Scientific Leadership",
+    serviceTitle: "Scientific Responsibilities",
     service: [
       {
         title: [
@@ -167,6 +168,28 @@ const RESUME_DATA = {
       "Arduino",
     ],
     projects: [
+      {
+        title: "TreeD-RESIST",
+        tags: [
+          "PEPR AgroEcoNum",
+          "2.9M€",
+          "AI",
+          "3D phenotyping",
+          "orchards",
+        ],
+        logo: "./media/projects/treed-resist.png",
+        description:
+          "AI-driven 3D phenotyping and modelling to predict immunity and resilience in agroecological orchards.",
+        role: "Participant",
+        workPackage: "2",
+        contribution: "Contribution to the digital phenotyping workflow for fruit trees, with expertise in 3D modelling, structural analysis, and trait extraction for agroecological orchard systems.",
+        link: {
+          label: "pepr-agroeconum.fr",
+          href: "https://www.pepr-agroeconum.fr/eng/",
+        },
+        start: "2025",
+        end: "2030",
+      },
       {
         title: "Galileo",
         tags: [

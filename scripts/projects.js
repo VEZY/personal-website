@@ -66,8 +66,8 @@ function formatProject(project) {
                     <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
                     </div>
                 <div class="hidden font-mono text-xs underline print:visible">${project.link.label}</div>
-                                <img class="project__logo" src=${project.logo} alt="${project.title} logo" loading="lazy" decoding="async" />
-                                <p class="text-muted-foreground font-mono text-xs">${project.description}</p>
+                ${project.logo ? `<img class="project__logo" src=${project.logo} alt="${project.title} logo" loading="lazy" decoding="async" />` : ""}
+                <p class="text-muted-foreground font-mono text-xs">${project.description}</p>
                 ${(() => {
                     const hasDetails = Boolean(project.role || project.workPackage || project.task || project.referee || project.contribution);
                     if (!hasDetails) return '';
