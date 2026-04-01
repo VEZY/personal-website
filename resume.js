@@ -48,7 +48,7 @@ const RESUME_DATA = {
       },
       {
         title: [
-          "Co-leader of the ",
+          "Co-chair of the ",
           { text: "STICS", href: "https://stics.inrae.fr/eng/" },
           " Working Group on Testing, Evaluation and Calibration",
         ],
